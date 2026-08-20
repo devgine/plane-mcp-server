@@ -22,14 +22,39 @@ class PlaneClientContext(NamedTuple):
     workspace_slug: str
 
 
+def _legacy_api_url(resource, endpoint: str) -> str:
+    """Build a URL against Plane's legacy `/api/` surface instead of `/api/v1/`."""
+    api_v1_base = resource.config.base_path.rstrip("/")
+    if api_v1_base.endswith("/api/v1"):
+        origin = api_v1_base[: -len("/api/v1")]
+    else:
+        origin = api_v1_base
+    return f"{origin}/api/{endpoint.strip('/')}"
+
+
+def _legacy_request(resource, method: str, endpoint: str, *, params=None, data=None):
+    """Perform a request against Plane's legacy API using the SDK session/auth headers."""
+    url = _legacy_api_url(resource, endpoint)
+    response = resource.session.request(
+        method,
+        url,
+        headers=resource._headers(),
+        params=params,
+        json=data,
+        timeout=resource.config.timeout,
+    )
+    return resource._handle_response(response)
+
+
 def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
-    """Add legacy `/issues/` fallbacks for Plane CE work-item detail routes.
+    """Add legacy `/api/.../issues/` fallbacks for Plane CE work-item detail routes.
 
     Some self-hosted Community Edition versions expose list/create through
-    `/work-items/` but still use `/issues/{id}/` for retrieve/update/delete.
-    The official SDK targets only `/work-items/{id}/`, which returns 404 on
-    those CE releases. Retry only on 404 so genuine auth/server errors are
-    preserved.
+    `/api/v1/.../work-items/` but keep retrieve/update/delete on the historical
+    `/api/.../issues/{id}/` route. The official SDK always prefixes `/api/v1`,
+    so retrying `issues/{id}` through the SDK still 404s. These fallbacks call
+    the legacy API surface directly, and only after the official route returns
+    HTTP 404.
     """
 
     work_items = client.work_items
@@ -56,8 +81,10 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
                 raise
 
         query_params = params.model_dump(exclude_none=True) if params else None
-        response = self._get(
-            f"{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+        response = _legacy_request(
+            self,
+            "GET",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}/",
             params=query_params,
         )
         return WorkItemDetail.model_validate(response)
@@ -80,9 +107,11 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             if exc.status_code != 404:
                 raise
 
-        response = self._patch(
-            f"{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
-            data.model_dump(exclude_none=True),
+        response = _legacy_request(
+            self,
+            "PATCH",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}/",
+            data=data.model_dump(exclude_none=True),
         )
         return WorkItem.model_validate(response)
 
@@ -102,7 +131,11 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             if exc.status_code != 404:
                 raise
 
-        self._delete(f"{workspace_slug}/projects/{project_id}/issues/{work_item_id}")
+        _legacy_request(
+            self,
+            "DELETE",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}/",
+        )
         return None
 
     work_items.retrieve = MethodType(retrieve_with_fallback, work_items)
@@ -135,15 +168,12 @@ def get_plane_client_context() -> PlaneClientContext:
     api_key = os.getenv("PLANE_API_KEY", "")
     access_token = None
 
-    # Get access token from the OAuth provider (which handles all auth methods)
     stored_access_token: AccessToken | None = get_access_token()
     if stored_access_token:
-        # Determine authentication method to use appropriate PlaneClient constructor
         auth_method = stored_access_token.claims.get("auth_method", "oauth")
         token = stored_access_token.token
         workspace_slug = stored_access_token.claims.get("workspace_slug", "")
 
-        # For API key auth methods, use api_key parameter; for OAuth, use access_token
         if auth_method in ("api_key_env", "api_key_header"):
             api_key = token
         else:
