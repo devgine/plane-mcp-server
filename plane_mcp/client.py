@@ -20,22 +20,14 @@ logger = get_logger(__name__)
 
 
 class PlaneClientContext(NamedTuple):
-    """Context containing Plane client and workspace information."""
-
     client: PlaneClient
     workspace_slug: str
 
 
 def _public_origin() -> str:
-    """Return the browser-facing Plane origin for CE session API calls."""
-    configured = (
-        os.getenv("PLANE_SESSION_BASE_URL", "").strip()
-        or os.getenv("PLANE_BASE_URL", "").strip()
-    )
+    configured = os.getenv("PLANE_SESSION_BASE_URL", "").strip() or os.getenv("PLANE_BASE_URL", "").strip()
     if not configured:
-        raise RuntimeError(
-            "Plane CE session API requires PLANE_BASE_URL or PLANE_SESSION_BASE_URL."
-        )
+        raise RuntimeError("Plane CE session API requires PLANE_BASE_URL or PLANE_SESSION_BASE_URL.")
     parsed = urlparse(configured)
     if not parsed.scheme or not parsed.netloc:
         raise RuntimeError("PLANE_SESSION_BASE_URL/PLANE_BASE_URL must be an absolute URL.")
@@ -59,6 +51,7 @@ def ce_session_request(
     *,
     params=None,
     data=None,
+    response_binary: bool = False,
 ):
     """Call Plane CE's internal `/api/` endpoints with a browser session."""
     cookie_header = os.getenv("PLANE_SESSION_COOKIE", "").strip()
@@ -70,9 +63,8 @@ def ce_session_request(
 
     origin = _public_origin()
     url = f"{origin}/api/{endpoint.strip('/')}/"
-
     headers = {
-        "Accept": "application/json",
+        "Accept": "application/octet-stream" if response_binary else "application/json",
         "Content-Type": "application/json",
         "Cookie": cookie_header,
         "Origin": origin,
@@ -98,6 +90,8 @@ def ce_session_request(
     if response.status_code == 204:
         return None
     if 200 <= response.status_code < 300:
+        if response_binary:
+            return response.content
         if not response.content:
             return None
         if "application/json" in response.headers.get("content-type", "").lower():
@@ -108,26 +102,10 @@ def ce_session_request(
         payload = response.json()
     except Exception:
         payload = response.text
-    raise HttpError(
-        f"HTTP {response.status_code}: {response.reason}",
-        response.status_code,
-        payload,
-    )
+    raise HttpError(f"HTTP {response.status_code}: {response.reason}", response.status_code, payload)
 
 
-def _resolve_workitem_uuid(
-    client: PlaneClient,
-    workspace_slug: str,
-    work_item_id: str,
-) -> tuple[str, WorkItemDetail | None]:
-    """Resolve either a UUID or a Plane identifier such as KUBERNETES-2.
-
-    The MCP tool historically calls its parameter ``workitem_id`` but clients
-    may pass either the actual UUID or the human identifier. Plane CE's
-    internal ``/api/.../issues/{id}/`` route requires the UUID, while the
-    public API can retrieve by the human identifier. Resolve the latter first
-    and reuse the returned object when possible.
-    """
+def _resolve_workitem_uuid(client: PlaneClient, workspace_slug: str, work_item_id: str) -> tuple[str, WorkItemDetail | None]:
     try:
         UUID(work_item_id)
         return work_item_id, None
@@ -149,20 +127,12 @@ def _resolve_workitem_uuid(
 
 
 def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
-    """Add CE session fallbacks for work-item detail routes."""
-
     work_items = client.work_items
     original_retrieve = work_items.retrieve
     original_update = work_items.update
     original_delete = work_items.delete
 
-    def retrieve_with_fallback(
-        self,
-        workspace_slug: str,
-        project_id: str,
-        work_item_id: str,
-        params: RetrieveQueryParams | None = None,
-    ) -> WorkItemDetail:
+    def retrieve_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str, params: RetrieveQueryParams | None = None) -> WorkItemDetail:
         try:
             return original_retrieve(
                 workspace_slug=workspace_slug,
@@ -187,13 +157,7 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
         )
         return WorkItemDetail.model_validate(response)
 
-    def update_with_fallback(
-        self,
-        workspace_slug: str,
-        project_id: str,
-        work_item_id: str,
-        data: UpdateWorkItem,
-    ) -> WorkItem:
+    def update_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str, data: UpdateWorkItem) -> WorkItem:
         try:
             return original_update(
                 workspace_slug=workspace_slug,
@@ -221,12 +185,7 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             )
         return WorkItem.model_validate(response)
 
-    def delete_with_fallback(
-        self,
-        workspace_slug: str,
-        project_id: str,
-        work_item_id: str,
-    ) -> None:
+    def delete_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str) -> None:
         try:
             return original_delete(
                 workspace_slug=workspace_slug,
@@ -251,10 +210,8 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
 
 
 def get_plane_client_context() -> PlaneClientContext:
-    """Initialize and return a PlaneClient instance with workspace context."""
     base_url = os.getenv("PLANE_INTERNAL_BASE_URL") or os.getenv("PLANE_BASE_URL", "https://api.plane.so")
     workspace_slug = os.getenv("PLANE_WORKSPACE_SLUG", "")
-
     api_key = os.getenv("PLANE_API_KEY", "")
     access_token = None
 
@@ -263,17 +220,11 @@ def get_plane_client_context() -> PlaneClientContext:
         auth_method = stored_access_token.claims.get("auth_method", "oauth")
         token = stored_access_token.token
         workspace_slug = stored_access_token.claims.get("workspace_slug", "")
-
         if auth_method in ("api_key_env", "api_key_header"):
             api_key = token
         else:
             access_token = token
 
-    if access_token:
-        client = PlaneClient(base_url=base_url, access_token=access_token)
-    else:
-        client = PlaneClient(base_url=base_url, api_key=api_key)
-
+    client = PlaneClient(base_url=base_url, access_token=access_token) if access_token else PlaneClient(base_url=base_url, api_key=api_key)
     _install_ce_workitem_fallbacks(client)
-
     return PlaneClientContext(client=client, workspace_slug=workspace_slug)
