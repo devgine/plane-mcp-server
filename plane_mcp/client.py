@@ -5,6 +5,7 @@ from http.cookies import SimpleCookie
 from types import MethodType
 from typing import NamedTuple
 from urllib.parse import urlparse
+from uuid import UUID
 
 import requests
 from fastmcp.server.auth.auth import AccessToken
@@ -26,13 +27,7 @@ class PlaneClientContext(NamedTuple):
 
 
 def _public_origin() -> str:
-    """Return the browser-facing Plane origin for CE session API calls.
-
-    The SDK may use PLANE_INTERNAL_BASE_URL for server-to-server public API
-    calls. Plane CE's internal `/api/...` routes are browser-facing and must go
-    through the same origin as the web UI/reverse proxy, so never derive this
-    from the SDK client when an internal base URL is configured.
-    """
+    """Return the browser-facing Plane origin for CE session API calls."""
     configured = (
         os.getenv("PLANE_SESSION_BASE_URL", "").strip()
         or os.getenv("PLANE_BASE_URL", "").strip()
@@ -65,17 +60,7 @@ def ce_session_request(
     params=None,
     data=None,
 ):
-    """Call Plane CE's internal `/api/` endpoints with a browser session.
-
-    Set `PLANE_SESSION_COOKIE` to the complete Cookie header copied from an
-    authenticated Plane browser session. For state-changing requests, also set
-    `PLANE_CSRF_TOKEN` when the CSRF cookie is not present in that header.
-
-    `PLANE_SESSION_BASE_URL` may be set explicitly when the browser-facing
-    Plane URL differs from `PLANE_BASE_URL`. It intentionally ignores
-    `PLANE_INTERNAL_BASE_URL` because `/api/...` UI routes are normally exposed
-    by the public reverse proxy rather than the SDK's internal API origin.
-    """
+    """Call Plane CE's internal `/api/` endpoints with a browser session."""
     cookie_header = os.getenv("PLANE_SESSION_COOKIE", "").strip()
     if not cookie_header:
         raise RuntimeError(
@@ -84,7 +69,7 @@ def ce_session_request(
         )
 
     origin = _public_origin()
-    url = f"{origin}/api/{endpoint.strip('/')}/".replace("\\/", "/")
+    url = f"{origin}/api/{endpoint.strip('/')}/"
 
     headers = {
         "Accept": "application/json",
@@ -130,6 +115,39 @@ def ce_session_request(
     )
 
 
+def _resolve_workitem_uuid(
+    client: PlaneClient,
+    workspace_slug: str,
+    work_item_id: str,
+) -> tuple[str, WorkItemDetail | None]:
+    """Resolve either a UUID or a Plane identifier such as KUBERNETES-2.
+
+    The MCP tool historically calls its parameter ``workitem_id`` but clients
+    may pass either the actual UUID or the human identifier. Plane CE's
+    internal ``/api/.../issues/{id}/`` route requires the UUID, while the
+    public API can retrieve by the human identifier. Resolve the latter first
+    and reuse the returned object when possible.
+    """
+    try:
+        UUID(work_item_id)
+        return work_item_id, None
+    except ValueError:
+        pass
+
+    project_identifier, separator, sequence = work_item_id.rpartition("-")
+    if not separator or not project_identifier or not sequence.isdigit():
+        return work_item_id, None
+
+    detail = client.work_items.retrieve_by_identifier(
+        workspace_slug=workspace_slug,
+        project_identifier=project_identifier,
+        issue_identifier=int(sequence),
+    )
+    resolved = str(detail.id)
+    logger.info("Resolved Plane work item identifier %s to UUID %s", work_item_id, resolved)
+    return resolved, detail
+
+
 def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
     """Add CE session fallbacks for work-item detail routes."""
 
@@ -156,11 +174,15 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             if exc.status_code != 404:
                 raise
 
+        resolved_id, resolved_detail = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
+        if resolved_detail is not None and params is None:
+            return resolved_detail
+
         query_params = params.model_dump(exclude_none=True) if params else None
         response = ce_session_request(
             client,
             "GET",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
             params=query_params,
         )
         return WorkItemDetail.model_validate(response)
@@ -183,18 +205,19 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             if exc.status_code != 404:
                 raise
 
+        resolved_id, _ = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
         payload = data.model_dump(exclude_none=True)
         response = ce_session_request(
             client,
             "PATCH",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
             data=payload,
         )
         if response is None:
             response = ce_session_request(
                 client,
                 "GET",
-                f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+                f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
             )
         return WorkItem.model_validate(response)
 
@@ -214,10 +237,11 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             if exc.status_code != 404:
                 raise
 
+        resolved_id, _ = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
         ce_session_request(
             client,
             "DELETE",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
         )
         return None
 
