@@ -5,17 +5,20 @@ from __future__ import annotations
 from typing import Literal, get_args
 
 from fastmcp import FastMCP
+from plane.errors.errors import HttpError
 from plane.models.enums import TimezoneEnum
 from plane.models.projects import (
     CreateProject,
     PaginatedProjectLiteResponse,
     PaginatedProjectMemberResponse,
+    PaginatedProjectResponse,
     Project,
     ProjectFeature,
+    ProjectLite,
     ProjectWorklogSummary,
     UpdateProject,
 )
-from plane.models.query_params import ProjectLiteListQueryParams
+from plane.models.query_params import PaginatedQueryParams, ProjectLiteListQueryParams
 
 from plane_mcp.client import get_plane_client_context
 from plane_mcp.toolkit import Action, build_annotations, build_description, missing, needs, opt, plan_gated, rich_text
@@ -118,6 +121,54 @@ LEGACY_UNMAPPED = {
 }
 
 
+def _list_projects_with_ce_fallback(
+    client,
+    workspace_slug: str,
+    cursor: str,
+    per_page: int,
+    order_by: str,
+) -> PaginatedProjectLiteResponse:
+    """Use projects-lite when available, otherwise fall back to the CE projects endpoint.
+
+    Plane Community Edition self-hosted releases can return 404 for
+    ``projects-lite`` while the regular ``projects`` endpoint remains available.
+    The MCP tool advertises the lite response shape, so the fallback trims the
+    full project records into ``ProjectLite`` models and preserves pagination.
+    """
+    lite_params = ProjectLiteListQueryParams(
+        cursor=opt(cursor),
+        per_page=per_page or DEFAULT_PER_PAGE,
+        order_by=opt(order_by),
+        include_archived=False,
+    )
+
+    try:
+        return client.projects.list_lite(workspace_slug=workspace_slug, params=lite_params)
+    except HttpError as exc:
+        if exc.status_code != 404:
+            raise
+
+    full_response: PaginatedProjectResponse = client.projects.list(
+        workspace_slug=workspace_slug,
+        params=PaginatedQueryParams(
+            cursor=opt(cursor),
+            per_page=per_page or DEFAULT_PER_PAGE,
+            order_by=opt(order_by),
+        ),
+    )
+
+    active_projects = [project for project in full_response.results if project.archived_at is None]
+    lite_projects = [ProjectLite.model_validate(project.model_dump()) for project in active_projects]
+
+    return PaginatedProjectLiteResponse.model_validate(
+        {
+            **full_response.model_dump(),
+            "results": lite_projects,
+            "count": len(lite_projects),
+        }
+    )
+
+
 def register(mcp: FastMCP) -> None:
     @mcp.tool(
         name=NAME,
@@ -189,14 +240,12 @@ def register(mcp: FastMCP) -> None:
         zone: TimezoneEnum | None = timezone or None  # type: ignore[assignment]
 
         if action == "list":
-            return client.projects.list_lite(
+            return _list_projects_with_ce_fallback(
+                client=client,
                 workspace_slug=workspace_slug,
-                params=ProjectLiteListQueryParams(
-                    cursor=opt(cursor),
-                    per_page=per_page or DEFAULT_PER_PAGE,
-                    order_by=opt(order_by),
-                    include_archived=False,
-                ),
+                cursor=cursor,
+                per_page=per_page,
+                order_by=order_by,
             )
 
         if action == "create":
