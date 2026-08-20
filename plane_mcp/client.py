@@ -79,15 +79,27 @@ def ce_session_request(
 
     origin = _public_origin()
     url = f"{origin}/api/{endpoint.strip('/')}/"
-    headers = {
-        "Accept": "application/octet-stream" if response_binary else "application/json",
-        # Plane Live requests the Yjs document with an octet-stream Content-Type
-        # even on GET. The description endpoint can answer 406 when JSON is sent.
-        "Content-Type": "application/octet-stream" if response_binary else "application/json",
-        "Cookie": cookie_header,
-        "Origin": origin,
-        "Referer": f"{origin}/",
-    }
+
+    # Match Plane Live's binary-description fetch semantics. The official
+    # frontend sets Content-Type=application/octet-stream for GET /description/
+    # and leaves Accept generic; forcing Accept=application/octet-stream causes
+    # DRF content negotiation to return 406 on some CE builds.
+    if response_binary:
+        headers = {
+            "Accept": "*/*",
+            "Content-Type": "application/octet-stream",
+            "Cookie": cookie_header,
+            "Origin": origin,
+            "Referer": f"{origin}/",
+        }
+    else:
+        headers = {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Cookie": cookie_header,
+            "Origin": origin,
+            "Referer": f"{origin}/",
+        }
 
     if method.upper() not in ("GET", "HEAD", "OPTIONS"):
         csrf = os.getenv("PLANE_CSRF_TOKEN", "").strip() or _extract_csrf_from_cookie(cookie_header)
