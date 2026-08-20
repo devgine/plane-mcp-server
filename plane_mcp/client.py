@@ -1,12 +1,16 @@
 """Plane client initialization for MCP server."""
 
 import os
+from types import MethodType
 from typing import NamedTuple
 
 from fastmcp.server.auth.auth import AccessToken
 from fastmcp.server.dependencies import get_access_token
 from fastmcp.utilities.logging import get_logger
 from plane import PlaneClient
+from plane.errors.errors import HttpError
+from plane.models.query_params import RetrieveQueryParams
+from plane.models.work_items import UpdateWorkItem, WorkItem, WorkItemDetail
 
 logger = get_logger(__name__)
 
@@ -16,6 +20,94 @@ class PlaneClientContext(NamedTuple):
 
     client: PlaneClient
     workspace_slug: str
+
+
+def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
+    """Add legacy `/issues/` fallbacks for Plane CE work-item detail routes.
+
+    Some self-hosted Community Edition versions expose list/create through
+    `/work-items/` but still use `/issues/{id}/` for retrieve/update/delete.
+    The official SDK targets only `/work-items/{id}/`, which returns 404 on
+    those CE releases. Retry only on 404 so genuine auth/server errors are
+    preserved.
+    """
+
+    work_items = client.work_items
+    original_retrieve = work_items.retrieve
+    original_update = work_items.update
+    original_delete = work_items.delete
+
+    def retrieve_with_fallback(
+        self,
+        workspace_slug: str,
+        project_id: str,
+        work_item_id: str,
+        params: RetrieveQueryParams | None = None,
+    ) -> WorkItemDetail:
+        try:
+            return original_retrieve(
+                workspace_slug=workspace_slug,
+                project_id=project_id,
+                work_item_id=work_item_id,
+                params=params,
+            )
+        except HttpError as exc:
+            if exc.status_code != 404:
+                raise
+
+        query_params = params.model_dump(exclude_none=True) if params else None
+        response = self._get(
+            f"{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+            params=query_params,
+        )
+        return WorkItemDetail.model_validate(response)
+
+    def update_with_fallback(
+        self,
+        workspace_slug: str,
+        project_id: str,
+        work_item_id: str,
+        data: UpdateWorkItem,
+    ) -> WorkItem:
+        try:
+            return original_update(
+                workspace_slug=workspace_slug,
+                project_id=project_id,
+                work_item_id=work_item_id,
+                data=data,
+            )
+        except HttpError as exc:
+            if exc.status_code != 404:
+                raise
+
+        response = self._patch(
+            f"{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+            data.model_dump(exclude_none=True),
+        )
+        return WorkItem.model_validate(response)
+
+    def delete_with_fallback(
+        self,
+        workspace_slug: str,
+        project_id: str,
+        work_item_id: str,
+    ) -> None:
+        try:
+            return original_delete(
+                workspace_slug=workspace_slug,
+                project_id=project_id,
+                work_item_id=work_item_id,
+            )
+        except HttpError as exc:
+            if exc.status_code != 404:
+                raise
+
+        self._delete(f"{workspace_slug}/projects/{project_id}/issues/{work_item_id}")
+        return None
+
+    work_items.retrieve = MethodType(retrieve_with_fallback, work_items)
+    work_items.update = MethodType(update_with_fallback, work_items)
+    work_items.delete = MethodType(delete_with_fallback, work_items)
 
 
 def get_plane_client_context() -> PlaneClientContext:
@@ -67,6 +159,8 @@ def get_plane_client_context() -> PlaneClientContext:
             base_url=base_url,
             api_key=api_key,
         )
+
+    _install_ce_workitem_fallbacks(client)
 
     return PlaneClientContext(
         client=client,
