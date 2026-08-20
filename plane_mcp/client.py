@@ -1,9 +1,12 @@
 """Plane client initialization for MCP server."""
 
 import os
+from http.cookies import SimpleCookie
 from types import MethodType
 from typing import NamedTuple
+from urllib.parse import urlparse
 
+import requests
 from fastmcp.server.auth.auth import AccessToken
 from fastmcp.server.dependencies import get_access_token
 from fastmcp.utilities.logging import get_logger
@@ -22,39 +25,99 @@ class PlaneClientContext(NamedTuple):
     workspace_slug: str
 
 
-def _legacy_api_url(resource, endpoint: str) -> str:
-    """Build a URL against Plane's legacy `/api/` surface instead of `/api/v1/`."""
-    api_v1_base = resource.config.base_path.rstrip("/")
+def _origin_from_client(client: PlaneClient) -> str:
+    api_v1_base = client.work_items.config.base_path.rstrip("/")
     if api_v1_base.endswith("/api/v1"):
-        origin = api_v1_base[: -len("/api/v1")]
-    else:
-        origin = api_v1_base
-    return f"{origin}/api/{endpoint.strip('/')}"
+        return api_v1_base[: -len("/api/v1")]
+    parsed = urlparse(api_v1_base)
+    return f"{parsed.scheme}://{parsed.netloc}"
 
 
-def _legacy_request(resource, method: str, endpoint: str, *, params=None, data=None):
-    """Perform a request against Plane's legacy API using the SDK session/auth headers."""
-    url = _legacy_api_url(resource, endpoint)
-    response = resource.session.request(
+def _extract_csrf_from_cookie(cookie_header: str) -> str:
+    cookie = SimpleCookie()
+    cookie.load(cookie_header)
+    for name in ("csrftoken", "csrf_token", "csrf"):
+        morsel = cookie.get(name)
+        if morsel:
+            return morsel.value
+    return ""
+
+
+def ce_session_request(
+    client: PlaneClient,
+    method: str,
+    endpoint: str,
+    *,
+    params=None,
+    data=None,
+):
+    """Call Plane CE's internal `/api/` endpoints with a browser session.
+
+    Set `PLANE_SESSION_COOKIE` to the complete Cookie header copied from an
+    authenticated Plane browser session. For state-changing requests, also set
+    `PLANE_CSRF_TOKEN` when the CSRF cookie is not present in that header.
+    """
+    cookie_header = os.getenv("PLANE_SESSION_COOKIE", "").strip()
+    if not cookie_header:
+        raise RuntimeError(
+            "Plane CE internal API requires PLANE_SESSION_COOKIE. "
+            "Set it to the complete Cookie header from an authenticated Plane session."
+        )
+
+    origin = _origin_from_client(client)
+    url = f"{origin}/api/{endpoint.strip('/')}/"
+    # Avoid a duplicated slash if endpoint already ended with one.
+    url = url.replace("//api/", "/api/") if origin.endswith("/") else url
+
+    headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Cookie": cookie_header,
+        "Origin": origin,
+        "Referer": f"{origin}/",
+    }
+
+    if method.upper() not in ("GET", "HEAD", "OPTIONS"):
+        csrf = os.getenv("PLANE_CSRF_TOKEN", "").strip() or _extract_csrf_from_cookie(cookie_header)
+        if csrf:
+            headers["X-CSRFToken"] = csrf
+
+    response = requests.request(
         method,
         url,
-        headers=resource._headers(),
+        headers=headers,
         params=params,
         json=data,
-        timeout=resource.config.timeout,
+        timeout=client.work_items.config.timeout,
     )
-    return resource._handle_response(response)
+
+    if response.status_code == 204:
+        return None
+    if 200 <= response.status_code < 300:
+        if not response.content:
+            return None
+        if "application/json" in response.headers.get("content-type", "").lower():
+            return response.json()
+        return response.text
+
+    try:
+        payload = response.json()
+    except Exception:
+        payload = response.text
+    raise HttpError(
+        f"HTTP {response.status_code}: {response.reason}",
+        response.status_code,
+        payload,
+    )
 
 
 def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
-    """Add legacy `/api/.../issues/` fallbacks for Plane CE work-item detail routes.
+    """Add CE session fallbacks for work-item detail routes.
 
-    Some self-hosted Community Edition versions expose list/create through
-    `/api/v1/.../work-items/` but keep retrieve/update/delete on the historical
-    `/api/.../issues/{id}/` route. The official SDK always prefixes `/api/v1`,
-    so retrying `issues/{id}` through the SDK still 404s. These fallbacks call
-    the legacy API surface directly, and only after the official route returns
-    HTTP 404.
+    Some self-hosted Community Edition versions expose list/create through the
+    public `/api/v1/.../work-items/` API, while retrieve/update/delete by UUID
+    are available only through the internal session-authenticated
+    `/api/.../issues/{id}/` route used by the Plane web app.
     """
 
     work_items = client.work_items
@@ -81,10 +144,10 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
                 raise
 
         query_params = params.model_dump(exclude_none=True) if params else None
-        response = _legacy_request(
-            self,
+        response = ce_session_request(
+            client,
             "GET",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}/",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
             params=query_params,
         )
         return WorkItemDetail.model_validate(response)
@@ -107,12 +170,21 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             if exc.status_code != 404:
                 raise
 
-        response = _legacy_request(
-            self,
+        payload = data.model_dump(exclude_none=True)
+        response = ce_session_request(
+            client,
             "PATCH",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}/",
-            data=data.model_dump(exclude_none=True),
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+            data=payload,
         )
+        # Plane CE's internal PATCH commonly returns 204 No Content. Re-read
+        # the record so the MCP tool still returns the updated work item.
+        if response is None:
+            response = ce_session_request(
+                client,
+                "GET",
+                f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
+            )
         return WorkItem.model_validate(response)
 
     def delete_with_fallback(
@@ -131,10 +203,10 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             if exc.status_code != 404:
                 raise
 
-        _legacy_request(
-            self,
+        ce_session_request(
+            client,
             "DELETE",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}/",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
         )
         return None
 
@@ -144,24 +216,7 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
 
 
 def get_plane_client_context() -> PlaneClientContext:
-    """
-    Initialize and return a PlaneClient instance with workspace context.
-
-    Authentication is handled by the PlaneOAuthProvider, which supports:
-    1. Environment variables (PLANE_API_KEY + PLANE_WORKSPACE_SLUG)
-    2. HTTP headers (x-api-key + x-workspace-slug)
-    3. OAuth access token
-
-    Environment variables:
-    - PLANE_INTERNAL_BASE_URL: Internal URL for Plane API (preferred for server-to-server calls)
-    - PLANE_BASE_URL: Base URL for Plane API (fallback, default: https://api.plane.so)
-
-    Returns:
-        PlaneClientContext containing configured PlaneClient instance and workspace slug
-
-    Raises:
-        ConfigurationError: If access token is not available or workspace slug is missing
-    """
+    """Initialize and return a PlaneClient instance with workspace context."""
     base_url = os.getenv("PLANE_INTERNAL_BASE_URL") or os.getenv("PLANE_BASE_URL", "https://api.plane.so")
     workspace_slug = os.getenv("PLANE_WORKSPACE_SLUG", "")
 
@@ -180,19 +235,10 @@ def get_plane_client_context() -> PlaneClientContext:
             access_token = token
 
     if access_token:
-        client = PlaneClient(
-            base_url=base_url,
-            access_token=access_token,
-        )
+        client = PlaneClient(base_url=base_url, access_token=access_token)
     else:
-        client = PlaneClient(
-            base_url=base_url,
-            api_key=api_key,
-        )
+        client = PlaneClient(base_url=base_url, api_key=api_key)
 
     _install_ce_workitem_fallbacks(client)
 
-    return PlaneClientContext(
-        client=client,
-        workspace_slug=workspace_slug,
-    )
+    return PlaneClientContext(client=client, workspace_slug=workspace_slug)
