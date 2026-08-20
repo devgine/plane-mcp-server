@@ -3,6 +3,11 @@
 Every page action is scoped by whether project_id is supplied: with it the page
 is a project page, without it a workspace page. The SDK has a separate endpoint
 pair for each, so the branch is explicit rather than a default.
+
+Plane CE compatibility: some self-hosted releases expose project pages only on
+the browser/session API under `/api/workspaces/.../projects/.../pages/`, while
+the public `/api/v1` SDK routes return 404. Project page actions therefore fall
+back to the CE session API when the SDK route is unavailable.
 """
 
 from __future__ import annotations
@@ -10,12 +15,13 @@ from __future__ import annotations
 from typing import Any, Literal
 
 from fastmcp import FastMCP
+from plane.errors.errors import HttpError
 from plane.models.collections import AddCollectionPages, UpdateCollectionPage
 from plane.models.pages import CreatePage, Page, UpdatePage
 from plane.models.query_params import PaginatedQueryParams
 from plane.models.work_item_pages import CreateWorkItemPage, WorkItemPage
 
-from plane_mcp.client import get_plane_client_context
+from plane_mcp.client import ce_session_request, get_plane_client_context
 from plane_mcp.toolkit import Action, as_params, build_annotations, build_description, envelope, missing, needs, opt
 
 NAME = "page"
@@ -99,6 +105,26 @@ LEGACY = {
 }
 
 
+def _ce_project_page_endpoint(workspace_slug: str, project_id: str, page_id: str = "") -> str:
+    base = f"workspaces/{workspace_slug}/projects/{project_id}/pages"
+    return f"{base}/{page_id}" if page_id else base
+
+
+def _normalise_ce_page_list(response: Any) -> dict[str, Any]:
+    """Return a predictable envelope for CE's internal page-list responses."""
+    if isinstance(response, dict):
+        if "results" in response:
+            return response
+        # Some CE builds return a dict with the page records under `pages`.
+        if isinstance(response.get("pages"), list):
+            results = response["pages"]
+            return {"results": results, "count": len(results), "total_count": len(results)}
+        return response
+    if isinstance(response, list):
+        return {"results": response, "count": len(response), "total_count": len(response)}
+    return {"results": [], "count": 0, "total_count": 0, "raw": response}
+
+
 def register(mcp: FastMCP) -> None:
     @mcp.tool(
         name=NAME,
@@ -141,20 +167,41 @@ def register(mcp: FastMCP) -> None:
         if action == "list":
             params = as_params(PaginatedQueryParams, cursor=cursor, per_page=per_page)
             if project_id:
-                response = client.pages.list_project_pages(
-                    workspace_slug=workspace_slug, project_id=project_id, params=params
+                try:
+                    response = client.pages.list_project_pages(
+                        workspace_slug=workspace_slug, project_id=project_id, params=params
+                    )
+                    return envelope(response)
+                except HttpError as exc:
+                    if exc.status_code != 404:
+                        raise
+                response = ce_session_request(
+                    client,
+                    "GET",
+                    _ce_project_page_endpoint(workspace_slug, project_id),
+                    params=params.model_dump(exclude_none=True) if params else None,
                 )
-            else:
-                response = client.pages.list_workspace_pages(workspace_slug=workspace_slug, params=params)
+                return _normalise_ce_page_list(response)
+            response = client.pages.list_workspace_pages(workspace_slug=workspace_slug, params=params)
             return envelope(response)
 
         if action == "retrieve":
             if not page_id:
                 return missing(action, "page_id")
             if project_id:
-                return client.pages.retrieve_project_page(
-                    workspace_slug=workspace_slug, project_id=project_id, page_id=page_id
+                try:
+                    return client.pages.retrieve_project_page(
+                        workspace_slug=workspace_slug, project_id=project_id, page_id=page_id
+                    )
+                except HttpError as exc:
+                    if exc.status_code != 404:
+                        raise
+                response = ce_session_request(
+                    client,
+                    "GET",
+                    _ce_project_page_endpoint(workspace_slug, project_id, page_id),
                 )
+                return Page.model_validate(response)
             return client.pages.retrieve_workspace_page(workspace_slug=workspace_slug, page_id=page_id)
 
         if action == "archive":
@@ -162,11 +209,21 @@ def register(mcp: FastMCP) -> None:
                 return missing(action, "page_id")
             if project_id:
                 mover = client.pages.archive_project_page if archive else client.pages.unarchive_project_page
-                mover(workspace_slug=workspace_slug, project_id=project_id, page_id=page_id)
+                try:
+                    mover(workspace_slug=workspace_slug, project_id=project_id, page_id=page_id)
+                except HttpError as exc:
+                    if exc.status_code != 404:
+                        raise
+                    method = "POST" if archive else "DELETE"
+                    ce_session_request(
+                        client,
+                        method,
+                        f"{_ce_project_page_endpoint(workspace_slug, project_id, page_id)}/archive",
+                        data={} if archive else None,
+                    )
             else:
                 mover = client.pages.archive_workspace_page if archive else client.pages.unarchive_workspace_page
                 mover(workspace_slug=workspace_slug, page_id=page_id)
-            # Plane answers nothing, and delete depends on this having happened.
             return {"page_id": page_id, "archived": archive}
 
         if action in ("update", "delete"):
@@ -175,17 +232,46 @@ def register(mcp: FastMCP) -> None:
             scope = {"project_id": project_id} if project_id else {}
             if action == "delete":
                 deleter = client.pages.delete_project_page if project_id else client.pages.delete_workspace_page
-                deleter(workspace_slug=workspace_slug, page_id=page_id, **scope)
+                try:
+                    deleter(workspace_slug=workspace_slug, page_id=page_id, **scope)
+                    return None
+                except HttpError as exc:
+                    if not project_id or exc.status_code != 404:
+                        raise
+                ce_session_request(
+                    client,
+                    "DELETE",
+                    _ce_project_page_endpoint(workspace_slug, project_id, page_id),
+                )
                 return None
             if not (name or description_html):
                 return missing(action, "name or description_html")
             updater = client.pages.update_project_page if project_id else client.pages.update_workspace_page
-            return updater(
-                workspace_slug=workspace_slug,
-                page_id=page_id,
-                **scope,
-                data=UpdatePage(name=opt(name), description_html=opt(description_html)),
+            update_data = UpdatePage(name=opt(name), description_html=opt(description_html))
+            try:
+                return updater(
+                    workspace_slug=workspace_slug,
+                    page_id=page_id,
+                    **scope,
+                    data=update_data,
+                )
+            except HttpError as exc:
+                if not project_id or exc.status_code != 404:
+                    raise
+            payload = update_data.model_dump(exclude_none=True)
+            response = ce_session_request(
+                client,
+                "PATCH",
+                _ce_project_page_endpoint(workspace_slug, project_id, page_id),
+                data=payload,
             )
+            if response is None:
+                response = ce_session_request(
+                    client,
+                    "GET",
+                    _ce_project_page_endpoint(workspace_slug, project_id, page_id),
+                )
+            return Page.model_validate(response)
 
         if action == "create":
             if error := needs(action, name=name, description_html=description_html):
@@ -206,7 +292,18 @@ def register(mcp: FastMCP) -> None:
                 external_source=opt(external_source),
             )
             if project_id:
-                return client.pages.create_project_page(workspace_slug=workspace_slug, project_id=project_id, data=data)
+                try:
+                    return client.pages.create_project_page(workspace_slug=workspace_slug, project_id=project_id, data=data)
+                except HttpError as exc:
+                    if exc.status_code != 404:
+                        raise
+                response = ce_session_request(
+                    client,
+                    "POST",
+                    _ce_project_page_endpoint(workspace_slug, project_id),
+                    data=data.model_dump(exclude_none=True),
+                )
+                return Page.model_validate(response)
             return client.pages.create_workspace_page(workspace_slug=workspace_slug, data=data)
 
         if action == "set_collection":
