@@ -81,7 +81,9 @@ def ce_session_request(
     url = f"{origin}/api/{endpoint.strip('/')}/"
     headers = {
         "Accept": "application/octet-stream" if response_binary else "application/json",
-        "Content-Type": "application/json",
+        # Plane Live requests the Yjs document with an octet-stream Content-Type
+        # even on GET. The description endpoint can answer 406 when JSON is sent.
+        "Content-Type": "application/octet-stream" if response_binary else "application/json",
         "Cookie": cookie_header,
         "Origin": origin,
         "Referer": f"{origin}/",
