@@ -44,6 +44,22 @@ def _extract_csrf_from_cookie(cookie_header: str) -> str:
     return ""
 
 
+def _sync_page_title_after_metadata_patch(client: PlaneClient, endpoint: str, data) -> None:
+    """Keep Plane Live/Yjs title in sync after a CE page metadata PATCH."""
+    if not isinstance(data, dict) or "name" not in data:
+        return
+    parts = endpoint.strip("/").split("/")
+    # workspaces/{slug}/projects/{project_id}/pages/{page_id}
+    if len(parts) != 6 or parts[0] != "workspaces" or parts[2] != "projects" or parts[4] != "pages":
+        return
+    workspace_slug, project_id, page_id = parts[1], parts[3], parts[5]
+    from plane_mcp.page_yjs import sync_project_page_title_yjs
+
+    logger.info("Synchronizing Plane page Yjs title for page %s", page_id)
+    sync_project_page_title_yjs(client, workspace_slug, project_id, page_id, str(data.get("name") or ""))
+    logger.info("Plane page Yjs title synchronized for page %s", page_id)
+
+
 def ce_session_request(
     client: PlaneClient,
     method: str,
@@ -88,8 +104,12 @@ def ce_session_request(
     logger.info("Plane CE session fallback response: HTTP %s", response.status_code)
 
     if response.status_code == 204:
+        if method.upper() == "PATCH":
+            _sync_page_title_after_metadata_patch(client, endpoint, data)
         return None
     if 200 <= response.status_code < 300:
+        if method.upper() == "PATCH":
+            _sync_page_title_after_metadata_patch(client, endpoint, data)
         if response_binary:
             return response.content
         if not response.content:
@@ -134,74 +154,37 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
 
     def retrieve_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str, params: RetrieveQueryParams | None = None) -> WorkItemDetail:
         try:
-            return original_retrieve(
-                workspace_slug=workspace_slug,
-                project_id=project_id,
-                work_item_id=work_item_id,
-                params=params,
-            )
+            return original_retrieve(workspace_slug=workspace_slug, project_id=project_id, work_item_id=work_item_id, params=params)
         except HttpError as exc:
             if exc.status_code != 404:
                 raise
-
         resolved_id, resolved_detail = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
         if resolved_detail is not None and params is None:
             return resolved_detail
-
         query_params = params.model_dump(exclude_none=True) if params else None
-        response = ce_session_request(
-            client,
-            "GET",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
-            params=query_params,
-        )
+        response = ce_session_request(client, "GET", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}", params=query_params)
         return WorkItemDetail.model_validate(response)
 
     def update_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str, data: UpdateWorkItem) -> WorkItem:
         try:
-            return original_update(
-                workspace_slug=workspace_slug,
-                project_id=project_id,
-                work_item_id=work_item_id,
-                data=data,
-            )
+            return original_update(workspace_slug=workspace_slug, project_id=project_id, work_item_id=work_item_id, data=data)
         except HttpError as exc:
             if exc.status_code != 404:
                 raise
-
         resolved_id, _ = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
-        payload = data.model_dump(exclude_none=True)
-        response = ce_session_request(
-            client,
-            "PATCH",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
-            data=payload,
-        )
+        response = ce_session_request(client, "PATCH", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}", data=data.model_dump(exclude_none=True))
         if response is None:
-            response = ce_session_request(
-                client,
-                "GET",
-                f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
-            )
+            response = ce_session_request(client, "GET", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}")
         return WorkItem.model_validate(response)
 
     def delete_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str) -> None:
         try:
-            return original_delete(
-                workspace_slug=workspace_slug,
-                project_id=project_id,
-                work_item_id=work_item_id,
-            )
+            return original_delete(workspace_slug=workspace_slug, project_id=project_id, work_item_id=work_item_id)
         except HttpError as exc:
             if exc.status_code != 404:
                 raise
-
         resolved_id, _ = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
-        ce_session_request(
-            client,
-            "DELETE",
-            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
-        )
+        ce_session_request(client, "DELETE", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}")
         return None
 
     work_items.retrieve = MethodType(retrieve_with_fallback, work_items)
