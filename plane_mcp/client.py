@@ -25,11 +25,25 @@ class PlaneClientContext(NamedTuple):
     workspace_slug: str
 
 
-def _origin_from_client(client: PlaneClient) -> str:
-    api_v1_base = client.work_items.config.base_path.rstrip("/")
-    if api_v1_base.endswith("/api/v1"):
-        return api_v1_base[: -len("/api/v1")]
-    parsed = urlparse(api_v1_base)
+def _public_origin() -> str:
+    """Return the browser-facing Plane origin for CE session API calls.
+
+    The SDK may use PLANE_INTERNAL_BASE_URL for server-to-server public API
+    calls. Plane CE's internal `/api/...` routes are browser-facing and must go
+    through the same origin as the web UI/reverse proxy, so never derive this
+    from the SDK client when an internal base URL is configured.
+    """
+    configured = (
+        os.getenv("PLANE_SESSION_BASE_URL", "").strip()
+        or os.getenv("PLANE_BASE_URL", "").strip()
+    )
+    if not configured:
+        raise RuntimeError(
+            "Plane CE session API requires PLANE_BASE_URL or PLANE_SESSION_BASE_URL."
+        )
+    parsed = urlparse(configured)
+    if not parsed.scheme or not parsed.netloc:
+        raise RuntimeError("PLANE_SESSION_BASE_URL/PLANE_BASE_URL must be an absolute URL.")
     return f"{parsed.scheme}://{parsed.netloc}"
 
 
@@ -56,6 +70,11 @@ def ce_session_request(
     Set `PLANE_SESSION_COOKIE` to the complete Cookie header copied from an
     authenticated Plane browser session. For state-changing requests, also set
     `PLANE_CSRF_TOKEN` when the CSRF cookie is not present in that header.
+
+    `PLANE_SESSION_BASE_URL` may be set explicitly when the browser-facing
+    Plane URL differs from `PLANE_BASE_URL`. It intentionally ignores
+    `PLANE_INTERNAL_BASE_URL` because `/api/...` UI routes are normally exposed
+    by the public reverse proxy rather than the SDK's internal API origin.
     """
     cookie_header = os.getenv("PLANE_SESSION_COOKIE", "").strip()
     if not cookie_header:
@@ -64,10 +83,8 @@ def ce_session_request(
             "Set it to the complete Cookie header from an authenticated Plane session."
         )
 
-    origin = _origin_from_client(client)
-    url = f"{origin}/api/{endpoint.strip('/')}/"
-    # Avoid a duplicated slash if endpoint already ended with one.
-    url = url.replace("//api/", "/api/") if origin.endswith("/") else url
+    origin = _public_origin()
+    url = f"{origin}/api/{endpoint.strip('/')}/".replace("\\/", "/")
 
     headers = {
         "Accept": "application/json",
@@ -82,6 +99,7 @@ def ce_session_request(
         if csrf:
             headers["X-CSRFToken"] = csrf
 
+    logger.info("Plane CE session fallback %s %s", method.upper(), url)
     response = requests.request(
         method,
         url,
@@ -90,6 +108,7 @@ def ce_session_request(
         json=data,
         timeout=client.work_items.config.timeout,
     )
+    logger.info("Plane CE session fallback response: HTTP %s", response.status_code)
 
     if response.status_code == 204:
         return None
@@ -112,13 +131,7 @@ def ce_session_request(
 
 
 def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
-    """Add CE session fallbacks for work-item detail routes.
-
-    Some self-hosted Community Edition versions expose list/create through the
-    public `/api/v1/.../work-items/` API, while retrieve/update/delete by UUID
-    are available only through the internal session-authenticated
-    `/api/.../issues/{id}/` route used by the Plane web app.
-    """
+    """Add CE session fallbacks for work-item detail routes."""
 
     work_items = client.work_items
     original_retrieve = work_items.retrieve
@@ -177,8 +190,6 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
             f"workspaces/{workspace_slug}/projects/{project_id}/issues/{work_item_id}",
             data=payload,
         )
-        # Plane CE's internal PATCH commonly returns 204 No Content. Re-read
-        # the record so the MCP tool still returns the updated work item.
         if response is None:
             response = ce_session_request(
                 client,
