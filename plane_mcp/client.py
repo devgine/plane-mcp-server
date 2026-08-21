@@ -1,12 +1,16 @@
 """Plane client initialization for MCP server."""
 
+import json
 import os
+import time
+from datetime import datetime, timezone
 from http.cookies import SimpleCookie
 from types import MethodType
 from typing import NamedTuple
 from urllib.parse import urlparse
 from uuid import UUID
 
+import redis
 import requests
 from fastmcp.server.auth.auth import AccessToken
 from fastmcp.server.dependencies import get_access_token
@@ -44,19 +48,75 @@ def _extract_csrf_from_cookie(cookie_header: str) -> str:
     return ""
 
 
-def _sync_page_title_after_metadata_patch(client: PlaneClient, endpoint: str, data) -> None:
-    """Keep Plane Live/Yjs title in sync after a CE page metadata PATCH."""
+def _page_metadata_target(endpoint: str, data) -> tuple[str, str, str] | None:
     if not isinstance(data, dict) or "name" not in data:
-        return
+        return None
     parts = endpoint.strip("/").split("/")
-    # workspaces/{slug}/projects/{project_id}/pages/{page_id}
     if len(parts) != 6 or parts[0] != "workspaces" or parts[2] != "projects" or parts[4] != "pages":
+        return None
+    return parts[1], parts[3], parts[5]
+
+
+def _force_close_plane_live_document(page_id: str) -> None:
+    """Ask Plane Live/Hocuspocus to close active copies of a page before external mutation."""
+    redis_url = os.getenv("PLANE_LIVE_REDIS_URL", "").strip() or os.getenv("PLANE_REDIS_URL", "").strip()
+    if not redis_url:
+        raise RuntimeError(
+            "Plane page title synchronization requires PLANE_LIVE_REDIS_URL (or PLANE_REDIS_URL) "
+            "pointing to the Redis instance used by Plane Live."
+        )
+
+    command = {
+        "command": "force_close",
+        "docId": page_id,
+        "reason": "admin_request",
+        "code": 4000,
+        "originServer": "plane-mcp",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+    }
+
+    client = redis.Redis.from_url(redis_url, decode_responses=True)
+    try:
+        receivers = client.publish("hocuspocus:admin", json.dumps(command))
+    finally:
+        client.close()
+
+    logger.info("Plane Live force_close published for page %s to %s subscriber(s)", page_id, receivers)
+    if receivers < 1:
+        raise RuntimeError(
+            "Plane Live Redis command had no subscribers. Verify PLANE_LIVE_REDIS_URL points to the Redis used by Plane Live."
+        )
+
+    # Plane's force-close flow waits ~800 ms before unloading locally. Give the
+    # Live process enough time to flush any old document state before we write
+    # the authoritative metadata and Yjs values below.
+    time.sleep(1.2)
+
+
+def _sync_page_title_after_metadata_patch(client: PlaneClient, endpoint: str, data) -> None:
+    """Keep Plane page metadata and its Live/Yjs title in sync."""
+    target = _page_metadata_target(endpoint, data)
+    if target is None:
         return
-    workspace_slug, project_id, page_id = parts[1], parts[3], parts[5]
+    workspace_slug, project_id, page_id = target
+    title = str(data.get("name") or "")
+
     from plane_mcp.page_yjs import sync_project_page_title_yjs
 
     logger.info("Synchronizing Plane page Yjs title for page %s", page_id)
-    sync_project_page_title_yjs(client, workspace_slug, project_id, page_id, str(data.get("name") or ""))
+    sync_project_page_title_yjs(client, workspace_slug, project_id, page_id, title)
+
+    # A Live document that was active before this MCP operation may have flushed
+    # its previous metadata while closing. Re-assert the title in the Page row
+    # after writing the new Yjs state, without triggering this synchronization
+    # hook recursively.
+    ce_session_request(
+        client,
+        "PATCH",
+        endpoint,
+        data={"name": title},
+        sync_page_title=False,
+    )
     logger.info("Plane page Yjs title synchronized for page %s", page_id)
 
 
@@ -68,6 +128,7 @@ def ce_session_request(
     params=None,
     data=None,
     response_binary: bool = False,
+    sync_page_title: bool = True,
 ):
     """Call Plane CE's internal `/api/` endpoints with a browser session."""
     cookie_header = os.getenv("PLANE_SESSION_COOKIE", "").strip()
@@ -80,10 +141,6 @@ def ce_session_request(
     origin = _public_origin()
     url = f"{origin}/api/{endpoint.strip('/')}/"
 
-    # Match Plane Live's binary-description fetch semantics. The official
-    # frontend sets Content-Type=application/octet-stream for GET /description/
-    # and leaves Accept generic; forcing Accept=application/octet-stream causes
-    # DRF content negotiation to return 406 on some CE builds.
     if response_binary:
         headers = {
             "Accept": "*/*",
@@ -106,6 +163,10 @@ def ce_session_request(
         if csrf:
             headers["X-CSRFToken"] = csrf
 
+    page_target = _page_metadata_target(endpoint, data) if sync_page_title and method.upper() == "PATCH" else None
+    if page_target is not None:
+        _force_close_plane_live_document(page_target[2])
+
     logger.info("Plane CE session fallback %s %s", method.upper(), url)
     response = requests.request(
         method,
@@ -118,11 +179,11 @@ def ce_session_request(
     logger.info("Plane CE session fallback response: HTTP %s", response.status_code)
 
     if response.status_code == 204:
-        if method.upper() == "PATCH":
+        if page_target is not None:
             _sync_page_title_after_metadata_patch(client, endpoint, data)
         return None
     if 200 <= response.status_code < 300:
-        if method.upper() == "PATCH":
+        if page_target is not None:
             _sync_page_title_after_metadata_patch(client, endpoint, data)
         if response_binary:
             return response.content
@@ -166,9 +227,20 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
     original_update = work_items.update
     original_delete = work_items.delete
 
-    def retrieve_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str, params: RetrieveQueryParams | None = None) -> WorkItemDetail:
+    def retrieve_with_fallback(
+        self,
+        workspace_slug: str,
+        project_id: str,
+        work_item_id: str,
+        params: RetrieveQueryParams | None = None,
+    ) -> WorkItemDetail:
         try:
-            return original_retrieve(workspace_slug=workspace_slug, project_id=project_id, work_item_id=work_item_id, params=params)
+            return original_retrieve(
+                workspace_slug=workspace_slug,
+                project_id=project_id,
+                work_item_id=work_item_id,
+                params=params,
+            )
         except HttpError as exc:
             if exc.status_code != 404:
                 raise
@@ -176,29 +248,62 @@ def _install_ce_workitem_fallbacks(client: PlaneClient) -> None:
         if resolved_detail is not None and params is None:
             return resolved_detail
         query_params = params.model_dump(exclude_none=True) if params else None
-        response = ce_session_request(client, "GET", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}", params=query_params)
+        response = ce_session_request(
+            client,
+            "GET",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
+            params=query_params,
+        )
         return WorkItemDetail.model_validate(response)
 
-    def update_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str, data: UpdateWorkItem) -> WorkItem:
+    def update_with_fallback(
+        self,
+        workspace_slug: str,
+        project_id: str,
+        work_item_id: str,
+        data: UpdateWorkItem,
+    ) -> WorkItem:
         try:
-            return original_update(workspace_slug=workspace_slug, project_id=project_id, work_item_id=work_item_id, data=data)
+            return original_update(
+                workspace_slug=workspace_slug,
+                project_id=project_id,
+                work_item_id=work_item_id,
+                data=data,
+            )
         except HttpError as exc:
             if exc.status_code != 404:
                 raise
         resolved_id, _ = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
-        response = ce_session_request(client, "PATCH", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}", data=data.model_dump(exclude_none=True))
+        response = ce_session_request(
+            client,
+            "PATCH",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
+            data=data.model_dump(exclude_none=True),
+        )
         if response is None:
-            response = ce_session_request(client, "GET", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}")
+            response = ce_session_request(
+                client,
+                "GET",
+                f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
+            )
         return WorkItem.model_validate(response)
 
     def delete_with_fallback(self, workspace_slug: str, project_id: str, work_item_id: str) -> None:
         try:
-            return original_delete(workspace_slug=workspace_slug, project_id=project_id, work_item_id=work_item_id)
+            return original_delete(
+                workspace_slug=workspace_slug,
+                project_id=project_id,
+                work_item_id=work_item_id,
+            )
         except HttpError as exc:
             if exc.status_code != 404:
                 raise
         resolved_id, _ = _resolve_workitem_uuid(client, workspace_slug, work_item_id)
-        ce_session_request(client, "DELETE", f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}")
+        ce_session_request(
+            client,
+            "DELETE",
+            f"workspaces/{workspace_slug}/projects/{project_id}/issues/{resolved_id}",
+        )
         return None
 
     work_items.retrieve = MethodType(retrieve_with_fallback, work_items)
@@ -222,6 +327,10 @@ def get_plane_client_context() -> PlaneClientContext:
         else:
             access_token = token
 
-    client = PlaneClient(base_url=base_url, access_token=access_token) if access_token else PlaneClient(base_url=base_url, api_key=api_key)
+    client = (
+        PlaneClient(base_url=base_url, access_token=access_token)
+        if access_token
+        else PlaneClient(base_url=base_url, api_key=api_key)
+    )
     _install_ce_workitem_fallbacks(client)
     return PlaneClientContext(client=client, workspace_slug=workspace_slug)
