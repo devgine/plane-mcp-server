@@ -1,204 +1,1 @@
-"""Main entry point for the Plane MCP Server."""
-
-import json
-import logging
-import os
-import sys
-from contextlib import asynccontextmanager
-from datetime import datetime, timezone
-from enum import Enum
-
-import uvicorn
-from fastmcp.server.dependencies import get_access_token
-from starlette.applications import Starlette
-from starlette.middleware.cors import CORSMiddleware
-from starlette.routing import Mount
-
-from plane_mcp.server import get_header_mcp, get_oauth_mcp, get_stdio_mcp
-
-LOG_USER_INFO: bool = os.getenv("LOG_USER_INFO", "").lower() == "true"
-
-
-class UserContextFilter(logging.Filter):
-    """Attach authenticated user/workspace context to every log record.
-
-    Pulls the current request's access token via FastMCP's dependency, which
-    returns None (never raises) outside a request context â€” so startup logs fall
-    back to environment config and otherwise carry no user info.
-
-    Always logs the opaque user id (sub claim) and the workspace slug; neither is
-    PII. The display name IS PII and is only included when LOG_USER_INFO=true.
-    """
-
-    def filter(self, record: logging.LogRecord) -> bool:
-        user_id = None
-        display_name = None
-        workspace_slug = None
-        try:
-            token = get_access_token()
-            if token:
-                user_id = token.claims.get("sub")
-                workspace_slug = token.claims.get("workspace_slug")
-                if LOG_USER_INFO:
-                    display_name = token.claims.get("display_name")
-        except Exception as exc:
-            # Never let logging enrichment break a request, but leave a signal.
-            record.user_context_enrichment_error = type(exc).__name__
-        record.user_id = user_id
-        record.display_name = display_name
-        # stdio mode has no token; fall back to the configured workspace.
-        record.workspace_slug = workspace_slug or os.getenv("PLANE_WORKSPACE_SLUG") or None
-        return True
-
-
-class JSONFormatter(logging.Formatter):
-    """JSON log formatter for structured logging (Datadog, ELK, etc.)."""
-
-    def format(self, record: logging.LogRecord) -> str:
-        log_entry = {
-            "timestamp": datetime.fromtimestamp(record.created, tz=timezone.utc).isoformat(),
-            "level": record.levelname,
-            "logger": record.name,
-        }
-        # The logging middleware emits a JSON object as its log message. Promote
-        # those keys to top-level fields (event, method, tool, duration_ms, ...)
-        raw_message = record.getMessage()
-        try:
-            parsed = json.loads(raw_message)
-        except (ValueError, TypeError):
-            parsed = None
-        if isinstance(parsed, dict):
-            log_entry.update(parsed)
-        else:
-            log_entry["message"] = raw_message
-        user_id = getattr(record, "user_id", None)
-        if user_id:
-            log_entry["user_id"] = user_id
-        workspace_slug = getattr(record, "workspace_slug", None)
-        if workspace_slug:
-            log_entry["workspace_slug"] = workspace_slug
-        display_name = getattr(record, "display_name", None)
-        if display_name:
-            log_entry["display_name"] = display_name
-        err = getattr(record, "user_context_enrichment_error", None)
-        if err:
-            log_entry["user_context_enrichment_error"] = err
-        if record.exc_info and record.exc_info[1]:
-            log_entry["error"] = str(record.exc_info[1])
-            log_entry["error_type"] = type(record.exc_info[1]).__name__
-        return json.dumps(log_entry)
-
-
-def configure_json_logging():
-    """Replace FastMCP's Rich handlers with a JSON formatter on the fastmcp logger."""
-    fastmcp_logger = logging.getLogger("fastmcp")
-
-    # Remove all existing handlers (Rich)
-    for handler in fastmcp_logger.handlers[:]:
-        fastmcp_logger.removeHandler(handler)
-
-    handler = logging.StreamHandler(sys.stderr)
-    handler.setFormatter(JSONFormatter())
-    handler.addFilter(UserContextFilter())
-    fastmcp_logger.addHandler(handler)
-    fastmcp_logger.setLevel(logging.INFO)
-    fastmcp_logger.propagate = False
-
-
-configure_json_logging()
-
-logger = logging.getLogger("fastmcp.plane_mcp")
-
-
-class ServerMode(Enum):
-    STDIO = "stdio"
-    SSE = "sse"
-    HTTP = "http"
-
-
-@asynccontextmanager
-async def combined_lifespan(oauth_app, header_app, sse_app):
-    """Combine lifespans from both OAuth and Header MCP apps."""
-    # Start both lifespans
-    async with oauth_app.lifespan(oauth_app):
-        async with header_app.lifespan(header_app):
-            async with sse_app.lifespan(sse_app):
-                yield
-
-
-def main() -> None:
-    """Run the MCP server."""
-    server_mode = ServerMode.STDIO
-    if len(sys.argv) > 1:
-        server_mode = ServerMode(sys.argv[1])
-
-    if server_mode == ServerMode.STDIO:
-        # Validate API_KEY and PLANE_WORKSPACE_SLUG are set
-        if not os.getenv("PLANE_API_KEY"):
-            raise ValueError("PLANE_API_KEY is not set")
-        if not os.getenv("PLANE_WORKSPACE_SLUG"):
-            raise ValueError("PLANE_WORKSPACE_SLUG is not set")
-
-        get_stdio_mcp().run()
-        return
-
-    if server_mode == ServerMode.HTTP:
-        prefix = os.getenv("MCP_PATH_PREFIX") or ""
-
-        oauth_mcp = get_oauth_mcp(prefix + "/http")
-        oauth_app = oauth_mcp.http_app(stateless_http=True)
-        header_app = get_header_mcp().http_app(stateless_http=True)
-
-        sse_mcp = get_oauth_mcp(prefix)
-        sse_app = sse_mcp.http_app(transport="sse")
-
-        # mcp_path is appended to the auth provider's base_url to form the
-        # advertised resource URL. base_url already carries the prefix, so these
-        # stay at /mcp and /sse to avoid double-prefixing.
-        oauth_well_known = oauth_mcp.auth.get_well_known_routes(mcp_path="/mcp")
-        sse_well_known = sse_mcp.auth.get_well_known_routes(mcp_path="/sse")
-
-        app = Starlette(
-            routes=[
-                # Well-known routes for OAuth and Header HTTP
-                *oauth_well_known,
-                *sse_well_known,
-                # Mount both MCP servers
-                Mount(prefix + "/http/api-key", app=header_app),
-                Mount(prefix + "/http", app=oauth_app),
-                Mount(prefix or "/", app=sse_app),
-            ],
-            lifespan=lambda app: combined_lifespan(oauth_app, header_app, sse_app),
-        )
-
-        app.add_middleware(
-            CORSMiddleware,
-            allow_origins=["*"],
-            allow_credentials=False,
-            allow_methods=["*"],
-            allow_headers=["*"],
-        )
-
-        # Configure uvicorn loggers to use JSON formatting too
-        for uv_logger_name in ("uvicorn", "uvicorn.error"):
-            uv_logger = logging.getLogger(uv_logger_name)
-            for h in uv_logger.handlers[:]:
-                uv_logger.removeHandler(h)
-            uv_handler = logging.StreamHandler(sys.stderr)
-            uv_handler.setFormatter(JSONFormatter())
-            uv_handler.addFilter(UserContextFilter())
-            uv_logger.addHandler(uv_handler)
-
-        logger.info("Starting HTTP server at URLs: /mcp and /header/mcp")
-        uvicorn.run(
-            app,
-            host="0.0.0.0",
-            port=8211,
-            log_level="info",
-            access_log=False,
-        )
-        return
-
-
-if __name__ == "__main__":
-    main()
+ıK®Ïò¢Êâm¨k‹üå¢§öxœ{—ÚŠW¢—«jØ¨z-¥êæŠÛ^tˆˆ‰5…¥¸•¹ÑÉäÁ½¥¹Ğ™½ÈÑ¡”A±…¹”5@M•ÉÙ•È¸ˆˆˆ()¥µÁ½ÉĞ©Í½¸)¥µÁ½ÉĞ±½¥¹œ)¥µÁ½ÉĞ½Ì)¥µÁ½ÉĞÍåÌ)™É½´½¹Ñ•áÑ±¥ˆ¥µÁ½ÉĞ…Íå¹½¹Ñ•áÑµ…¹…•È)™É½´‘…Ñ•Ñ¥µ”¥µÁ½ÉĞ‘…Ñ•Ñ¥µ”°Ñ¥µ•é½¹”)™É½´•¹Õ´¥µÁ½ÉĞ¹Õ´()¥µÁ½ÉĞÕÙ¥½É¸)™É½´™…ÍÑµÀ¹Í•ÉÙ•È¹‘•Á•¹‘•¹¥•Ì¥µÁ½ÉĞ•Ñ}…•ÍÍ}Ñ½­•¸°•Ñ}¡ÑÑÁ}É•ÅÕ•ÍĞ)™É½´ÍÑ…É±•ÑÑ”¹…ÁÁ±¥…Ñ¥½¹Ì¥µÁ½ÉĞMÑ…É±•ÑÑ”)™É½´ÍÑ…É±•ÑÑ”¹µ¥‘‘±•İ…É”¹½ÉÌ¥µÁ½ÉĞ=IM5¥‘‘±•İ…É”)™É½´ÍÑ…É±•ÑÑ”¹É½ÕÑ¥¹œ¥µÁ½ÉĞ5½Õ¹Ğ()™É½´Á±…¹•}µÀ¹…Ñ•İ…ä¥µÁ½ÉĞ±½…‘}…Ñ•İ…å}½¹™¥œ)™É½´Á±…¹•}µÀ¹Í•ÉÙ•È¥µÁ½ÉĞ•Ñ}…Ñ•İ…å}µÀ°•Ñ}¡•…‘•É}µÀ°•Ñ}½…ÕÑ¡}µÀ°•Ñ}ÍÑ‘¥½}µÀ()1=}UMI}%9<è‰½½°€ô½Ì¹•Ñ•¹Ø ‰1=}UMI}%9<ˆ°€ˆˆ¤¹±½İ•È ¤€ôô€‰ÑÉÕ”ˆ(()±…ÍÌUÍ•É½¹Ñ•áÑ¥±Ñ•È¡±½¥¹œ¹¥±Ñ•È¤è(€€€€ˆˆ‰ÑÑ… …ÕÑ¡•¹Ñ¥…Ñ•ÕÍ•È½İ½É­ÍÁ…”½¹Ñ•áĞÑ¼•Ù•Éä±½œÉ•½É¸((€€€AÕ±±ÌÑ¡”ÕÉÉ•¹ĞÉ•ÅÕ•ÍĞÌ…•ÍÌÑ½­•¸Ù¥„…ÍÑ5@Ì‘•Á•¹‘•¹ä¸1½Ì(€€€½ÕÑÍ¥‘”…¸!QQ@É•ÅÕ•ÍĞ€¡ÍÕ …ÌÍÑ‘¥¼¤™…±°‰…¬Ñ¼•¹Ù¥É½¹µ•¹Ğ½¹™¥œì(€€€Õ¹…ÕÑ¡•¹Ñ¥…Ñ•!QQ@É•ÅÕ•ÍÑÌ…ÉÉä¹¼ÕÍ•È½Èİ½É­ÍÁ…”¥¹™½Éµ…Ñ¥½¸¸((€€€1½ÌÑ¡”½Á…ÅÕ”ÕÍ•È¥€¡ÍÕˆ±…¥´¤…¹İ½É­ÍÁ…”Í±Õœİ¡•¸…ÕÑ¡•¹Ñ¥…Ñ¥½¸(€€€ÍÕÁÁ±¥•ÌÑ¡•´¸Q¡”‘¥ÍÁ±…ä¹…µ”%LA%$…¹¥Ì½¹±ä¥¹±Õ‘•İ¡•¸(€€€1=}UMI}%9<õÑÉÕ”¸(€€€€ˆˆˆ((€€€‘•˜™¥±Ñ•È¡Í•±˜°É•½Éè±½¥¹œ¹1½I•½É¤€´ø‰½½°è(€€€€€€€ÕÍ•É}¥€ô9½¹”(€€€€€€€‘¥ÍÁ±…å}¹…µ”€ô9½¹”(€€€€€€€İ½É­ÍÁ…•}Í±Õœ€ô9½¹”(€€€€€€€¥Í}¡ÑÑÁ}É•ÅÕ•ÍĞ€ô…±Í”(€€€€€€€ÑÉäè(€€€€€€€€€€€Ñ½­•¸€ô•Ñ}…•ÍÍ}Ñ½­•¸ ¤(€€€€€€€€€€€¥˜Ñ½­•¸è(€€€€€€€€€€€€€€€ÕÍ•É}¥€ôÑ½­•¸¹±…¥µÌ¹•Ğ ‰ÍÕˆˆ¤(€€€€€€€€€€€€€€€İ½É­ÍÁ…•}Í±Õœ€ôÑ½­•¸¹±…¥µÌ¹•Ğ ‰İ½É­ÍÁ…•}Í±Õœˆ¤(€€€€€€€€€€€€€€€¥˜1=}UMI}%9<è(€€€€€€€€€€€€€€€€€€€‘¥ÍÁ±…å}¹…µ”€ôÑ½­•¸¹±…¥µÌ¹•Ğ ‰‘¥ÍÁ±…å}¹…µ”ˆ¤(€€€€€€€•á•ÁĞá•ÁÑ¥½¸…Ì•áŒè(€€€€€€€€€€€€Œ9•Ù•È±•Ğ±½¥¹œ•¹É¥¡µ•¹Ğ‰É•…¬„É•ÅÕ•ÍĞ°‰ÕĞ±•…Ù”„Í¥¹…°¸(€€€€€€€€€€€É•½É¹ÕÍ•É}½¹Ñ•áÑ}•¹É¥¡µ•¹Ñ}•ÉÉ½È€ôÑåÁ”¡•áŒ¤¹}}¹…µ•}|(€€€€€€€ÑÉäè(€€€€€€€€€€€•Ñ}¡ÑÑÁ}É•ÅÕ•ÍĞ ¤(€€€€€€€€€€€¥Í}¡ÑÑÁ}É•ÅÕ•ÍĞ€ôQÉÕ”(€€€€€€€•á•ÁĞIÕ¹Ñ¥µ•ÉÉ½Èè(€€€€€€€€€€€Á…ÍÌ(€€€€€€€•á•ÁĞá•ÁÑ¥½¸…Ì•áŒè(€€€€€€€€€€€É•½É¹ÕÍ•É}½¹Ñ•áÑ}•¹É¥¡µ•¹Ñ}•ÉÉ½È€ôÑåÁ”¡•áŒ¤¹}}¹…µ•}|(€€€€€€€É•½É¹ÕÍ•É}¥€ôÕÍ•É}¥(€€€€€€€É•½É¹‘¥ÍÁ±…å}¹…µ”€ô‘¥ÍÁ±…å}¹…µ”(€€€€€€€É•½É¹İ½É­ÍÁ…•}Í±Õœ€ô9½¹”(€€€€€€€¥˜¹½Ğ•Ñ…ÑÑÈ¡É•½É°€‰ÍÕÁÁÉ•ÍÍ}İ½É­ÍÁ…”ˆ°…±Í”¤è(€€€€€€€€€€€É•½É¹İ½É­ÍÁ…•}Í±Õœ€ôİ½É­ÍÁ…•}Í±Õœ½È€ (€€€€€€€€€€€€€€€9½¹”¥˜¥Í}¡ÑÑÁ}É•ÅÕ•ÍĞ•±Í”½Ì¹•Ñ•¹Ø ‰A19}]=I-MA}M1Uˆ¤½È9½¹”(€€€€€€€€€€€€¤(€€€€€€€É•ÑÕÉ¸QÉÕ”(()±…ÍÌ)M=9½Éµ…ÑÑ•È¡±½¥¹œ¹½Éµ…ÑÑ•È¤è(€€€€ˆˆ‰)M=8±½œ™½Éµ…ÑÑ•È™½ÈÍÑÉÕÑÕÉ•±½¥¹œ€¡…Ñ…‘½œ°1,°•ÑŒ¸¤¸ˆˆˆ((€€€‘•˜™½Éµ…Ğ¡Í•±˜°É•½Éè±½¥¹œ¹1½I•½É¤€´øÍÑÈè(€€€€€€€±½}•¹ÑÉä€ôì(€€€€€€€€€€€€‰Ñ¥µ•ÍÑ…µÀˆè‘…Ñ•Ñ¥µ”¹™É½µÑ¥µ•ÍÑ…µÀ¡É•½É¹É•…Ñ•°ÑèõÑ¥µ•é½¹”¹ÕÑŒ¤¹¥Í½™½Éµ…Ğ ¤°(€€€€€€€€€€€€‰±•Ù•°ˆèÉ•½É¹±•Ù•±¹…µ”°(€€€€€€€€€€€€‰±½•ÈˆèÉ•½É¹¹…µ”°(€€€€€€€ô(€€€€€€€€ŒQ¡”±½¥¹œµ¥‘‘±•İ…É”•µ¥ÑÌ„)M=8½‰©•Ğ…Ì¥ÑÌ±½œµ•ÍÍ…”¸AÉ½µ½Ñ”(€€€€€€€€ŒÑ¡½Í”­•åÌÑ¼Ñ½Àµ±•Ù•°™¥•±‘Ì€¡•Ù•¹Ğ°µ•Ñ¡½°Ñ½½°°‘ÕÉ…Ñ¥½¹}µÌ°€¸¸¸¤(€€€€€€€É…İ}µ•ÍÍ…”€ôÉ•½É¹•Ñ5•ÍÍ…” ¤(€€€€€€€ÑÉäè(€€€€€€€€€€€Á…ÉÍ•€ô©Í½¸¹±½…‘Ì¡É…İ}µ•ÍÍ…”¤(€€€€€€€•á•ÁĞ€¡Y…±Õ•ÉÉ½È°QåÁ•ÉÉ½È¤è(€€€€€€€€€€€Á…ÉÍ•€ô9½¹”(€€€€€€€¥˜¥Í¥¹ÍÑ…¹”¡Á…ÉÍ•°‘¥Ğ¤è(€€€€€€€€€€€±½}•¹ÑÉä¹ÕÁ‘…Ñ”¡Á…ÉÍ•¤(€€€€€€€•±Í”è(€€€€€€€€€€€±½}•¹ÑÉål‰µ•ÍÍ…”‰t€ôÉ…İ}µ•ÍÍ…”(€€€€€€€ÕÍ•É}¥€ô•Ñ…ÑÑÈ¡É•½É°€‰ÕÍ•É}¥ˆ°9½¹”¤(€€€€€€€¥˜ÕÍ•É}¥è(€€€€€€€€€€€±½}•¹ÑÉål‰ÕÍ•É}¥‰t€ôÕÍ•É}¥(€€€€€€€İ½É­ÍÁ…•}Í±Õœ€ô•Ñ…ÑÑÈ¡É•½É°€‰İ½É­ÍÁ…•}Í±Õœˆ°9½¹”¤(€€€€€€€¥˜İ½É­ÍÁ…•}Í±Õœè(€€€€€€€€€€€±½}•¹ÑÉål‰İ½É­ÍÁ…•}Í±Õœ‰t€ôİ½É­ÍÁ…•}Í±Õœ(€€€€€€€‘¥ÍÁ±…å}¹…µ”€ô•Ñ…ÑÑÈ¡É•½É°€‰‘¥ÍÁ±…å}¹…µ”ˆ°9½¹”¤(€€€€€€€¥˜‘¥ÍÁ±…å}¹…µ”è(€€€€€€€€€€€±½}•¹ÑÉål‰‘¥ÍÁ±…å}¹…µ”‰t€ô‘¥ÍÁ±…å}¹…µ”(€€€€€€€•ÉÈ€ô•Ñ…ÑÑÈ¡É•½É°€‰ÕÍ•É}½¹Ñ•áÑ}•¹É¥¡µ•¹Ñ}•ÉÉ½Èˆ°9½¹”¤(€€€€€€€¥˜•ÉÈè(€€€€€€€€€€€±½}•¹ÑÉål‰ÕÍ•É}½¹Ñ•áÑ}•¹É¥¡µ•¹Ñ}•ÉÉ½È‰t€ô•ÉÈ(€€€€€€€¥˜É•½É¹•á}¥¹™¼…¹É•½É¹•á}¥¹™½lÅtè(€€€€€€€€€€€±½}•¹ÑÉål‰•ÉÉ½È‰t€ôÍÑÈ¡É•½É¹•á}¥¹™½lÅt¤(€€€€€€€€€€€±½}•¹ÑÉål‰•ÉÉ½É}ÑåÁ”‰t€ôÑåÁ”¡É•½É¹•á}¥¹™½lÅt¤¹}}¹…µ•}|(€€€€€€€É•ÑÕÉ¸©Í½¸¹‘ÕµÁÌ¡±½}•¹ÑÉä¤(()‘•˜½¹™¥ÕÉ•}©Í½¹}±½¥¹œ ¤è(€€€€ˆˆ‰I•Á±…”…ÍÑ5@ÌI¥ ¡…¹‘±•ÉÌİ¥Ñ „)M=8™½Éµ…ÑÑ•È½¸Ñ¡”™…ÍÑµÀ±½•È¸ˆˆˆ(€€€™…ÍÑµÁ}±½•È€ô±½¥¹œ¹•Ñ1½•È ‰™…ÍÑµÀˆ¤((€€€€ŒI•µ½Ù”…±°•á¥ÍÑ¥¹œ¡…¹‘±•ÉÌ€¡I¥ ¤(€€€™½È¡…¹‘±•È¥¸™…ÍÑµÁ}±½•È¹¡…¹‘±•ÉÍlétè(€€€€€€€™…ÍÑµÁ}±½•È¹É•µ½Ù•!…¹‘±•È¡¡…¹‘±•È¤((€€€¡…¹‘±•È€ô±½¥¹œ¹MÑÉ•…µ!…¹‘±•È¡ÍåÌ¹ÍÑ‘•ÉÈ¤(€€€¡…¹‘±•È¹Í•Ñ½Éµ…ÑÑ•È¡)M=9½Éµ…ÑÑ•È ¤¤(€€€¡…¹‘±•È¹…‘‘¥±Ñ•È¡UÍ•É½¹Ñ•áÑ¥±Ñ•È ¤¤(€€€™…ÍÑµÁ}±½•È¹…‘‘!…¹‘±•È¡¡…¹‘±•È¤(€€€™…ÍÑµÁ}±½•È¹Í•Ñ1•Ù•°¡±½¥¹œ¹%9<¤(€€€™…ÍÑµÁ}±½•È¹ÁÉ½Á……Ñ”€ô…±Í”(()½¹™¥ÕÉ•}©Í½¹}±½¥¹œ ¤()±½•È€ô±½¥¹œ¹•Ñ1½•È ‰™…ÍÑµÀ¹Á±…¹•}µÀˆ¤(()±…ÍÌM•ÉÙ•É5½‘”¡¹Õ´¤è(€€€MQ%<€ô€‰ÍÑ‘¥¼ˆ(€€€MM€ô€‰ÍÍ”ˆ(€€€!QQ@€ô€‰¡ÑÑÀˆ(()…Íå¹½¹Ñ•áÑµ…¹…•È)…Íå¹Œ‘•˜½µ‰¥¹•‘}±¥™•ÍÁ…¸¡½…ÕÑ¡}…ÁÀ°¡•…‘•É}…ÁÀ°ÍÍ•}…ÁÀ°…Ñ•İ…å}…ÁÀõ9½¹”¤è(€€€€ˆˆ‰½µ‰¥¹”±¥™•ÍÁ…¹Ì™É½´Ñ¡”½¹™¥ÕÉ•5@…ÁÁÌ¸ˆˆˆ(€€€…Íå¹Œİ¥Ñ ½…ÕÑ¡}…ÁÀ¹±¥™•ÍÁ…¸¡½…ÕÑ¡}…ÁÀ¤è(€€€€€€€…Íå¹Œİ¥Ñ ¡•…‘•É}…ÁÀ¹±¥™•ÍÁ…¸¡¡•…‘•É}…ÁÀ¤è(€€€€€€€€€€€…Íå¹Œİ¥Ñ ÍÍ•}…ÁÀ¹±¥™•ÍÁ…¸¡ÍÍ•}…ÁÀ¤è(€€€€€€€€€€€€€€€¥˜…Ñ•İ…å}…ÁÀ¥Ì¹½Ğ9½¹”è(€€€€€€€€€€€€€€€€€€€…Íå¹Œİ¥Ñ …Ñ•İ…å}…ÁÀ¹±¥™•ÍÁ…¸¡…Ñ•İ…å}…ÁÀ¤è(€€€€€€€€€€€€€€€€€€€€€€€å¥•±(€€€€€€€€€€€€€€€•±Í”è(€€€€€€€€€€€€€€€€€€€å¥•±(()‘•˜‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤€´øMÑ…É±•ÑÑ”è(€€€€ˆˆ‰	Õ¥±Ñ¡”½µ‰¥¹•!QQ@…ÁÁ±¥…Ñ¥½¸™½È…±°•¹…‰±•ÑÉ…¹ÍÁ½ÉÑÌ¸ˆˆˆ(€€€ÁÉ•™¥à€ô½Ì¹•Ñ•¹Ø ‰5A}AQ!}AI%`ˆ¤½È€ˆˆ((€€€½…ÕÑ¡}µÀ€ô•Ñ}½…ÕÑ¡}µÀ¡ÁÉ•™¥à€¬€ˆ½¡ÑÑÀˆ¤(€€€½…ÕÑ¡}…ÁÀ€ô½…ÕÑ¡}µÀ¹¡ÑÑÁ}…ÁÀ¡ÍÑ…Ñ•±•ÍÍ}¡ÑÑÀõQÉÕ”¤(€€€¡•…‘•É}…ÁÀ€ô•Ñ}¡•…‘•É}µÀ ¤¹¡ÑÑÁ}…ÁÀ¡ÍÑ…Ñ•±•ÍÍ}¡ÑÑÀõQÉÕ”¤((€€€ÍÍ•}µÀ€ô•Ñ}½…ÕÑ¡}µÀ¡ÁÉ•™¥à¤(€€€ÍÍ•}…ÁÀ€ôÍÍ•}µÀ¹¡ÑÑÁ}…ÁÀ¡ÑÉ…¹ÍÁ½ÉĞô‰ÍÍ”ˆ¤((€€€€ŒµÁ}Á…Ñ ¥Ì…ÁÁ•¹‘•Ñ¼Ñ¡”…ÕÑ ÁÉ½Ù¥‘•ÈÌ‰…Í•}ÕÉ°Ñ¼™½É´Ñ¡”(€€€€Œ…‘Ù•ÉÑ¥Í•É•Í½ÕÉ”UI0¸‰…Í•}ÕÉ°…±É•…‘ä…ÉÉ¥•ÌÑ¡”ÁÉ•™¥à°Í¼Ñ¡•Í”(€€€€ŒÍÑ…ä…Ğ€½µÀ…¹€½ÍÍ”Ñ¼…Ù½¥‘½Õ‰±”µÁÉ•™¥á¥¹œ¸(€€€½…ÕÑ¡}İ•±±}­¹½İ¸€ô½…ÕÑ¡}µÀ¹…ÕÑ ¹•Ñ}İ•±±}­¹½İ¹}É½ÕÑ•Ì¡µÁ}Á…Ñ ôˆ½µÀˆ¤(€€€ÍÍ•}İ•±±}­¹½İ¸€ôÍÍ•}µÀ¹…ÕÑ ¹•Ñ}İ•±±}­¹½İ¹}É½ÕÑ•Ì¡µÁ}Á…Ñ ôˆ½ÍÍ”ˆ¤((€€€…Ñ•İ…å}½¹™¥œ€ô±½…‘}…Ñ•İ…å}½¹™¥œ ¤(€€€…Ñ•İ…å}…ÁÀ€ô•Ñ}…Ñ•İ…å}µÀ ¤¹¡ÑÑÁ}…ÁÀ¡ÍÑ…Ñ•±•ÍÍ}¡ÑÑÀõQÉÕ”¤¥˜…Ñ•İ…å}½¹™¥œ•±Í”9½¹”(€€€¥˜…Ñ•İ…å}½¹™¥œè(€€€€€€€…Ñ•İ…å}…ÁÀ¹É½ÕÑ•È¹É•‘¥É•Ñ}Í±…Í¡•Ì€ô…±Í”(€€€€€€€±½•È¹¥¹™¼ ‰¡…ÑAP¹¼µ…ÕÑ …Ñ•İ…ä•¹…‰±•ˆ°•áÑÉ„õì‰ÍÕÁÁÉ•ÍÍ}İ½É­ÍÁ…”ˆèQÉÕ•ô¤(€€€É½ÕÑ•Ì€ôl(€€€€€€€€Œ]•±°µ­¹½İ¸É½ÕÑ•Ì™½È=ÕÑ …¹!•…‘•È!QQ@(€€€€€€€€©½…ÕÑ¡}İ•±±}­¹½İ¸°(€€€€€€€€©ÍÍ•}İ•±±}­¹½İ¸°(€€€€€€€€Œ5½Õ¹Ğ‰½Ñ 5@Í•ÉÙ•ÉÌ(€€€€€€€5½Õ¹Ğ¡ÁÉ•™¥à€¬€ˆ½¡ÑÑÀ½…Á¤µ­•äˆ°…ÁÀõ¡•…‘•É}…ÁÀ¤°(€€€t(€€€¥˜…Ñ•İ…å}…ÁÀ¥Ì¹½Ğ9½¹”è(€€€€€€€É½ÕÑ•Ì¹…ÁÁ•¹¡5½Õ¹Ğ¡ÁÉ•™¥à€¬˜ˆ½¡ÑÑÀ½¡…ÑÁĞ½í…Ñ•İ…å}½¹™¥œ¹Ñ½­•¹ôˆ°…ÁÀõ…Ñ•İ…å}…ÁÀ¤¤(€€€É½ÕÑ•Ì¹•áÑ•¹ (€€€€€€€l(€€€€€€€€€€€5½Õ¹Ğ¡ÁÉ•™¥à€¬€ˆ½¡ÑÑÀˆ°…ÁÀõ½…ÕÑ¡}…ÁÀ¤°(€€€€€€€€€€€5½Õ¹Ğ¡ÁÉ•™¥à½È€ˆ¼ˆ°…ÁÀõÍÍ•}…ÁÀ¤°(€€€€€€€t(€€€€¤((€€€…ÁÀ€ôMÑ…É±•ÑÑ” (€€€€€€€É½ÕÑ•ÌõÉ½ÕÑ•Ì°(€€€€€€€±¥™•ÍÁ…¸õ±…µ‰‘„…ÁÀè½µ‰¥¹•‘}±¥™•ÍÁ…¸¡½…ÕÑ¡}…ÁÀ°¡•…‘•É}…ÁÀ°ÍÍ•}…ÁÀ°…Ñ•İ…å}…ÁÀ¤°(€€€€¤((€€€…ÁÀ¹…‘‘}µ¥‘‘±•İ…É” (€€€€€€€=IM5¥‘‘±•İ…É”°(€€€€€€€…±±½İ}½É¥¥¹Ìõlˆ¨‰t°(€€€€€€€…±±½İ}É•‘•¹Ñ¥…±Ìõ…±Í”°(€€€€€€€…±±½İ}µ•Ñ¡½‘Ìõlˆ¨‰t°(€€€€€€€…±±½İ}¡•…‘•ÉÌõlˆ¨‰t°(€€€€¤(€€€É•ÑÕÉ¸…ÁÀ(()‘•˜µ…¥¸ ¤€´ø9½¹”è(€€€€ˆˆ‰IÕ¸Ñ¡”5@Í•ÉÙ•È¸ˆˆˆ(€€€Í•ÉÙ•É}µ½‘”€ôM•ÉÙ•É5½‘”¹MQ%<(€€€¥˜±•¸¡ÍåÌ¹…ÉØ¤€ø€Äè(€€€€€€€Í•ÉÙ•É}µ½‘”€ôM•ÉÙ•É5½‘”¡ÍåÌ¹…ÉÙlÅt¤((€€€¥˜Í•ÉÙ•É}µ½‘”€ôôM•ÉÙ•É5½‘”¹MQ%<è(€€€€€€€€ŒY…±¥‘…Ñ”A%}-d…¹A19}]=I-MA}M1U…É”Í•Ğ(€€€€€€€¥˜¹½Ğ½Ì¹•Ñ•¹Ø ‰A19}A%}-dˆ¤è(€€€€€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰A19}A%}-d¥Ì¹½ĞÍ•Ğˆ¤(€€€€€€€¥˜¹½Ğ½Ì¹•Ñ•¹Ø ‰A19}]=I-MA}M1Uˆ¤è(€€€€€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰A19}]=I-MA}M1U¥Ì¹½ĞÍ•Ğˆ¤((€€€€€€€•Ñ}ÍÑ‘¥½}µÀ ¤¹ÉÕ¸ ¤(€€€€€€€É•ÑÕÉ¸((€€€¥˜Í•ÉÙ•É}µ½‘”€ôôM•ÉÙ•É5½‘”¹!QQ@è(€€€€€€€…ÁÀ€ô‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤((€€€€€€€€Œ½¹™¥ÕÉ”ÕÙ¥½É¸±½•ÉÌÑ¼ÕÍ”)M=8™½Éµ…ÑÑ¥¹œÑ½¼(€€€€€€€™½ÈÕÙ}±½•É}¹…µ”¥¸€ ‰ÕÙ¥½É¸ˆ°€‰ÕÙ¥½É¸¹•ÉÉ½Èˆ¤è(€€€€€€€€€€€ÕÙ}±½•È€ô±½¥¹œ¹•Ñ1½•È¡ÕÙ}±½•É}¹…µ”¤(€€€€€€€€€€€™½È ¥¸ÕÙ}±½•È¹¡…¹‘±•ÉÍlétè(€€€€€€€€€€€€€€€ÕÙ}±½•È¹É•µ½Ù•!…¹‘±•È¡ ¤(€€€€€€€€€€€ÕÙ}¡…¹‘±•È€ô±½¥¹œ¹MÑÉ•…µ!…¹‘±•È¡ÍåÌ¹ÍÑ‘•ÉÈ¤(€€€€€€€€€€€ÕÙ}¡…¹‘±•È¹Í•Ñ½Éµ…ÑÑ•È¡)M=9½Éµ…ÑÑ•È ¤¤(€€€€€€€€€€€ÕÙ}¡…¹‘±•È¹…‘‘¥±Ñ•È¡UÍ•É½¹Ñ•áÑ¥±Ñ•È ¤¤(€€€€€€€€€€€ÕÙ}±½•È¹…‘‘!…¹‘±•È¡ÕÙ}¡…¹‘±•È¤((€€€€€€€±½•È¹¥¹™¼ ‰MÑ…ÉÑ¥¹œ!QQ@Í•ÉÙ•È…ĞUI1Ìè€½µÀ…¹€½¡•…‘•È½µÀˆ¤(€€€€€€€ÕÙ¥½É¸¹ÉÕ¸ (€€€€€€€€€€€…ÁÀ°(€€€€€€€€€€€¡½ÍĞôˆÀ¸À¸À¸Àˆ°(€€€€€€€€€€€Á½ÉĞôàÈÄÄ°(€€€€€€€€€€€±½}±•Ù•°ô‰¥¹™¼ˆ°(€€€€€€€€€€€…•ÍÍ}±½œõ…±Í”°(€€€€€€€€¤(€€€€€€€É•ÑÕÉ¸(()¥˜}}¹…µ•}|€ôô€‰}}µ…¥¹}|ˆè(€€€µ…¥¸ ¤
