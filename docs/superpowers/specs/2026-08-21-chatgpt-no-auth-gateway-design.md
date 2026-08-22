@@ -1,1 +1,126 @@
-ıK®Ïò¢Êâm¨k‹üå¢§öxœ{—ÚŠW¢—«jØ¨z-¥êæŠÛ^tŒ¡…ÑAP9¼µÕÑ …Ñ•İ…ä•Í¥¸((ŒŒ½…°()±±½Ü„¡…ÑAP]•ˆÕÍÑ½´½¹¹•Ñ½È½¹™¥ÕÉ•…Ì€¨©9¼ÕÑ ¨¨Ñ¼ÕÍ”½¹”)Í•ÉÙ•Èµ½İ¹•A±…¹”Á•ÉÍ½¹…°…•ÍÌÑ½­•¸€¡AP¤İ¥Ñ¡½ÕĞÍ•¹‘¥¹œÑ¡…ĞAPÑ¼)¡…ÑAP½È•áÁ½Í¥¹œ…¸Õ¹…ÕÑ¡•¹Ñ¥…Ñ•°ÁÉ•‘¥Ñ…‰±”5@•¹‘Á½¥¹Ğ¸()Q¡”•á¥ÍÑ¥¹œ=ÕÑ …¹…±±•ÈµÍÕÁÁ±¥•APÑÉ…¹ÍÁ½ÉÑÌÉ•µ…¥¸Õ¹¡…¹•¸((ŒŒM•ÕÉ¥Ñäµ½‘•°()¡…ÑAP]•ˆÌ9¼ÕÑ µ½‘”…¹¹½Ğ…‘…¸…ÕÑ¡½É¥é…Ñ¥½¸¡•…‘•È¸½¹Í•ÅÕ•¹Ñ±ä°)Ñ¡”½¹±ä‘•Á±½å…‰±”…ÕÑ¡•¹Ñ¥…Ñ¥½¸™…Ñ½È…Ù…¥±…‰±”Ñ¼Ñ¡¥Ì½¹¹•Ñ½È¥Ì…¸)Õ¹Õ•ÍÍ…‰±”…Á…‰¥±¥Ñä•µ‰•‘‘•¥¸¥ÑÌ•¹‘Á½¥¹ĞUI0¸()Q¡”…Ñ•İ…ä¥Ì‘¥Í…‰±•Õ¹±•ÍÌ…±°Ñ¡É•”Ù…É¥…‰±•Ì…É”ÁÉ•Í•¹Ğè((´5A}Q]e}Q=-9€è…¸¥¹‘•Á•¹‘•¹Ñ±ä•¹•É…Ñ•É…¹‘½´…Á…‰¥±¥Ñä½˜…Ğ(€±•…ÍĞ€ÌÈ¡…É…Ñ•ÉÌì(´A19}A%}-e€èÑ¡”Í•ÉÙ•Èµ½İ¹•A±…¹”APì(´A19}]=I-MA}M1U€èÑ¡”Í¥¹±”İ½É­ÍÁ…”•áÁ½Í•‰äÑ¡”…Ñ•İ…ä¸()]¡•¸•¹…‰±•°Ñ¡”5@•¹‘Á½¥¹Ğ¥Ìè()Ñ•áĞ)¡ÑÑÁÌè¼¼ñ¡½ÍĞø¼ñ½ÁÑ¥½¹…°µÁÉ•™¥àø½¡ÑÑÀ½¡…ÑÁĞ¼ñ5A}Q]e}Q=-8ø½µÀ)€()Q¡”A±…¹”AP…¹İ½É­ÍÁ…”Í±Õœ…É”É•…½¹±ä‰äÑ¡”Í•ÉÙ•È…¹…¹¹½Ğ‰”)½Ù•ÉÉ¥‘‘•¸‰ä½¹¹•Ñ½È¡•…‘•ÉÌ¸Q¡”A±…¹”AP…¹…Ñ•İ…ä…Á…‰¥±¥Ñä¹•Ù•È)½ÕÈ¥¸5@É•ÍÁ½¹Í•Ì½È…ÁÁ±¥…Ñ¥½¸±½Ì¸Q¡”İ½É­ÍÁ…”Í±Õœ¥ÌA±…¹”É½ÕÑ¥¹œ)µ•Ñ…‘…Ñ„°¹½Ğ…¸…ÕÑ¡•¹Ñ¥…Ñ¥½¸Í•É•ĞèÙ…±¥A±…¹”É•Í½ÕÉ”‘…Ñ„É•ÑÕÉ¹•‰ä„)Ñ½½°µ…ä¹…ÑÕÉ…±±ä½¹Ñ…¥¸¥Ğ¸=Á•É…Ñ½ÉÌÑ¡…ĞÉ•ÅÕ¥É”İ½É­ÍÁ…”µ¹…µ”)½¹™¥‘•¹Ñ¥…±¥ÑäµÕÍĞÕÍ”=ÕÑ …¹½½È…¸½ÕÑÁÕĞÁ½±¥ä¸Q¡”…Ñ•İ…ä…Á…‰¥±¥Ñä)…¸‰”É½Ñ…Ñ•İ¥Ñ¡½ÕĞÉ½Ñ…Ñ¥¹œÑ¡”A±…¹”AP¸()Q¡”…Á…‰¥±¥ÑäUI0µÕÍĞ‰”ÑÉ•…Ñ•…Ì„É•‘•¹Ñ¥…°¸•Á±½åµ•¹ÑÌµÕÍĞÕÍ”Q1L°)µÕÍĞ¹½ĞÁ±…”¥Ğ¥¸Í½ÕÉ”½¹ÑÉ½°°…¹µÕÍĞ½¹™¥ÕÉ”É•Ù•ÉÍ”µÁÉ½áä…•ÍÌ)±½ÌÑ¼É•‘…Ğ½È½µ¥ĞÑ¡¥ÌÉ½ÕÑ”¸¹å½¹”Á½ÍÍ•ÍÍ¥¹œÑ¡”UI0¡…ÌÑ¡”…Ñ•İ…äÌ)A±…¹”Á•Éµ¥ÍÍ¥½¹Ì°Í¼=ÕÑ É•µ…¥¹ÌÑ¡”ÁÉ•™•ÉÉ•µ½‘”™½ÈÁ•ÈµÕÍ•È¥‘•¹Ñ¥Ñä°)½¹Í•¹Ğ°…¹É•Ù½…Ñ¥½¸¸((ŒŒÉ¡¥Ñ•ÑÕÉ”()‘„™½ÕÉÑ …ÍÑ5@™…Ñ½Éä°•Ñ}…Ñ•İ…å}µÁ€°İ¥Ñ ¹¼…ÍÑ5@…ÕÑ ÁÉ½Ù¥‘•È¸)%ĞÕÍ•ÌÑ¡”•á¥ÍÑ¥¹œ½µµ½¸µ¥‘‘±•İ…É”…¹Ñ½½°É•¥ÍÑÉ…Ñ¥½¸¸ÕÉ¥¹œ…±±Ì°)•Ñ}Á±…¹•}±¥•¹Ñ}½¹Ñ•áÑ€…±É•…‘ä™…±±Ì‰…¬Ñ¼A19}A%}-e€…¹)A19}]=I-MA}M1U€İ¡•¸¹¼É•ÅÕ•ÍĞ…•ÍÌÑ½­•¸•á¥ÍÑÌ°Í¼¹¼AP¥¹©•Ñ¥½¸)¥¹Ñ¼¥¹‰½Õ¹!QQ@¡•…‘•ÉÌ¥Ì¹••‘•¸()Q¡”!QQ@•¹ÑÉäÁ½¥¹ĞÙ…±¥‘…Ñ•Ì…Ñ•İ…ä½¹™¥ÕÉ…Ñ¥½¸‰•™½É”µ½Õ¹Ñ¥¹œÑ¡”…ÁÀ¸)%˜5A}Q]e}Q=-9€¥Ì…‰Í•¹Ğ°¹¼…Ñ•İ…äÉ½ÕÑ”¥ÌÉ•¥ÍÑ•É•¸%˜¥Ğ¥Ì¹½Ğ)…Ğ±•…ÍĞ€ÌÈ¡…É…Ñ•ÉÌ™É½´Ñ¡”±¥Ñ•É…°UI0µÍ…™”…Á…‰¥±¥Ñä…±Á¡…‰•Ğ)µi€°„µé€°€À´å€°}€°…¹€µ€°½È•¥Ñ¡•ÈA±…¹”É•‘•¹Ñ¥…°¥Ìµ¥ÍÍ¥¹œ°)ÍÑ…ÉÑÕÀ™…¥±Ìİ¥Ñ „½¹™¥ÕÉ…Ñ¥½¸•ÉÉ½ÈÉ…Ñ¡•ÈÑ¡…¸•áÁ½Í¥¹œ„‰É½­•¸°İ•…¬°)½ÈÉ½ÕÑ”µÑ•µÁ±…Ñ”µ¥¹©•Ñ…‰±”•¹‘Á½¥¹Ğ¸()]¡•¸Ù…±¥°MÑ…É±•ÑÑ”µ½Õ¹ÑÌÑ¡”…Ñ•İ…ä…ÁÀ‰•¹•…Ñ Ñ¡”•á…Ğ…Á…‰¥±¥ÑäÁ…Ñ ¸)I•ÅÕ•ÍÑÌÕÍ¥¹œ…¹ä½Ñ¡•ÈÑ½­•¸‘¼¹½Ğµ…Ñ „É½ÕÑ”¸Q¡”…Ñ•İ…äÁ…ÉÑ¥¥Á…Ñ•Ì)¥¸Ñ¡”½µ‰¥¹•±¥™•ÍÁ…¸½¹±äİ¡•¸•¹…‰±•¸()Q¡”ÍÑ…ÉÑÕÀ±½œ…¹¹½Õ¹•ÌÑ¡…ĞÑ¡”…Ñ•İ…ä¥Ì•¹…‰±•‰ÕĞ¹•Ù•È¥¹±Õ‘•ÌÑ¡”)Ñ½­•¸°™Õ±°É½ÕÑ”°AP°½È™¥á•İ½É­ÍÁ…”µ•Ñ…‘…Ñ„¸9½Éµ…°ÍÑ‘¥¼±½ÌÉ•Ñ…¥¸)Ñ¡•¥È½¹™¥ÕÉ•İ½É­ÍÁ…”µ•Ñ…‘…Ñ„°…¹…ÕÑ¡•¹Ñ¥…Ñ•!QQ@±½ÌÉ•Ñ…¥¸)İ½É­ÍÁ…”µ•Ñ…‘…Ñ„‘•É¥Ù•™É½´Ñ¡”…ÕÑ¡•¹Ñ¥…Ñ•…•ÍÌÑ½­•¸¸((ŒŒ½¹™¥ÕÉ…Ñ¥½¸…¹‘•Á±½åµ•¹Ğ()I5‘½Õµ•¹Ñ…Ñ¥½¸İ¥±°¥¹±Õ‘”è((Ä¸•¹•É…Ñ¥½¸½˜„¡¥ µ•¹ÑÉ½Áä…Ñ•İ…äÑ½­•¸ì(È¸½­•È½Í•É•Ğ•¹Ù¥É½¹µ•¹Ğ½¹™¥ÕÉ…Ñ¥½¸™½ÈÑ¡”Ñ¡É•”É•ÅÕ¥É•Ù…±Õ•Ìì(Ì¸Ñ¡”¡…ÑAP]•ˆ½¹¹•Ñ½ÈUI0…¹Ñ¡”€¨©9¼ÕÑ ¨¨Í•±•Ñ¥½¸ì(Ğ¸„QÉ…•™¥¬•á…µÁ±”Ñ¡…Ğ™½Éİ…É‘ÌÑ¡”É½ÕÑ”İ¥Ñ¡½ÕĞ¥¹©•Ñ¥¹œÑ¡”A±…¹”APì(Ô¸Q1L°…•ÍÌµ±½œÉ•‘…Ñ¥½¸°±•…ÍĞµÁÉ¥Ù¥±•”AP°É½Ñ…Ñ¥½¸°…¹•¹‘Á½¥¹Ğ(€€¹½¸µÍ¡…É¥¹œÉ•ÅÕ¥É•µ•¹ÑÌì(Ø¸…¸•áÁ±¥¥ĞÉ•½µµ•¹‘…Ñ¥½¸Ñ¼ÕÍ”Ñ¡”•á¥ÍÑ¥¹œ=ÕÑ •¹‘Á½¥¹Ğİ¡•É”(€€Á½ÍÍ¥‰±”¸()¹Ù¥É½¹µ•¹ĞÙ…É¥…‰±•Ì…É”ÁÉ•™•ÉÉ•½Ù•ÈÁÉ½áäµÍ¥‘”É•‘•¹Ñ¥…°¥¹©•Ñ¥½¸)‰•…ÕÍ”Ñ¡”…ÁÁ±¥…Ñ¥½¸…¸Ù…±¥‘…Ñ”½¹™¥ÕÉ…Ñ¥½¸°Ñ•ÍÑÌ…¸½Ù•ÈÑ¡”İ¡½±”)™±½Ü°…¹Ñ¡”A±…¹”AP‘½•Ì¹½Ğ¹••Ñ¼É½ÍÌ…¸¥¹Ñ•É¹…°!QQ@¡½À¸½¹Ñ…¥¹•È)½È½É¡•ÍÑÉ…Ñ½ÈÍ•É•ĞÍÑ½É•ÌÍ¡½Õ±ÍÕÁÁ±äÑ¡”•¹Ù¥É½¹µ•¹ĞÙ…É¥…‰±•Ì¥¸)ÁÉ½‘ÕÑ¥½¸¸((ŒŒÉÉ½È¡…¹‘±¥¹œ((´9¼5A}Q]e}Q=-9€è…Ñ•İ…ä‘¥Í…‰±•°•á¥ÍÑ¥¹œ!QQ@ÑÉ…¹ÍÁ½ÉÑÌÍÑ…ÉĞ¸(´Q½­•¸Í¡½ÉÑ•ÈÑ¡…¸€ÌÈ¡…É…Ñ•ÉÌ½È½¹Ñ…¥¹¥¹œ„¡…É…Ñ•È½ÕÑÍ¥‘”(€mµi„µèÀ´å|µu€èÍÑ…ÉÑÕÀ•ÉÉ½È¹…µ¥¹œ½¹±äÑ¡”Ù…É¥…‰±”¸(´…Ñ•İ…ä•¹…‰±•İ¥Ñ¡½ÕĞ•¥Ñ¡•ÈA±…¹”É•‘•¹Ñ¥…°èÍÑ…ÉÑÕÀ•ÉÉ½È¹…µ¥¹œ½¹±ä(€Ñ¡”µ¥ÍÍ¥¹œÙ…É¥…‰±”¸(´]É½¹œ…Á…‰¥±¥ÑäUI0è½É‘¥¹…Éä€ĞÀĞÉ•ÍÁ½¹Í”İ¥Ñ ¹¼¥¹™½Éµ…Ñ¥½¸…‰½ÕĞÑ¡”(€½¹™¥ÕÉ•Ñ½­•¸¸(´A±…¹”É•©•ÑÌ½È…¹¹½ĞÕÍ”Ñ¡”Í•ÉÙ•ÈAPè•á¥ÍÑ¥¹œA±…¹”±¥•¹Ğ½Ñ½½°•ÉÉ½È(€‰•¡…Ù¥½È…ÁÁ±¥•Ìİ¥Ñ¡½ÕĞ•¡½¥¹œÑ¡”AP¸((ŒŒQ•ÍÑ¥¹œ()Q•ÍÑÌİ¥±°‰”İÉ¥ÑÑ•¸‰•™½É”ÁÉ½‘ÕÑ¥½¸¡…¹•Ì…¹İ¥±°½Ù•Èè((´½¹™¥ÕÉ…Ñ¥½¸Ù…±¥‘…Ñ¥½¸™½Èµ¥ÍÍ¥¹œ…¹İ•…¬Ù…±Õ•Ìì(´…Ñ•İ…ä‘¥Í…‰±•‰ä‘•™…Õ±Ğì(´•á…ĞÉ½ÕÑ¥¹œ™½ÈÑ¡”½ÉÉ•Ğ…¹¥¹½ÉÉ•Ğ…Á…‰¥±¥ÑäÁ…Ñ ì(´É•©•Ñ¥½¸½˜É½ÕÑ”µÑ•µÁ±…Ñ”…¹½Ñ¡•È¹½¸µUI0µÍ…™”…Á…‰¥±¥ÑäÙ…±Õ•Ìì(´ÍÕ•ÍÍ™Õ°5@¥¹¥Ñ¥…±¥é…Ñ¥½¸Ñ¡É½Õ Ñ¡”½ÉÉ•ĞÁ…Ñ İ¥Ñ¡½ÕĞÉ•ÅÕ•ÍĞ…ÕÑ (€¡•…‘•ÉÌì(´„É•…°…Ñ•İ…äÑ½½°…±°ÁÉ½Ù¥¹œ¡½ÍÑ¥±”…ÕÑ¡½É¥é…Ñ¥½¸½İ½É­ÍÁ…”¡•…‘•ÉÌ(€…¹¹½Ğ½Ù•ÉÉ¥‘”Ñ¡”Í•ÉÙ•ÈµÍ¥‘”AP…¹İ½É­ÍÁ…”ì(´ÁÉ•Í•ÉÙ…Ñ¥½¸½˜Ñ¡”•á¥ÍÑ¥¹œ=ÕÑ …¹¡•…‘•Èµ…ÕÑ É½ÕÑ•Ìì(´…‰Í•¹”½˜…Ñ•İ…ä…¹A±…¹”Í•É•ÑÌ™É½´ÁÉ½‘ÕÑ¥½¸µ™½Éµ…ÑÑ•ÍÑ…ÉÑÕÀ±½Ì(€…¹!QQ@É•ÍÁ½¹Í•Ì°¥¹±Õ‘¥¹œ¹½¹…¹½¹¥…°ÑÉ…¥±¥¹œµÍ±…Í É•ÅÕ•ÍÑÌ¸()™Ñ•È¥µÁ±•µ•¹Ñ…Ñ¥½¸°Ñ¡”½µÁ±•Ñ”Ñ•ÍĞÍÕ¥Ñ”°™½Éµ…ÑÑ•È½±¥¹Ñ•È°…¹Á…­…”)‰Õ¥±İ¥±°‰”ÉÕ¸¸1¥Ù”A±…¹”¥¹Ñ•É…Ñ¥½¸Ñ•ÍÑÌİ¥±°‰”ÉÕ¸½¹±ä¥˜‘•‘¥…Ñ•)Ñ•ÍĞÉ•‘•¹Ñ¥…±Ì…É”…Ù…¥±…‰±”ì½Ñ¡•Éİ¥Í”Ñ¡¥Ì±¥µ¥Ñ…Ñ¥½¸İ¥±°‰”É•Á½ÉÑ•¸((ŒŒ9½¸µ½…±Ì((´A•ÈµÕÍ•È…ÕÑ¡½É¥é…Ñ¥½¸°…Õ‘¥Ğ¥‘•¹Ñ¥Ñä°½ÈA±…¹”Á•Éµ¥ÍÍ¥½¹Ì¥¸9¼ÕÑ µ½‘”¸(´I•Á±…¥¹œÑ¡”•á¥ÍÑ¥¹œ=ÕÑ ½ÈAPµ¡•…‘•È•¹‘Á½¥¹ÑÌ¸(´•ÁÑ¥¹œÑ¡”A±…¹”AP¥¸„UI0½ÈÅÕ•ÉäÁ…É…µ•Ñ•È¸(´%µÁ±•µ•¹Ñ¥¹œ%@…±±½İ±¥ÍÑ¥¹œ°‰•…ÕÍ”¡…ÑAP•É•ÍÌ…‘‘É•ÍÍ•Ì…É”¹½Ğ„(€ÍÑ…‰±”½¹¹•Ñ½È…ÕÑ¡•¹Ñ¥…Ñ¥½¸µ•¡…¹¥Í´¸
+/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
+# ChatGPT No-Auth Gateway Design
+
+## Goal
+
+Allow a ChatGPT Web custom connector configured as **No Auth** to use one
+server-owned Plane personal access token (PAT) without sending that PAT to
+ChatGPT or exposing an unauthenticated, predictable MCP endpoint.
+
+The existing OAuth and caller-supplied PAT transports remain unchanged.
+
+## Security model
+
+ChatGPT Web's No Auth mode cannot add an authorization header. Consequently,
+the only deployable authentication factor available to this connector is an
+unguessable capability embedded in its endpoint URL.
+
+The gateway is disabled unless all three variables are present:
+
+- `MCP_GATEWAY_TOKEN`: an independently generated random capability of at
+  least 32 characters;
+- `PLANE_API_KEY`: the server-owned Plane PAT;
+- `PLANE_WORKSPACE_SLUG`: the single workspace exposed by the gateway.
+
+When enabled, the MCP endpoint is:
+
+```text
+https://<host>/<optional-prefix>/http/chatgpt/<MCP_GATEWAY_TOKEN>/mcp
+```
+
+The Plane PAT and workspace slug are read only by the server and cannot be
+overridden by connector headers. The Plane PAT and gateway capability never
+occur in MCP responses or application logs. The workspace slug is Plane routing
+metadata, not an authentication secret: valid Plane resource data returned by a
+tool may naturally contain it. Operators that require workspace-name
+confidentiality must use OAuth and/or an output policy. The gateway capability
+can be rotated without rotating the Plane PAT.
+
+The capability URL must be treated as a credential. Deployments must use TLS,
+must not place it in source control, and must configure reverse-proxy access
+logs to redact or omit this route. Anyone possessing the URL has the gateway's
+Plane permissions, so OAuth remains the preferred mode for per-user identity,
+consent, and revocation.
+
+## Architecture
+
+Add a fourth FastMCP factory, `get_gateway_mcp`, with no FastMCP auth provider.
+It uses the existing common middleware and tool registration. During calls,
+`get_plane_client_context` already falls back to `PLANE_API_KEY` and
+`PLANE_WORKSPACE_SLUG` when no request access token exists, so no PAT injection
+into inbound HTTP headers is needed.
+
+The HTTP entry point validates gateway configuration before mounting the app.
+If `MCP_GATEWAY_TOKEN` is absent, no gateway route is registered. If it is not
+at least 32 characters from the literal URL-safe capability alphabet
+`A-Z`, `a-z`, `0-9`, `_`, and `-`, or either Plane credential is missing,
+startup fails with a configuration error rather than exposing a broken, weak,
+or route-template-injectable endpoint.
+
+When valid, Starlette mounts the gateway app beneath the exact capability path.
+Requests using any other token do not match a route. The gateway participates
+in the combined lifespan only when enabled.
+
+The startup log announces that the gateway is enabled but never includes the
+token, full route, PAT, or fixed workspace metadata. Normal stdio logs retain
+their configured workspace metadata, and authenticated HTTP logs retain
+workspace metadata derived from the authenticated access token.
+
+## Configuration and deployment
+
+README documentation will include:
+
+1. generation of a high-entropy gateway token;
+2. Docker/secret environment configuration for the three required values;
+3. the ChatGPT Web connector URL and the **No Auth** selection;
+4. a Traefik example that forwards the route without injecting the Plane PAT;
+5. TLS, access-log redaction, least-privilege PAT, rotation, and endpoint
+   non-sharing requirements;
+6. an explicit recommendation to use the existing OAuth endpoint where
+   possible.
+
+Environment variables are preferred over proxy-side credential injection
+because the application can validate configuration, tests can cover the whole
+flow, and the Plane PAT does not need to cross an internal HTTP hop. Container
+or orchestrator secret stores should supply the environment variables in
+production.
+
+## Error handling
+
+- No `MCP_GATEWAY_TOKEN`: gateway disabled, existing HTTP transports start.
+- Token shorter than 32 characters or containing a character outside
+  `[A-Za-z0-9_-]`: startup error naming only the variable.
+- Gateway enabled without either Plane credential: startup error naming only
+  the missing variable.
+- Wrong capability URL: ordinary 404 response with no information about the
+  configured token.
+- Plane rejects or cannot use the server PAT: existing Plane client/tool error
+  behavior applies without echoing the PAT.
+
+## Testing
+
+Tests will be written before production changes and will cover:
+
+- configuration validation for missing and weak values;
+- gateway disabled by default;
+- exact routing for the correct and incorrect capability path;
+- rejection of route-template and other non-URL-safe capability values;
+- successful MCP initialization through the correct path without request auth
+  headers;
+- a real gateway tool call proving hostile authorization/workspace headers
+  cannot override the server-side PAT and workspace;
+- preservation of the existing OAuth and header-auth routes;
+- absence of gateway and Plane secrets from production-formatted startup logs
+  and HTTP responses, including noncanonical trailing-slash requests.
+
+After implementation, the complete test suite, formatter/linter, and package
+build will be run. Live Plane integration tests will be run only if dedicated
+test credentials are available; otherwise this limitation will be reported.
+
+## Non-goals
+
+- Per-user authorization, audit identity, or Plane permissions in No Auth mode.
+- Replacing the existing OAuth or PAT-header endpoints.
+- Accepting the Plane PAT in a URL or query parameter.
+- Implementing IP allowlisting, because ChatGPT egress addresses are not a
+  stable connector authentication mechanism.

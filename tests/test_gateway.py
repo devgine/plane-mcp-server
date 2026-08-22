@@ -1,1 +1,323 @@
-ýK®Ïò¢Êâm¨k‹üå¢§öxœ{—ÚŠW¢—«jØ¨žz-¥êæŠÛ^u¥µÁ½ÉÐ¥¼)¥µÁ½ÉÐ©Í½¸)¥µÁ½ÉÐ±½¥¹œ)™É½´ÑåÁ•Ì¥µÁ½ÉÐM¥µÁ±•9…µ•ÍÁ…”()¥µÁ½ÉÐÁåÑ•ÍÐ)™É½´ÍÑ…É±•ÑÑ”¹Ñ•ÍÑ±¥•¹Ð¥µÁ½ÉÐQ•ÍÑ±¥•¹Ð()™É½´Á±…¹•}µÀ¹}}µ…¥¹}|¥µÁ½ÉÐ)M=9½Éµ…ÑÑ•È°UÍ•É½¹Ñ•áÑ¥±Ñ•È°‰Õ¥±‘}¡ÑÑÁ}…ÁÀ)™É½´Á±…¹•}µÀ¹±¥•¹Ð¥µÁ½ÉÐ•Ñ}Á±…¹•}±¥•¹Ñ}½¹Ñ•áÐ)™É½´Á±…¹•}µÀ¹…Ñ•Ý…ä¥µÁ½ÉÐ…Ñ•Ý…å½¹™¥œ°±½…‘}…Ñ•Ý…å}½¹™¥œ(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}¥Í}‘¥Í…‰±•‘}Ý¡•¹}Ñ½­•¹}¥Í}…‰Í•¹Ð ¤è(€€€…ÍÍ•ÉÐ±½…‘}…Ñ•Ý…å}½¹™¥œ¡íô¤¥Ì9½¹”(()ÁåÑ•ÍÐ¹µ…É¬¹Á…É…µ•ÑÉ¥é” (€€€€ ‰•¹Ù¥É½¸ˆ°€‰µ¥ÍÍ¥¹}¹…µ”ˆ¤°(€€€l(€€€€€€€€¡ì‰5A}Q]e}Q=-8ˆè€‰œˆ€¨€ÌÈ°€‰A19}]=I-MA}M1Uˆè€‰Á•ÉÍ½¹…°‰ô°€‰A19}A%}-dˆ¤°(€€€€€€€€¡ì‰5A}Q]e}Q=-8ˆè€‰œˆ€¨€ÌÈ°€‰A19}A%}-dˆè€‰Á±…¹•}…Á¥}Í•É•Ð‰ô°€‰A19}]=I-MA}M1Uˆ¤°(€€€t°(¤)‘•˜Ñ•ÍÑ}•¹…‰±•‘}…Ñ•Ý…å}É•©•ÑÍ}µ¥ÍÍ¥¹}Á±…¹•}½¹™¥ÕÉ…Ñ¥½¸¡•¹Ù¥É½¸°µ¥ÍÍ¥¹}¹…µ”¤è(€€€Ý¥Ñ ÁåÑ•ÍÐ¹É…¥Í•Ì¡Y…±Õ•ÉÉ½È°µ…Ñ õµ¥ÍÍ¥¹}¹…µ”¤è(€€€€€€€±½…‘}…Ñ•Ý…å}½¹™¥œ¡•¹Ù¥É½¸¤(()‘•˜Ñ•ÍÑ}•¹…‰±•‘}…Ñ•Ý…å}É•©•ÑÍ}Í¡½ÉÑ}…Á…‰¥±¥Ñå}Ý¥Ñ¡½ÕÑ}•¡½¥¹}¥Ð ¤è(€€€Ñ½­•¸€ô€‰Ñ½¼µÍ¡½ÉÐˆ(€€€Ý¥Ñ ÁåÑ•ÍÐ¹É…¥Í•Ì¡Y…±Õ•ÉÉ½È¤…Ì…Õ¡Ðè(€€€€€€€±½…‘}…Ñ•Ý…å}½¹™¥œ (€€€€€€€€€€€ì(€€€€€€€€€€€€€€€€‰5A}Q]e}Q=-8ˆèÑ½­•¸°(€€€€€€€€€€€€€€€€‰A19}A%}-dˆè€‰Á±…¹•}…Á¥}Í•É•Ðˆ°(€€€€€€€€€€€€€€€€‰A19}]=I-MA}M1Uˆè€‰Á•ÉÍ½¹…°ˆ°(€€€€€€€€€€€ô(€€€€€€€€¤(€€€…ÍÍ•ÉÐ€‰5A}Q]e}Q=-8ˆ¥¸ÍÑÈ¡…Õ¡Ð¹Ù…±Õ”¤(€€€…ÍÍ•ÉÐÑ½­•¸¹½Ð¥¸ÍÑÈ¡…Õ¡Ð¹Ù…±Õ”¤(()ÁåÑ•ÍÐ¹µ…É¬¹Á…É…µ•ÑÉ¥é” (€€€€‰Ñ½­•¸ˆ°(€€€l(€€€€€€€€‰í………………………………………………………………„éÁ…Ñ¡ôˆ°(€€€€€€€€‰„ˆ€¨€ÄØ€¬€ˆ¼ˆ€¬€‰ˆˆ€¨€ÄØ°(€€€€€€€€‰„ˆ€¨€ÄØ€¬€ˆ”Éˆ€¬€‰ˆˆ€¨€ÄØ°(€€€€€€€€‰„ˆ€¨€ÄØ€¬€ˆ€ˆ€¬€‰ˆˆ€¨€ÄØ°(€€€t°(€€€¥‘Ìõl‰É½ÕÑ”µÑ•µÁ±…Ñ”ˆ°€‰Í±…Í ˆ°€‰Á•É•¹Ðµ•Í…Á”ˆ°€‰Ý¡¥Ñ•ÍÁ…”‰t°(¤)‘•˜Ñ•ÍÑ}•¹…‰±•‘}…Ñ•Ý…å}É•©•ÑÍ}¹½¹}ÕÉ±}Í…™•}…Á…‰¥±¥Ñ¥•Í}Ý¥Ñ¡½ÕÑ}•¡½¥¹}Ñ¡•´¡Ñ½­•¸¤è(€€€Ý¥Ñ ÁåÑ•ÍÐ¹É…¥Í•Ì¡Y…±Õ•ÉÉ½È¤…Ì…Õ¡Ðè(€€€€€€€±½…‘}…Ñ•Ý…å}½¹™¥œ (€€€€€€€€€€€ì(€€€€€€€€€€€€€€€€‰5A}Q]e}Q=-8ˆèÑ½­•¸°(€€€€€€€€€€€€€€€€‰A19}A%}-dˆè€‰Á±…¹•}…Á¥}Í•É•Ðˆ°(€€€€€€€€€€€€€€€€‰A19}]=I-MA}M1Uˆè€‰Á•ÉÍ½¹…°ˆ°(€€€€€€€€€€€ô(€€€€€€€€¤(€€€…ÍÍ•ÉÐ€‰5A}Q]e}Q=-8ˆ¥¸ÍÑÈ¡…Õ¡Ð¹Ù…±Õ”¤(€€€…ÍÍ•ÉÐÑ½­•¸¹½Ð¥¸ÍÑÈ¡…Õ¡Ð¹Ù…±Õ”¤(()‘•˜Ñ•ÍÑ}•¹…‰±•‘}…Ñ•Ý…å}É•ÑÕÉ¹Í}Ù…±¥‘…Ñ•‘}½¹™¥ÕÉ…Ñ¥½¸ ¤è(€€€•¹Ù¥É½¸€ôì(€€€€€€€€‰5A}Q]e}Q=-8ˆè€‰œˆ€¨€ÌÈ°(€€€€€€€€‰A19}A%}-dˆè€‰Á±…¹•}…Á¥}Í•É•Ðˆ°(€€€€€€€€‰A19}]=I-MA}M1Uˆè€‰Á•ÉÍ½¹…°ˆ°(€€€ô(€€€…ÍÍ•ÉÐ±½…‘}…Ñ•Ý…å}½¹™¥œ¡•¹Ù¥É½¸¤€ôô…Ñ•Ý…å½¹™¥œ ‰œˆ€¨€ÌÈ°€‰Á±…¹•}…Á¥}Í•É•Ðˆ°€‰Á•ÉÍ½¹…°ˆ¤(()‘•˜}¡ÑÑÁ}Í•ÉÙ•É}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤è(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}=UQ!}AI=Y%I}1%9Q}%ˆ°€‰Ñ•ÍÐµ±¥•¹Ðµ¥ˆ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}=UQ!}AI=Y%I}1%9Q}MIPˆ°€‰Ñ•ÍÐµ±¥•¹ÐµÍ•É•Ðˆ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}=UQ!}AI=Y%I}	M}UI0ˆ°€‰¡ÑÑÀè¼½±½…±¡½ÍÐèàÈÄÄˆ¤(()‘•˜}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤è(€€€}¡ÑÑÁ}Í•ÉÙ•É}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰5A}Q]e}Q=-8ˆ°€‰œˆ€¨€ÌÈ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}A%}-dˆ°€‰Á±…¹•}…Á¥}Í•É•Ðˆ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}]=I-MA}M1Uˆ°€‰Á•ÉÍ½¹…°ˆ¤(€€€µ½¹­•åÁ…Ñ ¹‘•±•¹Ø ‰5A}AQ!}AI%`ˆ°É…¥Í¥¹œõ…±Í”¤(()‘•˜}…Ñ•Ý…å}±½}¡…¹‘±•È ¤è(€€€ÍÑÉ•…´€ô¥¼¹MÑÉ¥¹%< ¤(€€€¡…¹‘±•È€ô±½¥¹œ¹MÑÉ•…µ!…¹‘±•È¡ÍÑÉ•…´¤(€€€¡…¹‘±•È¹Í•Ñ½Éµ…ÑÑ•È¡)M=9½Éµ…ÑÑ•È ¤¤(€€€¡…¹‘±•È¹…‘‘¥±Ñ•È¡UÍ•É½¹Ñ•áÑ¥±Ñ•È ¤¤(€€€É•ÑÕÉ¸±½¥¹œ¹•Ñ1½•È ‰™…ÍÑµÀˆ¤°¡…¹‘±•È°ÍÑÉ•…´(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}½¹Ñ•áÑ}ÕÍ•Í}Í•ÉÙ•É}Í¥‘•}Á±…¹•}É•‘•¹Ñ¥…±Ì¡µ½¹­•åÁ…Ñ ¤è(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}A%}-dˆ°€‰Á±…¹•}…Á¥}Í•É•Ðˆ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}]=I-MA}M1Uˆ°€‰Á•ÉÍ½¹…°ˆ¤(€€€…ÁÑÕÉ•€ôíô((€€€±…ÍÌ…ÁÑÕÉ¥¹A±…¹•±¥•¹Ðè(€€€€€€€‘•˜}}¥¹¥Ñ}|¡Í•±˜°€¨©­Ý…ÉÌ¤è(€€€€€€€€€€€…ÁÑÕÉ•¹ÕÁ‘…Ñ”¡­Ý…ÉÌ¤(€€€€€€€€€€€Í•±˜¹Ý½É­}¥Ñ•µÌ€ôM¥µÁ±•9…µ•ÍÁ…” (€€€€€€€€€€€€€€€É•ÑÉ¥•Ù”õ±…µ‰‘„€¨©­Ý…ÉÌè9½¹”°(€€€€€€€€€€€€€€€ÕÁ‘…Ñ”õ±…µ‰‘„€¨©­Ý…ÉÌè9½¹”°(€€€€€€€€€€€€€€€‘•±•Ñ”õ±…µ‰‘„€¨©­Ý…ÉÌè9½¹”°(€€€€€€€€€€€€¤((€€€µ½¹­•åÁ…Ñ ¹Í•Ñ…ÑÑÈ ‰Á±…¹•}µÀ¹±¥•¹Ð¹A±…¹•±¥•¹Ðˆ°…ÁÑÕÉ¥¹A±…¹•±¥•¹Ð¤(€€€½¹Ñ•áÐ€ô•Ñ}Á±…¹•}±¥•¹Ñ}½¹Ñ•áÐ ¤((€€€…ÍÍ•ÉÐ½¹Ñ•áÐ¹Ý½É­ÍÁ…•}Í±Õœ€ôô€‰Á•ÉÍ½¹…°ˆ(€€€…ÍÍ•ÉÐ…ÁÑÕÉ•€ôôì‰‰…Í•}ÕÉ°ˆè€‰¡ÑÑÁÌè¼½…Á¤¹Á±…¹”¹Í¼ˆ°€‰…Á¥}­•äˆè€‰Á±…¹•}…Á¥}Í•É•Ð‰ô(()‘•˜Ñ•ÍÑ}ÍÑ‘¥½}±½Í}­••Á}½¹™¥ÕÉ•‘}Ý½É­ÍÁ…”¡µ½¹­•åÁ…Ñ ¤è(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}]=I-MA}M1Uˆ°€‰ÍÑ‘¥¼µÝ½É­ÍÁ…”ˆ¤(€€€É•½É€ô±½¥¹œ¹•Ñ1½•È ‰™…ÍÑµÀ¹Á±…¹•}µÀˆ¤¹µ…­•I•½É (€€€€€€€€‰™…ÍÑµÀ¹Á±…¹•}µÀˆ°±½¥¹œ¹%9<°}}™¥±•}|°€À°€‰ÍÑ‘¥¼•Ù•¹Ðˆ°€ ¤°9½¹”(€€€€¤(€€€…ÍÍ•ÉÐUÍ•É½¹Ñ•áÑ¥±Ñ•È ¤¹™¥±Ñ•È¡É•½É¤(€€€…ÍÍ•ÉÐ€œ‰Ý½É­ÍÁ…•}Í±Õœˆè€‰ÍÑ‘¥¼µÝ½É­ÍÁ…”ˆœ¥¸)M=9½Éµ…ÑÑ•È ¤¹™½Éµ…Ð¡É•½É¤(()‘•˜Ñ•ÍÑ}…ÕÑ¡•¹Ñ¥…Ñ•‘}¡ÑÑÁ}±½Í}­••Á}Ñ½­•¹}‘•É¥Ù•‘}Ý½É­ÍÁ…”¡µ½¹­•åÁ…Ñ ¤è(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ…ÑÑÈ (€€€€€€€€‰Á±…¹•}µÀ¹}}µ…¥¹}|¹•Ñ}…•ÍÍ}Ñ½­•¸ˆ°(€€€€€€€±…µ‰‘„èM¥µÁ±•9…µ•ÍÁ…”¡±…¥µÌõì‰ÍÕˆˆè€‰ÕÍ•Èµ¥ˆ°€‰Ý½É­ÍÁ…•}Í±Õœˆè€‰…ÕÑ¡•¹Ñ¥…Ñ•µÝ½É­ÍÁ…”‰ô¤°(€€€€¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ…ÑÑÈ ‰Á±…¹•}µÀ¹}}µ…¥¹}|¹•Ñ}¡ÑÑÁ}É•ÅÕ•ÍÐˆ°±…µ‰‘„è½‰©•Ð ¤¤(€€€É•½É€ô±½¥¹œ¹•Ñ1½•È ‰™…ÍÑµÀ¹Á±…¹•}µÀˆ¤¹µ…­•I•½É (€€€€€€€€‰™…ÍÑµÀ¹Á±…¹•}µÀˆ°±½¥¹œ¹%9<°}}™¥±•}|°€À°€‰…ÕÑ¡•¹Ñ¥…Ñ••Ù•¹Ðˆ°€ ¤°9½¹”(€€€€¤(€€€…ÍÍ•ÉÐUÍ•É½¹Ñ•áÑ¥±Ñ•È ¤¹™¥±Ñ•È¡É•½É¤(€€€É•¹‘•É•€ô©Í½¸¹±½…‘Ì¡)M=9½Éµ…ÑÑ•È ¤¹™½Éµ…Ð¡É•½É¤¤(€€€…ÍÍ•ÉÐÉ•¹‘•É•‘l‰ÕÍ•É}¥‰t€ôô€‰ÕÍ•Èµ¥ˆ(€€€…ÍÍ•ÉÐÉ•¹‘•É•‘l‰Ý½É­ÍÁ…•}Í±Õœ‰t€ôô€‰…ÕÑ¡•¹Ñ¥…Ñ•µÝ½É­ÍÁ…”ˆ(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}É½ÕÑ•}¥Í}…‰Í•¹Ñ}Ý¡•¹}‘¥Í…‰±•¡µ½¹­•åÁ…Ñ ¤è(€€€}¡ÑÑÁ}Í•ÉÙ•É}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€µ½¹­•åÁ…Ñ ¹‘•±•¹Ø ‰5A}Q]e}Q=-8ˆ°É…¥Í¥¹œõ…±Í”¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€©Í½¸õì‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°€‰¥ˆè€Åô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÐÀÐ(()‘•˜Ñ•ÍÑ}ÝÉ½¹}…Ñ•Ý…å}…Á…‰¥±¥Ñå}É•ÑÕÉ¹Í}¹½Ñ}™½Õ¹¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰àˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€©Í½¸õì‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°€‰¥ˆè€Åô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÐÀÐ(€€€…ÍÍ•ÉÐ€‰œˆ€¨€ÌÈ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(€€€…ÍÍ•ÉÐ€‰Á±…¹•}…Á¥}Í•É•Ðˆ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(€€€…ÍÍ•ÉÐ€‰Á•ÉÍ½¹…°ˆ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(()‘•˜Ñ•ÍÑ}½ÉÉ•Ñ}…Ñ•Ý…å}…Á…‰¥±¥Ñå}¥¹¥Ñ¥…±¥é•Í}Ý¥Ñ¡½ÕÑ}…ÕÑ¡}¡•…‘•ÉÌ¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€¡•…‘•ÉÌõì‰•ÁÐˆè€‰…ÁÁ±¥…Ñ¥½¸½©Í½¸°Ñ•áÐ½•Ù•¹ÐµÍÑÉ•…´‰ô°(€€€€€€€€€€€©Í½¸õì(€€€€€€€€€€€€€€€€‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°(€€€€€€€€€€€€€€€€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°(€€€€€€€€€€€€€€€€‰Á…É…µÌˆèì(€€€€€€€€€€€€€€€€€€€€‰ÁÉ½Ñ½½±Y•ÉÍ¥½¸ˆè€ˆÈÀÈÔ´ÀÌ´ÈØˆ°(€€€€€€€€€€€€€€€€€€€€‰…Á…‰¥±¥Ñ¥•Ìˆèíô°(€€€€€€€€€€€€€€€€€€€€‰±¥•¹Ñ%¹™¼ˆèì‰¹…µ”ˆè€‰Ñ•ÍÐˆ°€‰Ù•ÉÍ¥½¸ˆè€ˆÄ‰ô°(€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€€€€€‰¥ˆè€Ä°(€€€€€€€€€€€ô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÈÀÀ(€€€…ÍÍ•ÉÐ€‰Á±…¹•}…Á¥}Í•É•Ðˆ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(€€€…ÍÍ•ÉÐ€‰œˆ€¨€ÌÈ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(€€€…ÍÍ•ÉÐ€‰Á•ÉÍ½¹…°ˆ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}Ñ½½±}…±±}ÕÍ•Í}Í•ÉÙ•É}É•‘•¹Ñ¥…±Í}‘•ÍÁ¥Ñ•}¡½ÍÑ¥±•}…ÕÑ¡}¡•…‘•ÉÌ¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€…ÁÑÕÉ•€ôíô((€€€±…ÍÌ…ÁÑÕÉ¥¹A±…¹•±¥•¹Ðè(€€€€€€€‘•˜}}¥¹¥Ñ}|¡Í•±˜°€¨©­Ý…ÉÌ¤è(€€€€€€€€€€€…ÁÑÕÉ•‘l‰±¥•¹Ð‰t€ô­Ý…ÉÌ(€€€€€€€€€€€Í•±˜¹Ý½É­}¥Ñ•µÌ€ôM¥µÁ±•9…µ•ÍÁ…” (€€€€€€€€€€€€€€€É•ÑÉ¥•Ù”õ±…µ‰‘„€¨©­Ý…ÉÌè9½¹”°(€€€€€€€€€€€€€€€ÕÁ‘…Ñ”õ±…µ‰‘„€¨©­Ý…ÉÌè9½¹”°(€€€€€€€€€€€€€€€‘•±•Ñ”õ±…µ‰‘„€¨©­Ý…ÉÌè9½¹”°(€€€€€€€€€€€€¤(€€€€€€€€€€€Í•±˜¹ÁÉ½©•ÑÌ€ôM¥µÁ±•9…µ•ÍÁ…”¡‘•±•Ñ”õ±…µ‰‘„€¨©­Ý…ÉÌè…ÁÑÕÉ•¹ÕÁ‘…Ñ”¡ÁÉ½©•Ðõ­Ý…ÉÌ¤¤((€€€µ½¹­•åÁ…Ñ ¹Í•Ñ…ÑÑÈ ‰Á±…¹•}µÀ¹±¥•¹Ð¹A±…¹•±¥•¹Ðˆ°…ÁÑÕÉ¥¹A±…¹•±¥•¹Ð¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€¡•…‘•ÉÌõì(€€€€€€€€€€€€€€€€‰•ÁÐˆè€‰…ÁÁ±¥…Ñ¥½¸½©Í½¸°Ñ•áÐ½•Ù•¹ÐµÍÑÉ•…´ˆ°(€€€€€€€€€€€€€€€€‰ÕÑ¡½É¥é…Ñ¥½¸ˆè€‰	•…É•È…±±•Èµ½¹ÑÉ½±±•µÍ•É•Ðˆ°(€€€€€€€€€€€€€€€€‰`µ]½É­ÍÁ…”µM±Õœˆè€‰…±±•Èµ½¹ÑÉ½±±•µÝ½É­ÍÁ…”ˆ°(€€€€€€€€€€€ô°(€€€€€€€€€€€©Í½¸õì(€€€€€€€€€€€€€€€€‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°(€€€€€€€€€€€€€€€€‰µ•Ñ¡½ˆè€‰Ñ½½±Ì½…±°ˆ°(€€€€€€€€€€€€€€€€‰Á…É…µÌˆèì(€€€€€€€€€€€€€€€€€€€€‰¹…µ”ˆè€‰ÁÉ½©•Ðˆ°(€€€€€€€€€€€€€€€€€€€€‰…ÉÕµ•¹ÑÌˆèì‰…Ñ¥½¸ˆè€‰‘•±•Ñ”ˆ°€‰ÁÉ½©•Ñ}¥ˆè€‰ÁÉ½©•Ðµ¥‰ô°(€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€€€€€‰¥ˆè€Ä°(€€€€€€€€€€€ô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÈÀÀ(€€€…ÍÍ•ÉÐ€œ‰¥ÍÉÉ½Èˆé™…±Í”œ¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(€€€…ÍÍ•ÉÐ…ÁÑÕÉ•€ôôì(€€€€€€€€‰±¥•¹Ðˆèì‰‰…Í•}ÕÉ°ˆè€‰¡ÑÑÁÌè¼½…Á¤¹Á±…¹”¹Í¼ˆ°€‰…Á¥}­•äˆè€‰Á±…¹•}…Á¥}Í•É•Ð‰ô°(€€€€€€€€‰ÁÉ½©•Ðˆèì‰Ý½É­ÍÁ…•}Í±Õœˆè€‰Á•ÉÍ½¹…°ˆ°€‰ÁÉ½©•Ñ}¥ˆè€‰ÁÉ½©•Ðµ¥‰ô°(€€€ô(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}É•ÅÕ•ÍÑ}±½Í}‘½}¹½Ñ}‘¥Í±½Í•}…Á…‰¥±¥Ñå}Á…Ñ}½É}Ý½É­ÍÁ…”¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€™…ÍÑµÁ}±½•È°¡…¹‘±•È°ÍÑÉ•…´€ô}…Ñ•Ý…å}±½}¡…¹‘±•È ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€™…ÍÑµÁ}±½•È¹…‘‘!…¹‘±•È¡¡…¹‘±•È¤(€€€€€€€ÑÉäè(€€€€€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€€€€€¡•…‘•ÉÌõì(€€€€€€€€€€€€€€€€€€€€‰•ÁÐˆè€‰…ÁÁ±¥…Ñ¥½¸½©Í½¸°Ñ•áÐ½•Ù•¹ÐµÍÑÉ•…´ˆ°(€€€€€€€€€€€€€€€€€€€€‰ÕÑ¡½É¥é…Ñ¥½¸ˆè€‰	•…É•ÈÁ±…¹•}Á…Ñ}Í•É•Ðˆ°(€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€€€€©Í½¸õì(€€€€€€€€€€€€€€€€€€€€‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°(€€€€€€€€€€€€€€€€€€€€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°(€€€€€€€€€€€€€€€€€€€€‰Á…É…µÌˆèì(€€€€€€€€€€€€€€€€€€€€€€€€‰ÁÉ½Ñ½½±Y•ÉÍ¥½¸ˆè€ˆÈÀÈÔ´ÀÌ´ÈØˆ°(€€€€€€€€€€€€€€€€€€€€€€€€‰…Á…‰¥±¥Ñ¥•Ìˆèíô°(€€€€€€€€€€€€€€€€€€€€€€€€‰±¥•¹Ñ%¹™¼ˆèì‰¹…µ”ˆè€‰Ñ•ÍÐˆ°€‰Ù•ÉÍ¥½¸ˆè€ˆÄ‰ô°(€€€€€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€€€€€€€€€‰¥ˆè€Ä°(€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€¤(€€€€€€€™¥¹…±±äè(€€€€€€€€€€€™…ÍÑµÁ}±½•È¹É•µ½Ù•!…¹‘±•È¡¡…¹‘±•È¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÈÀÀ(€€€±½Ì€ôÍÑÉ•…´¹•ÑÙ…±Õ” ¤(€€€…ÍÍ•ÉÐ€‰œˆ€¨€ÌÈ¹½Ð¥¸±½Ì(€€€…ÍÍ•ÉÐ€‰Á±…¹•}Á…Ñ}Í•É•Ðˆ¹½Ð¥¸±½Ì(€€€…ÍÍ•ÉÐ€‰Á•ÉÍ½¹…°ˆ¹½Ð¥¸±½Ì(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}ÍÑ…ÉÑÕÁ}©Í½¹}‘½•Í}¹½Ñ}•µ¥Ñ}Í•É•ÑÍ}½É}Ý½É­ÍÁ…”¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€™…ÍÑµÁ}±½•È°¡…¹‘±•È°ÍÑÉ•…´€ô}…Ñ•Ý…å}±½}¡…¹‘±•È ¤(€€€™…ÍÑµÁ}±½•È¹…‘‘!…¹‘±•È¡¡…¹‘±•È¤(€€€ÑÉäè(€€€€€€€‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤(€€€™¥¹…±±äè(€€€€€€€™…ÍÑµÁ}±½•È¹É•µ½Ù•!…¹‘±•È¡¡…¹‘±•È¤(€€€•¹ÑÉ¥•Ì€ôm©Í½¸¹±½…‘Ì¡±¥¹”¤™½È±¥¹”¥¸ÍÑÉ•…´¹•ÑÙ…±Õ” ¤¹ÍÁ±¥Ñ±¥¹•Ì ¥t(€€€…Ñ•Ý…å}•¹ÑÉä€ô¹•áÐ¡•¹ÑÉä™½È•¹ÑÉä¥¸•¹ÑÉ¥•Ì¥˜•¹ÑÉä¹•Ð ‰µ•ÍÍ…”ˆ¤€ôô€‰¡…ÑAP¹¼µ…ÕÑ …Ñ•Ý…ä•¹…‰±•ˆ¤(€€€É•¹‘•É•€ô©Í½¸¹‘ÕµÁÌ¡…Ñ•Ý…å}•¹ÑÉä¤(€€€…ÍÍ•ÉÐ€‰Á±…¹•}…Á¥}Í•É•Ðˆ¹½Ð¥¸É•¹‘•É•(€€€…ÍÍ•ÉÐ€‰œˆ€¨€ÌÈ¹½Ð¥¸É•¹‘•É•(€€€…ÍÍ•ÉÐ€‰Á•ÉÍ½¹…°ˆ¹½Ð¥¸É•¹‘•É•(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}ÑÉ…¥±¥¹}Í±…Í¡}‘½•Í}¹½Ñ}É•‘¥É•Ñ}½É}‘¥Í±½Í•}…Á…‰¥±¥Ñä¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€Ñ½­•¸€ô€‰œˆ€¨€ÌÈ(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€˜ˆ½¡ÑÑÀ½¡…ÑÁÐ½íÑ½­•¹ô½µÀ¼ˆ°(€€€€€€€€€€€™½±±½Ý}É•‘¥É•ÑÌõ…±Í”°(€€€€€€€€€€€©Í½¸õì‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°€‰¥ˆè€Åô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÐÀÐ(€€€™½ÈÙ…±Õ”¥¸mÉ•ÍÁ½¹Í”¹Ñ•áÐ°€©É•ÍÁ½¹Í”¹¡•…‘•ÉÌ¹Ù…±Õ•Ì ¥tè(€€€€€€€…ÍÍ•ÉÐÑ½­•¸¹½Ð¥¸Ù…±Õ”(()ÁåÑ•ÍÐ¹µ…É¬¹Á…É…µ•ÑÉ¥é” (€€€€ ‰µ•Ñ¡½ˆ°€‰Á…Ñ ˆ¤°(€€€l ‰A=MPˆ°€ˆ½¡ÑÑÀ½µÀˆ¤°€ ‰A=MPˆ°€ˆ½¡ÑÑÀ½…Á¤µ­•ä½µÀˆ¤°€ ‰Pˆ°€ˆ½ÍÍ”ˆ¥t°(¤)‘•˜Ñ•ÍÑ}…Ñ•Ý…å}•¹…‰±•‘}…ÁÁ}ÁÉ•Í•ÉÙ•Í}•á¥ÍÑ¥¹}…ÕÑ¡}É½ÕÑ•}‰½Õ¹‘…É¥•Ì¡µ½¹­•åÁ…Ñ °µ•Ñ¡½°Á…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹É•ÅÕ•ÍÐ¡µ•Ñ¡½°Á…Ñ °™½±±½Ý}É•‘¥É•ÑÌõ…±Í”°©Í½¸õíô¥˜µ•Ñ¡½€ôô€‰A=MPˆ•±Í”9½¹”¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÐÀÄ(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}É½ÕÑ•}É•ÍÁ•ÑÍ}Á…Ñ¡}ÁÉ•™¥à¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰5A}AQ!}AI%`ˆ°€ˆ½Á±…¹”ˆ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½Á±…¹”½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€¡•…‘•ÉÌõì‰•ÁÐˆè€‰…ÁÁ±¥…Ñ¥½¸½©Í½¸°Ñ•áÐ½•Ù•¹ÐµÍÑÉ•…´‰ô°(€€€€€€€€€€€©Í½¸õì(€€€€€€€€€€€€€€€€‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°(€€€€€€€€€€€€€€€€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°(€€€€€€€€€€€€€€€€‰Á…É…µÌˆèì(€€€€€€€€€€€€€€€€€€€€‰ÁÉ½Ñ½½±Y•ÉÍ¥½¸ˆè€ˆÈÀÈÔ´ÀÌ´ÈØˆ°(€€€€€€€€€€€€€€€€€€€€‰…Á…‰¥±¥Ñ¥•Ìˆèíô°(€€€€€€€€€€€€€€€€€€€€‰±¥•¹Ñ%¹™¼ˆèì‰¹…µ”ˆè€‰Ñ•ÍÐˆ°€‰Ù•ÉÍ¥½¸ˆè€ˆÄ‰ô°(€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€€€€€‰¥ˆè€Ä°(€€€€€€€€€€€ô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÈÀÀ(
+/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
+import io
+import json
+import logging
+from types import SimpleNamespace
+
+import pytest
+from starlette.testclient import TestClient
+
+from plane_mcp.__main__ import JSONFormatter, UserContextFilter, build_http_app
+from plane_mcp.client import get_plane_client_context
+from plane_mcp.gateway import GatewayConfig, load_gateway_config
+
+
+def test_gateway_is_disabled_when_token_is_absent():
+    assert load_gateway_config({}) is None
+
+
+@pytest.mark.parametrize(
+    ("environ", "missing_name"),
+    [
+        ({"MCP_GATEWAY_TOKEN": "g" * 32, "PLANE_WORKSPACE_SLUG": "personal"}, "PLANE_API_KEY"),
+        ({"MCP_GATEWAY_TOKEN": "g" * 32, "PLANE_API_KEY": "plane_api_secret"}, "PLANE_WORKSPACE_SLUG"),
+    ],
+)
+def test_enabled_gateway_rejects_missing_plane_configuration(environ, missing_name):
+    with pytest.raises(ValueError, match=missing_name):
+        load_gateway_config(environ)
+
+
+def test_enabled_gateway_rejects_short_capability_without_echoing_it():
+    token = "too-short"
+    with pytest.raises(ValueError) as caught:
+        load_gateway_config(
+            {
+                "MCP_GATEWAY_TOKEN": token,
+                "PLANE_API_KEY": "plane_api_secret",
+                "PLANE_WORKSPACE_SLUG": "personal",
+            }
+        )
+    assert "MCP_GATEWAY_TOKEN" in str(caught.value)
+    assert token not in str(caught.value)
+
+
+@pytest.mark.parametrize(
+    "token",
+    [
+        "{aaaaaaaaaaaaaaaaaaaaaaaaa:path}",
+        "a" * 16 + "/" + "b" * 16,
+        "a" * 16 + "%2F" + "b" * 16,
+        "a" * 16 + " " + "b" * 16,
+    ],
+    ids=["route-template", "slash", "percent-escape", "whitespace"],
+)
+def test_enabled_gateway_rejects_non_url_safe_capabilities_without_echoing_them(token):
+    with pytest.raises(ValueError) as caught:
+        load_gateway_config(
+            {
+                "MCP_GATEWAY_TOKEN": token,
+                "PLANE_API_KEY": "plane_api_secret",
+                "PLANE_WORKSPACE_SLUG": "personal",
+            }
+        )
+    assert "MCP_GATEWAY_TOKEN" in str(caught.value)
+    assert token not in str(caught.value)
+
+
+def test_enabled_gateway_returns_validated_configuration():
+    environ = {
+        "MCP_GATEWAY_TOKEN": "g" * 32,
+        "PLANE_API_KEY": "plane_api_secret",
+        "PLANE_WORKSPACE_SLUG": "personal",
+    }
+    assert load_gateway_config(environ) == GatewayConfig("g" * 32, "plane_api_secret", "personal")
+
+
+def _http_server_environment(monkeypatch):
+    monkeypatch.setenv("PLANE_OAUTH_PROVIDER_CLIENT_ID", "test-client-id")
+    monkeypatch.setenv("PLANE_OAUTH_PROVIDER_CLIENT_SECRET", "test-client-secret")
+    monkeypatch.setenv("PLANE_OAUTH_PROVIDER_BASE_URL", "http://localhost:8211")
+
+
+def _gateway_environment(monkeypatch):
+    _http_server_environment(monkeypatch)
+    monkeypatch.setenv("MCP_GATEWAY_TOKEN", "g" * 32)
+    monkeypatch.setenv("PLANE_API_KEY", "plane_api_secret")
+    monkeypatch.setenv("PLANE_WORKSPACE_SLUG", "personal")
+    monkeypatch.delenv("MCP_PATH_PREFIX", raising=False)
+
+
+def _gateway_log_handler():
+    stream = io.StringIO()
+    handler = logging.StreamHandler(stream)
+    handler.setFormatter(JSONFormatter())
+    handler.addFilter(UserContextFilter())
+    return logging.getLogger("fastmcp"), handler, stream
+
+
+def test_gateway_context_uses_server_side_plane_credentials(monkeypatch):
+    monkeypatch.setenv("PLANE_API_KEY", "plane_api_secret")
+    monkeypatch.setenv("PLANE_WORKSPACE_SLUG", "personal")
+    captured = {}
+
+    class CapturingPlaneClient:
+        def __init__(self, **kwargs):
+            captured.update(kwargs)
+            self.work_items = SimpleNamespace(
+                retrieve=lambda **kwargs: None,
+                update=lambda **kwargs: None,
+                delete=lambda **kwargs: None,
+            )
+
+    monkeypatch.setattr("plane_mcp.client.PlaneClient", CapturingPlaneClient)
+    context = get_plane_client_context()
+
+    assert context.workspace_slug == "personal"
+    assert captured == {"base_url": "https://api.plane.so", "api_key": "plane_api_secret"}
+
+
+def test_stdio_logs_keep_configured_workspace(monkeypatch):
+    monkeypatch.setenv("PLANE_WORKSPACE_SLUG", "stdio-workspace")
+    record = logging.getLogger("fastmcp.plane_mcp").makeRecord(
+        "fastmcp.plane_mcp", logging.INFO, __file__, 0, "stdio event", (), None
+    )
+    assert UserContextFilter().filter(record)
+    assert '"workspace_slug": "stdio-workspace"' in JSONFormatter().format(record)
+
+
+def test_authenticated_http_logs_keep_token_derived_workspace(monkeypatch):
+    monkeypatch.setattr(
+        "plane_mcp.__main__.get_access_token",
+        lambda: SimpleNamespace(claims={"sub": "user-id", "workspace_slug": "authenticated-workspace"}),
+    )
+    monkeypatch.setattr("plane_mcp.__main__.get_http_request", lambda: object())
+    record = logging.getLogger("fastmcp.plane_mcp").makeRecord(
+        "fastmcp.plane_mcp", logging.INFO, __file__, 0, "authenticated event", (), None
+    )
+    assert UserContextFilter().filter(record)
+    rendered = json.loads(JSONFormatter().format(record))
+    assert rendered["user_id"] == "user-id"
+    assert rendered["workspace_slug"] == "authenticated-workspace"
+
+
+def test_gateway_route_is_absent_when_disabled(monkeypatch):
+    _http_server_environment(monkeypatch)
+    monkeypatch.delenv("MCP_GATEWAY_TOKEN", raising=False)
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/http/chatgpt/" + "g" * 32 + "/mcp",
+            json={"jsonrpc": "2.0", "method": "initialize", "id": 1},
+        )
+    assert response.status_code == 404
+
+
+def test_wrong_gateway_capability_returns_not_found(monkeypatch):
+    _gateway_environment(monkeypatch)
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/http/chatgpt/" + "x" * 32 + "/mcp",
+            json={"jsonrpc": "2.0", "method": "initialize", "id": 1},
+        )
+    assert response.status_code == 404
+    assert "g" * 32 not in response.text
+    assert "plane_api_secret" not in response.text
+    assert "personal" not in response.text
+
+
+def test_correct_gateway_capability_initializes_without_auth_headers(monkeypatch):
+    _gateway_environment(monkeypatch)
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/http/chatgpt/" + "g" * 32 + "/mcp",
+            headers={"Accept": "application/json, text/event-stream"},
+            json={
+                "jsonrpc": "2.0",
+                "method": "initialize",
+                "params": {
+                    "protocolVersion": "2025-03-26",
+                    "capabilities": {},
+                    "clientInfo": {"name": "test", "version": "1"},
+                },
+                "id": 1,
+            },
+        )
+    assert response.status_code == 200
+    assert "plane_api_secret" not in response.text
+    assert "g" * 32 not in response.text
+    assert "personal" not in response.text
+
+
+def test_gateway_tool_call_uses_server_credentials_despite_hostile_auth_headers(monkeypatch):
+    _gateway_environment(monkeypatch)
+    captured = {}
+
+    class CapturingPlaneClient:
+        def __init__(self, **kwargs):
+            captured["client"] = kwargs
+            self.work_items = SimpleNamespace(
+                retrieve=lambda **kwargs: None,
+                update=lambda **kwargs: None,
+                delete=lambda **kwargs: None,
+            )
+            self.projects = SimpleNamespace(delete=lambda **kwargs: captured.update(project=kwargs))
+
+    monkeypatch.setattr("plane_mcp.client.PlaneClient", CapturingPlaneClient)
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/http/chatgpt/" + "g" * 32 + "/mcp",
+            headers={
+                "Accept": "application/json, text/event-stream",
+                "Authorization": "Bearer caller-controlled-secret",
+                "X-Workspace-Slug": "caller-controlled-workspace",
+            },
+            json={
+                "jsonrpc": "2.0",
+                "method": "tools/call",
+                "params": {
+                    "name": "project",
+                    "arguments": {"action": "delete", "project_id": "project-id"},
+                },
+                "id": 1,
+            },
+        )
+    assert response.status_code == 200
+    assert '"isError":false' in response.text
+    assert captured == {
+        "client": {"base_url": "https://api.plane.so", "api_key": "plane_api_secret"},
+        "project": {"workspace_slug": "personal", "project_id": "project-id"},
+    }
+
+
+def test_gateway_request_logs_do_not_disclose_capability_pat_or_workspace(monkeypatch):
+    _gateway_environment(monkeypatch)
+    fastmcp_logger, handler, stream = _gateway_log_handler()
+    with TestClient(build_http_app()) as client:
+        fastmcp_logger.addHandler(handler)
+        try:
+            response = client.post(
+                "/http/chatgpt/" + "g" * 32 + "/mcp",
+                headers={
+                    "Accept": "application/json, text/event-stream",
+                    "Authorization": "Bearer plane_pat_secret",
+                },
+                json={
+                    "jsonrpc": "2.0",
+                    "method": "initialize",
+                    "params": {
+                        "protocolVersion": "2025-03-26",
+                        "capabilities": {},
+                        "clientInfo": {"name": "test", "version": "1"},
+                    },
+                    "id": 1,
+                },
+            )
+        finally:
+            fastmcp_logger.removeHandler(handler)
+    assert response.status_code == 200
+    logs = stream.getvalue()
+    assert "g" * 32 not in logs
+    assert "plane_pat_secret" not in logs
+    assert "personal" not in logs
+
+
+def test_gateway_startup_json_does_not_emit_secrets_or_workspace(monkeypatch):
+    _gateway_environment(monkeypatch)
+    fastmcp_logger, handler, stream = _gateway_log_handler()
+    fastmcp_logger.addHandler(handler)
+    try:
+        build_http_app()
+    finally:
+        fastmcp_logger.removeHandler(handler)
+    entries = [json.loads(line) for line in stream.getvalue().splitlines()]
+    gateway_entry = next(entry for entry in entries if entry.get("message") == "ChatGPT no-auth gateway enabled")
+    rendered = json.dumps(gateway_entry)
+    assert "plane_api_secret" not in rendered
+    assert "g" * 32 not in rendered
+    assert "personal" not in rendered
+
+
+def test_gateway_trailing_slash_does_not_redirect_or_disclose_capability(monkeypatch):
+    _gateway_environment(monkeypatch)
+    token = "g" * 32
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            f"/http/chatgpt/{token}/mcp/",
+            follow_redirects=False,
+            json={"jsonrpc": "2.0", "method": "initialize", "id": 1},
+        )
+    assert response.status_code == 404
+    for value in [response.text, *response.headers.values()]:
+        assert token not in value
+
+
+@pytest.mark.parametrize(
+    ("method", "path"),
+    [("POST", "/http/mcp"), ("POST", "/http/api-key/mcp"), ("GET", "/sse")],
+)
+def test_gateway_enabled_app_preserves_existing_auth_route_boundaries(monkeypatch, method, path):
+    _gateway_environment(monkeypatch)
+    with TestClient(build_http_app()) as client:
+        response = client.request(method, path, follow_redirects=False, json={} if method == "POST" else None)
+    assert response.status_code == 401
+
+
+def test_gateway_route_respects_path_prefix(monkeypatch):
+    _gateway_environment(monkeypatch)
+    monkeypatch.setenv("MCP_PATH_PREFIX", "/plane")
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/plane/http/chatgpt/" + "g" * 32 + "/mcp",
+            headers={"Accept": "application/json, text/event-stream"},
+            json={
+                "jsonrpc": "2.0",
+                "method": "initialize",
+                "params": {
+                    "protocolVersion": "2025-03-26",
+                    "capabilities": {},
+                    "clientInfo": {"name": "test", "version": "1"},
+                },
+                "id": 1,
+            },
+        )
+    assert response.status_code == 200

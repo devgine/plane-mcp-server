@@ -1,1 +1,112 @@
-ýK®Ïò¢Êâm¨k‹üå¢§öxœ{—ÚŠW¢—«jØ¨žz-¥êæŠÛ^tˆˆ‰…ÍÑ5@Í•ÉÙ•È™…Ñ½É¥•Ì™½ÈÑ¡”Ñ¡É•”ÍÕÁÁ½ÉÑ•ÑÉ…¹ÍÁ½ÉÑÌ¸ˆˆˆ()™É½´}}™ÕÑÕÉ•}|¥µÁ½ÉÐ…¹¹½Ñ…Ñ¥½¹Ì()¥µÁ½ÉÐ½Ì()™É½´™…ÍÑµÀ¥µÁ½ÉÐ…ÍÑ5@)™É½´µÀ¹ÑåÁ•Ì¥µÁ½ÉÐ%½¸()™É½´Á±…¹•}µÀ¹…ÕÑ ¥µÁ½ÉÐA±…¹•!•…‘•ÉÕÑ¡AÉ½Ù¥‘•È°A±…¹•=ÕÑ¡AÉ½Ù¥‘•È)™É½´Á±…¹•}µÀ¹¥¹ÍÑÉÕÑ¥½¹Ì¥µÁ½ÉÐMIYI}%9MQIUQ%=9L)™É½´Á±…¹•}µÀ¹µ¥‘‘±•Ý…É”¥µÁ½ÉÐ½•É•ÉÕµ•¹ÑÌ°A±…¹•1½¥¹5¥‘‘±•Ý…É”°Y…±¥‘…Ñ•Ñ¥½¹ÉÕµ•¹ÑÌ)™É½´Á±…¹•}µÀ¹ÍÑ½É…”¥µÁ½ÉÐ‰Õ¥±‘}Ñ½­•¹}ÍÑ½É”)™É½´Á±…¹•}µÀ¹Ñ½½±Ì¥µÁ½ÉÐÉ•¥ÍÑ•É}Ñ½½±Ì((Œ	…Í•±¥¹”É•‘¥É•ÐUI%ÌÍ¡¥ÁÁ•Ý¥Ñ Ñ¡”Í•ÉÙ•È¸‘‘¥Ñ¥½¹…°Á…ÑÑ•É¹Ì…¸‰”(ŒÍÕÁÁ±¥•…ÐÉÕ¹Ñ¥µ”Ù¥„A19}=UQ!}11=]}I%IQ}UI%L€¡½µµ„µÍ•Á…É…Ñ•¤Í¼(Œ½¹‰½…É‘¥¹œ„¹•Ü5@±¥•¹Ð¹••‘Ì½¹±ä„½¹™¥œ¡…¹”°¹½Ð„¹•ÜÉ•±•…Í”¸)U1Q}11=]}I%IQ}UI%L€ôl(€€€€Œ1½…±¡½ÍÐ½¹±ä™½È¡ÑÑÀ€¡‘å¹…µ¥ŒÁ½ÉÑÌ™É½´5@±¥•¹ÑÌ¤(€€€€‰¡ÑÑÀè¼½±½…±¡½ÍÐè¨ˆ°(€€€€‰¡ÑÑÀè¼½±½…±¡½ÍÐè¨¼¨ˆ°(€€€€‰¡ÑÑÀè¼¼ÄÈÜ¸À¸À¸Äè¨ˆ°(€€€€‰¡ÑÑÀè¼¼ÄÈÜ¸À¸À¸Äè¨¼¨ˆ°(€€€€Œ-¹½Ý¸5@±¥•¹ÐÕÍÑ½´ÁÉ½Ñ½½°Í¡•µ•Ì(€€€€‰ÕÉÍ½Èè¼½…¹åÍÁ¡•É”¹ÕÉÍ½ÈµµÀ½½…ÕÑ ¼¨ˆ°(€€€€‰¡ÑÑÁÌè¼½ÝÝÜ¹ÕÉÍ½È¹½´¼¨ˆ°(€€€€‰¡ÑÑÁÌè¼½ÙÍ½‘”¹‘•Ø½É•‘¥É•Ðˆ°(€€€€‰¡ÑÑÁÌè¼½¥¹Í¥‘•ÉÌ¹ÙÍ½‘”¹‘•Ø½É•‘¥É•Ðˆ°(€€€€‰¡ÑÑÁÌè¼½…¹Ñ¥É…Ù¥Ñä¹½½±”½½…ÕÑ µ…±±‰…¬ˆ°(€€€€Œ±…Õ‘”¹…¤Ý•ˆ±¥•¹Ð(€€€€‰¡ÑÑÁÌè¼½±…Õ‘”¹…¤¼¨ˆ°(€€€€Œ¡…ÑAP½¹¹•Ñ½ÉÌƒŠPÁ•Èµ½¹¹•Ñ½È…±±‰…¬€¬±•…äÉ•‘¥É•Ð(€€€€‰¡ÑÑÁÌè¼½¡…ÑÁÐ¹½´½½¹¹•Ñ½È½½…ÕÑ ¼¨ˆ°(€€€€‰¡ÑÑÁÌè¼½¡…ÑÁÐ¹½´½½¹¹•Ñ½É}Á±…Ñ™½Éµ}½…ÕÑ¡}É•‘¥É•Ðˆ°)t(()‘•˜•Ñ}…±±½Ý•‘}±¥•¹Ñ}É•‘¥É•Ñ}ÕÉ¥Ì ¤€´ø±¥ÍÑmÍÑÉtè(€€€€ˆˆ‰I•ÑÕÉ¸Ñ¡”É•‘¥É•ÐUI$…±±½Ý±¥ÍÐè‰Õ¥±Ðµ¥¸‘•™…Õ±ÑÌÁ±ÕÌ…¹ä•áÑÉ…Ì(€€€™É½´Ñ¡”A19}=UQ!}11=]}I%IQ}UI%L•¹ØÙ…È€¡½µµ„µÍ•Á…É…Ñ•¤¸ˆˆˆ(€€€…±±½Ý•€ô±¥ÍÐ¡U1Q}11=]}I%IQ}UI%L¤(€€€•áÑÉ„€ô½Ì¹•Ñ•¹Ø ‰A19}=UQ!}11=]}I%IQ}UI%Lˆ°€ˆˆ¤(€€€™½ÈÕÉ¤¥¸•áÑÉ„¹ÍÁ±¥Ð ˆ°ˆ¤è(€€€€€€€ÕÉ¤€ôÕÉ¤¹ÍÑÉ¥À ¤(€€€€€€€¥˜ÕÉ¤…¹ÕÉ¤¹½Ð¥¸…±±½Ý•è(€€€€€€€€€€€…±±½Ý•¹…ÁÁ•¹¡ÕÉ¤¤(€€€É•ÑÕÉ¸…±±½Ý•(()1=}Ae1=L€ô½Ì¹•Ñ•¹Ø ‰1=}Ae1=Lˆ°€‰ÑÉÕ”ˆ¤¹±½Ý•È ¤€ôô€‰ÑÉÕ”ˆ(()‘•˜}½¹™¥ÕÉ•¡µÀè…ÍÑ5@¤€´ø…ÍÑ5@è(€€€€ˆˆ‰Q¡”µ¥‘‘±•Ý…É”ÍÑ…¬…¹Ñ½½±Ì•Ù•ÉäÑÉ…¹ÍÁ½ÉÐÍ¡…É•Ì¸ˆˆˆ(€€€µÀ¹…‘‘}µ¥‘‘±•Ý…É”¡A±…¹•1½¥¹5¥‘‘±•Ý…É”¡¥¹±Õ‘•}Á…å±½…‘Ìõ1=}Ae1=L¤¤(€€€µÀ¹…‘‘}µ¥‘‘±•Ý…É”¡½•É•ÉÕµ•¹ÑÌ ¤¤(€€€µÀ¹…‘‘}µ¥‘‘±•Ý…É”¡Y…±¥‘…Ñ•Ñ¥½¹ÉÕµ•¹ÑÌ ¤¤(€€€É•¥ÍÑ•É}Ñ½½±Ì¡µÀ¤(€€€É•ÑÕÉ¸µÀ(()‘•˜•Ñ}½…ÕÑ¡}µÀ¡‰…Í•}Á…Ñ èÍÑÈ€ô€ˆ¼ˆ¤€´ø…ÍÑ5@è(€€€€ˆˆ‰	Õ¥±Ñ¡”…ÍÑ5@¥¹ÍÑ…¹”™½ÈÑ¡”=ÕÑ !QQ@€¼MMÑÉ…¹ÍÁ½ÉÑÌ¸ˆˆˆ(€€€½…ÕÑ¡}µÀ€ô…ÍÑ5@ (€€€€€€€€‰A±…¹”5@M•ÉÙ•Èˆ°(€€€€€€€¥¹ÍÑÉÕÑ¥½¹ÌõMIYI}%9MQIUQ%=9L°(€€€€€€€¥½¹Ìõm%½¸¡ÍÉŒô‰¡ÑÑÁÌè¼½Á±…¹”¹Í¼½™…Ù¥½¸¹¥¼ˆ°…±Ðô‰A±…¹”5@M•ÉÙ•Èˆ¥t°(€€€€€€€Ý•‰Í¥Ñ•}ÕÉ°ô‰¡ÑÑÁÌè¼½Á±…¹”¹Í¼ˆ°(€€€€€€€…ÕÑ õA±…¹•=ÕÑ¡AÉ½Ù¥‘•È (€€€€€€€€€€€±¥•¹Ñ}¥õ½Ì¹•Ñ•¹Ø ‰A19}=UQ!}AI=Y%I}1%9Q}%ˆ°€ˆˆ¤°(€€€€€€€€€€€±¥•¹Ñ}Í•É•Ðõ½Ì¹•Ñ•¹Ø ‰A19}=UQ!}AI=Y%I}1%9Q}MIPˆ°€ˆˆ¤°(€€€€€€€€€€€‰…Í•}ÕÉ°õ˜‰í½Ì¹•Ñ•¹Ø A19}=UQ!}AI=Y%I}	M}UI0œ¥õí‰…Í•}Á…Ñ¡ôˆ°(€€€€€€€€€€€Á±…¹•}‰…Í•}ÕÉ°õ½Ì¹•Ñ•¹Ø ‰A19}	M}UI0ˆ°€ˆˆ¤°(€€€€€€€€€€€Á±…¹•}¥¹Ñ•É¹…±}‰…Í•}ÕÉ°õ½Ì¹•Ñ•¹Ø ‰A19}%9QI91}	M}UI0ˆ°€ˆˆ¤°(€€€€€€€€€€€•¹…‰±•}¥µõ½Ì¹•Ñ•¹Ø ‰A19}=UQ!}AI=Y%I}9	1}%5ˆ°€‰™…±Í”ˆ¤¹±½Ý•È ¤€ôô€‰ÑÉÕ”ˆ°(€€€€€€€€€€€±¥•¹Ñ}ÍÑ½É…”õ‰Õ¥±‘}Ñ½­•¹}ÍÑ½É” ¤°(€€€€€€€€€€€É•ÅÕ¥É•‘}Í½Á•Ìõl‰É•…ˆ°€‰ÝÉ¥Ñ”‰t°(€€€€€€€€€€€…±±½Ý•‘}±¥•¹Ñ}É•‘¥É•Ñ}ÕÉ¥Ìõ•Ñ}…±±½Ý•‘}±¥•¹Ñ}É•‘¥É•Ñ}ÕÉ¥Ì ¤°(€€€€€€€€¤°(€€€€¤(€€€É•ÑÕÉ¸}½¹™¥ÕÉ•¡½…ÕÑ¡}µÀ¤(()‘•˜•Ñ}¡•…‘•É}µÀ ¤è(€€€¡•…‘•É}µÀ€ô…ÍÑ5@ (€€€€€€€€‰A±…¹”5@M•ÉÙ•È€¡¡•…‘•Èµ¡ÑÑÀ¤ˆ°(€€€€€€€¥¹ÍÑÉÕÑ¥½¹ÌõMIYI}%9MQIUQ%=9L°(€€€€€€€…ÕÑ õA±…¹•!•…‘•ÉÕÑ¡AÉ½Ù¥‘•È (€€€€€€€€€€€É•ÅÕ¥É•‘}Í½Á•Ìõl‰É•…ˆ°€‰ÝÉ¥Ñ”‰t°(€€€€€€€€¤°(€€€€¤(€€€É•ÑÕÉ¸}½¹™¥ÕÉ•¡¡•…‘•É}µÀ¤(()‘•˜•Ñ}…Ñ•Ý…å}µÀ ¤€´ø…ÍÑ5@è(€€€€ˆˆ‰	Õ¥±Ñ¡”Õ¹…ÕÑ¡•¹Ñ¥…Ñ•5@Í•ÉÙ•ÈÕÍ•‰•¡¥¹Ñ¡”…Á…‰¥±¥ÑäUI0¸ˆˆˆ(€€€É•ÑÕÉ¸}½¹™¥ÕÉ• (€€€€€€€…ÍÑ5@ (€€€€€€€€€€€€‰A±…¹”5@M•ÉÙ•È€¡¡…ÑAP…Ñ•Ý…ä¤ˆ°(€€€€€€€€€€€¥¹ÍÑÉÕÑ¥½¹ÌõMIYI}%9MQIUQ%=9L°(€€€€€€€€¤(€€€€¤(()‘•˜•Ñ}ÍÑ‘¥½}µÀ ¤è(€€€ÍÑ‘¥½}µÀ€ô…ÍÑ5@ (€€€€€€€€‰A±…¹”5@M•ÉÙ•È€¡ÍÑ‘¥¼¤ˆ°(€€€€€€€¥¹ÍÑÉÕÑ¥½¹ÌõMIYI}%9MQIUQ%=9L°(€€€€¤(€€€É•ÑÕÉ¸}½¹™¥ÕÉ•¡ÍÑ‘¥½}µÀ¤
+/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
+"""FastMCP server factories for the three supported transports."""
+
+from __future__ import annotations
+
+import os
+
+from fastmcp import FastMCP
+from mcp.types import Icon
+
+from plane_mcp.auth import PlaneHeaderAuthProvider, PlaneOAuthProvider
+from plane_mcp.instructions import SERVER_INSTRUCTIONS
+from plane_mcp.middleware import CoerceArguments, PlaneLoggingMiddleware, ValidateActionArguments
+from plane_mcp.storage import build_token_store
+from plane_mcp.tools import register_tools
+
+# Baseline redirect URIs shipped with the server. Additional patterns can be
+# supplied at runtime via PLANE_OAUTH_ALLOWED_REDIRECT_URIS (comma-separated) so
+# onboarding a new MCP client needs only a config change, not a new release.
+DEFAULT_ALLOWED_REDIRECT_URIS = [
+    # Localhost only for http (dynamic ports from MCP clients)
+    "http://localhost:*",
+    "http://localhost:*/*",
+    "http://127.0.0.1:*",
+    "http://127.0.0.1:*/*",
+    # Known MCP client custom protocol schemes
+    "cursor://anysphere.cursor-mcp/oauth/*",
+    "https://www.cursor.com/*",
+    "https://vscode.dev/redirect",
+    "https://insiders.vscode.dev/redirect",
+    "https://antigravity.google/oauth-callback",
+    # Claude.ai web client
+    "https://claude.ai/*",
+    # ChatGPT connectors â€” per-connector callback + legacy redirect
+    "https://chatgpt.com/connector/oauth/*",
+    "https://chatgpt.com/connector_platform_oauth_redirect",
+]
+
+
+def get_allowed_client_redirect_uris() -> list[str]:
+    """Return the redirect URI allowlist: built-in defaults plus any extras
+    from the PLANE_OAUTH_ALLOWED_REDIRECT_URIS env var (comma-separated)."""
+    allowed = list(DEFAULT_ALLOWED_REDIRECT_URIS)
+    extra = os.getenv("PLANE_OAUTH_ALLOWED_REDIRECT_URIS", "")
+    for uri in extra.split(","):
+        uri = uri.strip()
+        if uri and uri not in allowed:
+            allowed.append(uri)
+    return allowed
+
+
+LOG_PAYLOADS = os.getenv("LOG_PAYLOADS", "true").lower() == "true"
+
+
+def _configured(mcp: FastMCP) -> FastMCP:
+    """The middleware stack and tools every transport shares."""
+    mcp.add_middleware(PlaneLoggingMiddleware(include_payloads=LOG_PAYLOADS))
+    mcp.add_middleware(CoerceArguments())
+    mcp.add_middleware(ValidateActionArguments())
+    register_tools(mcp)
+    return mcp
+
+
+def get_oauth_mcp(base_path: str = "/") -> FastMCP:
+    """Build the FastMCP instance for the OAuth HTTP / SSE transports."""
+    oauth_mcp = FastMCP(
+        "Plane MCP Server",
+        instructions=SERVER_INSTRUCTIONS,
+        icons=[Icon(src="https://plane.so/favicon.ico", alt="Plane MCP Server")],
+        website_url="https://plane.so",
+        auth=PlaneOAuthProvider(
+            client_id=os.getenv("PLANE_OAUTH_PROVIDER_CLIENT_ID", ""),
+            client_secret=os.getenv("PLANE_OAUTH_PROVIDER_CLIENT_SECRET", ""),
+            base_url=f"{os.getenv('PLANE_OAUTH_PROVIDER_BASE_URL')}{base_path}",
+            plane_base_url=os.getenv("PLANE_BASE_URL", ""),
+            plane_internal_base_url=os.getenv("PLANE_INTERNAL_BASE_URL", ""),
+            enable_cimd=os.getenv("PLANE_OAUTH_PROVIDER_ENABLE_CIMD", "false").lower() == "true",
+            client_storage=build_token_store(),
+            required_scopes=["read", "write"],
+            allowed_client_redirect_uris=get_allowed_client_redirect_uris(),
+        ),
+    )
+    return _configured(oauth_mcp)
+
+
+def get_header_mcp():
+    header_mcp = FastMCP(
+        "Plane MCP Server (header-http)",
+        instructions=SERVER_INSTRUCTIONS,
+        auth=PlaneHeaderAuthProvider(
+            required_scopes=["read", "write"],
+        ),
+    )
+    return _configured(header_mcp)
+
+
+def get_gateway_mcp() -> FastMCP:
+    """Build the unauthenticated MCP server used behind the capability URL."""
+    return _configured(
+        FastMCP(
+            "Plane MCP Server (ChatGPT gateway)",
+            instructions=SERVER_INSTRUCTIONS,
+        )
+    )
+
+
+def get_stdio_mcp():
+    stdio_mcp = FastMCP(
+        "Plane MCP Server (stdio)",
+        instructions=SERVER_INSTRUCTIONS,
+    )
+    return _configured(stdio_mcp)

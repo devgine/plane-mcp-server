@@ -1,1 +1,454 @@
-ýK®Ïò¢Êâm¨k‹üå¢§öxœ{—ÚŠW¢—«jØ¨žz-¥êæŠÛ^tŒ¡…ÑAP9¼µÕÑ …Ñ•Ý…ä%µÁ±•µ•¹Ñ…Ñ¥½¸A±…¸((ø€¨©½È…•¹Ñ¥ŒÝ½É­•ÉÌè¨¨IEU%IMUµM-%10èUÍ”ÍÕÁ•ÉÁ½Ý•ÉÌéÍÕ‰…•¹Ðµ‘É¥Ù•¸µ‘•Ù•±½Áµ•¹Ð€¡É•½µµ•¹‘•¤½ÈÍÕÁ•ÉÁ½Ý•ÉÌé•á•ÕÑ¥¹œµÁ±…¹ÌÑ¼¥µÁ±•µ•¹ÐÑ¡¥ÌÁ±…¸Ñ…Í¬µ‰äµÑ…Í¬¸MÑ•ÁÌÕÍ”¡•­‰½à€¡€´lu€¤Íå¹Ñ…à™½ÈÑÉ…­¥¹œ¸((¨©½…°è¨¨‘…¸½ÁÐµ¥¸…Á…‰¥±¥ÑäµUI05@…Ñ•Ý…äÑ¡…Ð±•ÑÌ„¡…ÑAP]•ˆ9¼ÕÑ ½¹¹•Ñ½ÈÕÍ”A±…¹”É•‘•¹Ñ¥…±Ì¡•±½¹±ä¥¸Í•ÉÙ•ÈµÍ¥‘”Í•É•ÑÌ¸((¨©É¡¥Ñ•ÑÕÉ”è¨¨Íµ…±°½¹™¥ÕÉ…Ñ¥½¸µ½‘Õ±”Ù…±¥‘…Ñ•ÌÑ¡”Ñ¡É•”…Ñ•Ý…äÍ•É•ÑÌ…¹É•ÑÕÉ¹Ì…¸¥µµÕÑ…‰±”½¹™¥ÕÉ…Ñ¥½¸½‰©•Ð½È9½¹•€¸Q¡”!QQ@…ÁÀ‰Õ¥±‘•È½¹‘¥Ñ¥½¹…±±äµ½Õ¹ÑÌ„¹¼µ…ÕÑ …ÍÑ5@¥¹ÍÑ…¹”‰•¹•…Ñ …¸•á…Ð¡¥ µ•¹ÑÉ½ÁäÁ…Ñ ìÑ¡”•á¥ÍÑ¥¹œ±¥•¹Ð™…±±‰…¬ÍÕÁÁ±¥•ÌÑ¡”Í•ÉÙ•Èµ½Ý¹•A±…¹”AP…¹Ý½É­ÍÁ…”Ý¥Ñ¡½ÕÐÁ±…¥¹œ•¥Ñ¡•È¥¸…¸¥¹‰½Õ¹É•ÅÕ•ÍÐ¸((¨©Q• MÑ…¬è¨¨AåÑ¡½¸€Ì¸ÄÀ¬°…ÍÑ5@°MÑ…É±•ÑÑ”°ÁåÑ•ÍÐ°IÕ™˜°ÕØ½‰Õ¥±¸((¨©MÁ•Œè¨¨‘½Ì½ÍÕÁ•ÉÁ½Ý•ÉÌ½ÍÁ•Ì¼ÈÀÈØ´Àà´ÈÄµ¡…ÑÁÐµ¹¼µ…ÕÑ µ…Ñ•Ý…äµ‘•Í¥¸¹µ‘€((ŒŒ±½‰…°½¹ÍÑÉ…¥¹ÑÌ((´á¥ÍÑ¥¹œ=ÕÑ °¡•…‘•ÈµAP°MM°…¹ÍÑ‘¥¼‰•¡…Ù¥½ÈµÕÍÐÉ•µ…¥¸Õ¹¡…¹•¸(´Q¡”…Ñ•Ý…ä¥Ì‘¥Í…‰±•Õ¹±•ÍÌ5A}Q]e}Q=-9€¥ÌÍ•Ð¸(´¸•¹…‰±•…Ñ•Ý…äÉ•ÅÕ¥É•Ì„Ñ½­•¸½˜…Ð±•…ÍÐ€ÌÈ¡…É…Ñ•ÉÌ°A19}A%}-e€°…¹A19}]=I-MA}M1U€¸(´Q¡”A±…¹”AP…¹Ý½É­ÍÁ…”Í±ÕœµÕÍÐ¹½Ð…ÁÁ•…È¥¸½¹¹•Ñ½ÈUI1Ì°5@É•ÍÁ½¹Í•Ì°½È…ÁÁ±¥…Ñ¥½¸±½Ì¸(´Q¡”…Ñ•Ý…äÑ½­•¸µÕÍÐ¹½Ð…ÁÁ•…È¥¸…ÁÁ±¥…Ñ¥½¸±½Ì½È•ÉÉ½Èµ•ÍÍ…•Ì¸(´Q¡”…Ñ•Ý…äµÕÍÐ‰”‘•Á±½å•½¹±ä½Ù•ÈQ1L°Ý¥Ñ …Á…‰¥±¥ÑäÁ…Ñ¡Ì½µ¥ÑÑ•½ÈÉ•‘…Ñ•™É½´É•Ù•ÉÍ”µÁÉ½áä…•ÍÌ±½Ì¸(´9¼¹•ÜÉÕ¹Ñ¥µ”‘•Á•¹‘•¹ä¥ÌÁ•Éµ¥ÑÑ•¸((´´´((ŒŒŒQ…Í¬€ÄèY…±¥‘…Ñ”½ÁÐµ¥¸…Ñ•Ý…ä½¹™¥ÕÉ…Ñ¥½¸((¨©¥±•Ìè¨¨(´É•…Ñ”èÁ±…¹•}µÀ½…Ñ•Ý…ä¹Áå€(´É•…Ñ”èÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áå€((¨©%¹Ñ•É™…•Ìè¨¨(´½¹ÍÕµ•Ìè•¹Ù¥É½¹µ•¹Ðµ…ÁÁ¥¹œÙ…±Õ•Ì¹…µ•5A}Q]e}Q=-9€°A19}A%}-e€°…¹A19}]=I-MA}M1U€¸(´AÉ½‘Õ•Ìè…Ñ•Ý…å½¹™¥œ¡9…µ•‘QÕÁ±”¥€Ý¥Ñ Ñ½­•¸èÍÑÉ€°Á±…¹•}…Á¥}­•äèÍÑÉ€°…¹Ý½É­ÍÁ…•}Í±ÕœèÍÑÉ€ì±½…‘}…Ñ•Ý…å}½¹™¥œ¡•¹Ù¥É½¸è5…ÁÁ¥¹mÍÑÈ°ÍÑÉtð9½¹”€ô9½¹”¤€´ø…Ñ•Ý…å½¹™¥œð9½¹•€¸((´lt€¨©MÑ•À€Äè]É¥Ñ”™…¥±¥¹œ½¹™¥ÕÉ…Ñ¥½¸Ñ•ÍÑÌ¨¨()ÁåÑ¡½¸)¥µÁ½ÉÐÁåÑ•ÍÐ()™É½´Á±…¹•}µÀ¹…Ñ•Ý…ä¥µÁ½ÉÐ…Ñ•Ý…å½¹™¥œ°±½…‘}…Ñ•Ý…å}½¹™¥œ(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}¥Í}‘¥Í…‰±•‘}Ý¡•¹}Ñ½­•¹}¥Í}…‰Í•¹Ð ¤è(€€€…ÍÍ•ÉÐ±½…‘}…Ñ•Ý…å}½¹™¥œ¡íô¤¥Ì9½¹”(()ÁåÑ•ÍÐ¹µ…É¬¹Á…É…µ•ÑÉ¥é” (€€€€ ‰•¹Ù¥É½¸ˆ°€‰µ¥ÍÍ¥¹}¹…µ”ˆ¤°(€€€l(€€€€€€€€¡ì‰5A}Q]e}Q=-8ˆè€‰œˆ€¨€ÌÈ°€‰A19}]=I-MA}M1Uˆè€‰Á•ÉÍ½¹…°‰ô°€‰A19}A%}-dˆ¤°(€€€€€€€€¡ì‰5A}Q]e}Q=-8ˆè€‰œˆ€¨€ÌÈ°€‰A19}A%}-dˆè€‰Á±…¹•}…Á¥}Í•É•Ð‰ô°€‰A19}]=I-MA}M1Uˆ¤°(€€€t°(¤)‘•˜Ñ•ÍÑ}•¹…‰±•‘}…Ñ•Ý…å}É•©•ÑÍ}µ¥ÍÍ¥¹}Á±…¹•}½¹™¥ÕÉ…Ñ¥½¸¡•¹Ù¥É½¸°µ¥ÍÍ¥¹}¹…µ”¤è(€€€Ý¥Ñ ÁåÑ•ÍÐ¹É…¥Í•Ì¡Y…±Õ•ÉÉ½È°µ…Ñ õµ¥ÍÍ¥¹}¹…µ”¤è(€€€€€€€±½…‘}…Ñ•Ý…å}½¹™¥œ¡•¹Ù¥É½¸¤(()‘•˜Ñ•ÍÑ}•¹…‰±•‘}…Ñ•Ý…å}É•©•ÑÍ}Í¡½ÉÑ}…Á…‰¥±¥Ñå}Ý¥Ñ¡½ÕÑ}•¡½¥¹}¥Ð ¤è(€€€Ñ½­•¸€ô€‰Ñ½¼µÍ¡½ÉÐˆ(€€€Ý¥Ñ ÁåÑ•ÍÐ¹É…¥Í•Ì¡Y…±Õ•ÉÉ½È¤…Ì…Õ¡Ðè(€€€€€€€±½…‘}…Ñ•Ý…å}½¹™¥œ (€€€€€€€€€€€ì(€€€€€€€€€€€€€€€€‰5A}Q]e}Q=-8ˆèÑ½­•¸°(€€€€€€€€€€€€€€€€‰A19}A%}-dˆè€‰Á±…¹•}…Á¥}Í•É•Ðˆ°(€€€€€€€€€€€€€€€€‰A19}]=I-MA}M1Uˆè€‰Á•ÉÍ½¹…°ˆ°(€€€€€€€€€€€ô(€€€€€€€€¤(€€€…ÍÍ•ÉÐ€‰5A}Q]e}Q=-8ˆ¥¸ÍÑÈ¡…Õ¡Ð¹Ù…±Õ”¤(€€€…ÍÍ•ÉÐÑ½­•¸¹½Ð¥¸ÍÑÈ¡…Õ¡Ð¹Ù…±Õ”¤(()‘•˜Ñ•ÍÑ}•¹…‰±•‘}…Ñ•Ý…å}É•ÑÕÉ¹Í}Ù…±¥‘…Ñ•‘}½¹™¥ÕÉ…Ñ¥½¸ ¤è(€€€•¹Ù¥É½¸€ôì(€€€€€€€€‰5A}Q]e}Q=-8ˆè€‰œˆ€¨€ÌÈ°(€€€€€€€€‰A19}A%}-dˆè€‰Á±…¹•}…Á¥}Í•É•Ðˆ°(€€€€€€€€‰A19}]=I-MA}M1Uˆè€‰Á•ÉÍ½¹…°ˆ°(€€€ô(€€€…ÍÍ•ÉÐ±½…‘}…Ñ•Ý…å}½¹™¥œ¡•¹Ù¥É½¸¤€ôô…Ñ•Ý…å½¹™¥œ ‰œˆ€¨€ÌÈ°€‰Á±…¹•}…Á¥}Í•É•Ðˆ°€‰Á•ÉÍ½¹…°ˆ¤)€((´lt€¨©MÑ•À€ÈèIÕ¸Ñ¡”Ñ•ÍÑÌ…¹½¹™¥É´I¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áä€µÙ€()áÁ•Ñ•è½±±•Ñ¥½¸™…¥±Ì‰•…ÕÍ”Á±…¹•}µÀ¹…Ñ•Ý…å€‘½•Ì¹½Ð•á¥ÍÐ¸((´lt€¨©MÑ•À€Ìè%µÁ±•µ•¹ÐÑ¡”µ¥¹¥µ…°Ù…±¥‘…Ñ•½¹™¥ÕÉ…Ñ¥½¸±½…‘•È¨¨()ÁåÑ¡½¸)¥µÁ½ÉÐ½Ì)™É½´½±±•Ñ¥½¹Ì¹…‰Œ¥µÁ½ÉÐ5…ÁÁ¥¹œ)™É½´ÑåÁ¥¹œ¥µÁ½ÉÐ9…µ•‘QÕÁ±”(()±…ÍÌ…Ñ•Ý…å½¹™¥œ¡9…µ•‘QÕÁ±”¤è(€€€Ñ½­•¸èÍÑÈ(€€€Á±…¹•}…Á¥}­•äèÍÑÈ(€€€Ý½É­ÍÁ…•}Í±ÕœèÍÑÈ(()‘•˜±½…‘}…Ñ•Ý…å}½¹™¥œ¡•¹Ù¥É½¸è5…ÁÁ¥¹mÍÑÈ°ÍÑÉtð9½¹”€ô9½¹”¤€´ø…Ñ•Ý…å½¹™¥œð9½¹”è(€€€Ù…±Õ•Ì€ô½Ì¹•¹Ù¥É½¸¥˜•¹Ù¥É½¸¥Ì9½¹”•±Í”•¹Ù¥É½¸(€€€Ñ½­•¸€ôÙ…±Õ•Ì¹•Ð ‰5A}Q]e}Q=-8ˆ°€ˆˆ¤(€€€¥˜¹½ÐÑ½­•¸è(€€€€€€€É•ÑÕÉ¸9½¹”(€€€¥˜±•¸¡Ñ½­•¸¤€ð€ÌÈè(€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰5A}Q]e}Q=-8µÕÍÐ½¹Ñ…¥¸…Ð±•…ÍÐ€ÌÈ¡…É…Ñ•ÉÌˆ¤(€€€…Á¥}­•ä€ôÙ…±Õ•Ì¹•Ð ‰A19}A%}-dˆ°€ˆˆ¤(€€€¥˜¹½Ð…Á¥}­•äè(€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰A19}A%}-d¥ÌÉ•ÅÕ¥É•Ý¡•¸5A}Q]e}Q=-8¥ÌÍ•Ðˆ¤(€€€Ý½É­ÍÁ…•}Í±Õœ€ôÙ…±Õ•Ì¹•Ð ‰A19}]=I-MA}M1Uˆ°€ˆˆ¤(€€€¥˜¹½ÐÝ½É­ÍÁ…•}Í±Õœè(€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰A19}]=I-MA}M1U¥ÌÉ•ÅÕ¥É•Ý¡•¸5A}Q]e}Q=-8¥ÌÍ•Ðˆ¤(€€€É•ÑÕÉ¸…Ñ•Ý…å½¹™¥œ¡Ñ½­•¸°…Á¥}­•ä°Ý½É­ÍÁ…•}Í±Õœ¤)€((´lt€¨©MÑ•À€ÐèIÕ¸Ñ¡”™½ÕÍ•Ñ•ÍÑÌ…¹½¹™¥É´I8¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áä€µÙ€()áÁ•Ñ•è€ÔÑ•ÍÑÌÁ…ÍÌ¸((´lt€¨©MÑ•À€Ôè½µµ¥ÐÑ¡”½¹™¥ÕÉ…Ñ¥½¸‰½Õ¹‘…Éä¨¨()‰…Í )¥Ð…‘€´´Á±…¹•}µÀ½…Ñ•Ý…ä¹ÁäÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áä)¥Ð½µµ¥Ð€µ´€‰™•…ÐèÙ…±¥‘…Ñ”¹¼µ…ÕÑ …Ñ•Ý…ä½¹™¥ÕÉ…Ñ¥½¸ˆ)€((ŒŒŒQ…Í¬€Èè	Õ¥±…¹½¹‘¥Ñ¥½¹…±±äµ½Õ¹ÐÑ¡”…Á…‰¥±¥Ñä…Ñ•Ý…ä((¨©¥±•Ìè¨¨(´5½‘¥™äèÁ±…¹•}µÀ½Í•ÉÙ•È¹Áå€(´5½‘¥™äèÁ±…¹•}µÀ½}}µ…¥¹}|¹Áå€(´5½‘¥™äèÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áå€((¨©%¹Ñ•É™…•Ìè¨¨(´½¹ÍÕµ•Ìè±½…‘}…Ñ•Ý…å}½¹™¥œ ¤€´ø…Ñ•Ý…å½¹™¥œð9½¹•€™É½´Q…Í¬€Ä…¹•á¥ÍÑ¥¹œ}½¹™¥ÕÉ•¡µÀè…ÍÑ5@¤€´ø…ÍÑ5A€¸(´AÉ½‘Õ•Ìè•Ñ}…Ñ•Ý…å}µÀ ¤€´ø…ÍÑ5A€ì‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤€´øMÑ…É±•ÑÑ•€ì•á…Ðµ½Õ¹Ð€½¡ÑÑÀ½¡…ÑÁÐ½íÑ½­•¹ô½µÁ€°É•ÍÁ•Ñ¥¹œ5A}AQ!}AI%a€¸((´lt€¨©MÑ•À€Äè‘™…¥±¥¹œÉ½ÕÑ¥¹œÑ•ÍÑÌÕÍ¥¹œÑ¡”É•…°M$…ÁÁ±¥…Ñ¥½¸¨¨()ÁÁ•¹Ñ•ÍÑÌÑ¡…ÐÍ•Ð•¹Ù¥É½¹µ•¹ÐÙ…É¥…‰±•ÌÝ¥Ñ µ½¹­•åÁ…Ñ¡€°…±°‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¥€°…¹ÕÍ”Q•ÍÑ±¥•¹Ñ€è()ÁåÑ¡½¸)™É½´ÍÑ…É±•ÑÑ”¹Ñ•ÍÑ±¥•¹Ð¥µÁ½ÉÐQ•ÍÑ±¥•¹Ð()™É½´Á±…¹•}µÀ¹}}µ…¥¹}|¥µÁ½ÉÐ‰Õ¥±‘}¡ÑÑÁ}…ÁÀ(()‘•˜}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤è(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰5A}Q]e}Q=-8ˆ°€‰œˆ€¨€ÌÈ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}A%}-dˆ°€‰Á±…¹•}…Á¥}Í•É•Ðˆ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}]=I-MA}M1Uˆ°€‰Á•ÉÍ½¹…°ˆ¤(€€€µ½¹­•åÁ…Ñ ¹‘•±•¹Ø ‰5A}AQ!}AI%`ˆ°É…¥Í¥¹œõ…±Í”¤(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}É½ÕÑ•}¥Í}…‰Í•¹Ñ}Ý¡•¹}‘¥Í…‰±•¡µ½¹­•åÁ…Ñ ¤è(€€€µ½¹­•åÁ…Ñ ¹‘•±•¹Ø ‰5A}Q]e}Q=-8ˆ°É…¥Í¥¹œõ…±Í”¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€©Í½¸õì‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°€‰¥ˆè€Åô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÐÀÐ(()‘•˜Ñ•ÍÑ}ÝÉ½¹}…Ñ•Ý…å}…Á…‰¥±¥Ñå}É•ÑÕÉ¹Í}¹½Ñ}™½Õ¹¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰àˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€©Í½¸õì‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°€‰¥ˆè€Åô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÐÀÐ(€€€…ÍÍ•ÉÐ€‰œˆ€¨€ÌÈ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(€€€…ÍÍ•ÉÐ€‰Á±…¹•}…Á¥}Í•É•Ðˆ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(()‘•˜Ñ•ÍÑ}½ÉÉ•Ñ}…Ñ•Ý…å}…Á…‰¥±¥Ñå}¥¹¥Ñ¥…±¥é•Í}Ý¥Ñ¡½ÕÑ}…ÕÑ¡}¡•…‘•ÉÌ¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€¡•…‘•ÉÌõì‰•ÁÐˆè€‰…ÁÁ±¥…Ñ¥½¸½©Í½¸°Ñ•áÐ½•Ù•¹ÐµÍÑÉ•…´‰ô°(€€€€€€€€€€€©Í½¸õì(€€€€€€€€€€€€€€€€‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°(€€€€€€€€€€€€€€€€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°(€€€€€€€€€€€€€€€€‰Á…É…µÌˆèì(€€€€€€€€€€€€€€€€€€€€‰ÁÉ½Ñ½½±Y•ÉÍ¥½¸ˆè€ˆÈÀÈÔ´ÀÌ´ÈØˆ°(€€€€€€€€€€€€€€€€€€€€‰…Á…‰¥±¥Ñ¥•Ìˆèíô°(€€€€€€€€€€€€€€€€€€€€‰±¥•¹Ñ%¹™¼ˆèì‰¹…µ”ˆè€‰Ñ•ÍÐˆ°€‰Ù•ÉÍ¥½¸ˆè€ˆÄ‰ô°(€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€€€€€‰¥ˆè€Ä°(€€€€€€€€€€€ô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÈÀÀ(€€€…ÍÍ•ÉÐ€‰Á±…¹•}…Á¥}Í•É•Ðˆ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(€€€…ÍÍ•ÉÐ€‰œˆ€¨€ÌÈ¹½Ð¥¸É•ÍÁ½¹Í”¹Ñ•áÐ(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}É½ÕÑ•}É•ÍÁ•ÑÍ}Á…Ñ¡}ÁÉ•™¥à¡µ½¹­•åÁ…Ñ ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰5A}AQ!}AI%`ˆ°€ˆ½Á±…¹”ˆ¤(€€€Ý¥Ñ Q•ÍÑ±¥•¹Ð¡‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤¤…Ì±¥•¹Ðè(€€€€€€€É•ÍÁ½¹Í”€ô±¥•¹Ð¹Á½ÍÐ (€€€€€€€€€€€€ˆ½Á±…¹”½¡ÑÑÀ½¡…ÑÁÐ¼ˆ€¬€‰œˆ€¨€ÌÈ€¬€ˆ½µÀˆ°(€€€€€€€€€€€¡•…‘•ÉÌõì‰•ÁÐˆè€‰…ÁÁ±¥…Ñ¥½¸½©Í½¸°Ñ•áÐ½•Ù•¹ÐµÍÑÉ•…´‰ô°(€€€€€€€€€€€©Í½¸õì(€€€€€€€€€€€€€€€€‰©Í½¹ÉÁŒˆè€ˆÈ¸Àˆ°(€€€€€€€€€€€€€€€€‰µ•Ñ¡½ˆè€‰¥¹¥Ñ¥…±¥é”ˆ°(€€€€€€€€€€€€€€€€‰Á…É…µÌˆèì(€€€€€€€€€€€€€€€€€€€€‰ÁÉ½Ñ½½±Y•ÉÍ¥½¸ˆè€ˆÈÀÈÔ´ÀÌ´ÈØˆ°(€€€€€€€€€€€€€€€€€€€€‰…Á…‰¥±¥Ñ¥•Ìˆèíô°(€€€€€€€€€€€€€€€€€€€€‰±¥•¹Ñ%¹™¼ˆèì‰¹…µ”ˆè€‰Ñ•ÍÐˆ°€‰Ù•ÉÍ¥½¸ˆè€ˆÄ‰ô°(€€€€€€€€€€€€€€€ô°(€€€€€€€€€€€€€€€€‰¥ˆè€Ä°(€€€€€€€€€€€ô°(€€€€€€€€¤(€€€…ÍÍ•ÉÐÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍ}½‘”€ôô€ÈÀÀ)€((´lt€¨©MÑ•À€ÈèIÕ¸Ñ¡”É½ÕÑ¥¹œÑ•ÍÑÌ…¹½¹™¥É´I¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áä€µÙ€()áÁ•Ñ•è¥µÁ½ÉÐ™…¥±Ì‰•…ÕÍ”‰Õ¥±‘}¡ÑÑÁ}…ÁÁ€¥Ì¹½Ð‘•™¥¹•¸((´lt€¨©MÑ•À€Ìè‘Ñ¡”¹¼µ…ÕÑ …ÍÑ5@™…Ñ½Éä¨¨()%¸Á±…¹•}µÀ½Í•ÉÙ•È¹Áå€°…‘è()ÁåÑ¡½¸)‘•˜•Ñ}…Ñ•Ý…å}µÀ ¤€´ø…ÍÑ5@è(€€€É•ÑÕÉ¸}½¹™¥ÕÉ• (€€€€€€€…ÍÑ5@ (€€€€€€€€€€€€‰A±…¹”5@M•ÉÙ•È€¡¡…ÑAP…Ñ•Ý…ä¤ˆ°(€€€€€€€€€€€¥¹ÍÑÉÕÑ¥½¹ÌõMIYI}%9MQIUQ%=9L°(€€€€€€€€¤(€€€€¤)€((´lt€¨©MÑ•À€ÐèáÑÉ…Ð!QQ@½¹ÍÑÉÕÑ¥½¸…¹½¹‘¥Ñ¥½¹…±±äµ½Õ¹ÐÑ¡”…Ñ•Ý…ä¨¨()%¸Á±…¹•}µÀ½}}µ…¥¹}|¹Áå€°¥µÁ½ÉÐ±½…‘}…Ñ•Ý…å}½¹™¥€…¹)•Ñ}…Ñ•Ý…å}µÁ€¸áÑÉ…Ð…±°!QQ@…ÁÀ½¹ÍÑÉÕÑ¥½¸™É½´µ…¥¸ ¥€¥¹Ñ¼)‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤€´øMÑ…É±•ÑÑ•€¸	Õ¥±Ñ¡”Ñ¡É•”•á¥ÍÑ¥¹œ…ÁÁÌ•á…Ñ±ä…Ì¹½Ü¸)]¡•¸½¹™¥ÕÉ…Ñ¥½¸¥Ì•¹…‰±•°…‘‘¥Ñ¥½¹…±±äÉ•…Ñ”)…Ñ•Ý…å}…ÁÀ€ô•Ñ}…Ñ•Ý…å}µÀ ¤¹¡ÑÑÁ}…ÁÀ¡ÍÑ…Ñ•±•ÍÍ}¡ÑÑÀõQÉÕ”¥€…¹…ÁÁ•¹è()ÁåÑ¡½¸)5½Õ¹Ð¡ÁÉ•™¥à€¬˜ˆ½¡ÑÑÀ½¡…ÑÁÐ½í…Ñ•Ý…å}½¹™¥œ¹Ñ½­•¹ôˆ°…ÁÀõ…Ñ•Ý…å}…ÁÀ¤)€()¡…¹”½µ‰¥¹•‘}±¥™•ÍÁ…¹€Ñ¼…•ÁÐÑ¡”™¥á••á¥ÍÑ¥¹œ…ÁÁÌÁ±ÕÌ…¸½ÁÑ¥½¹…°)…Ñ•Ý…ä…ÁÀ…¹•¹Ñ•È¥ÑÌ±¥™•ÍÁ…¸½¹±äÝ¡•¸ÁÉ•Í•¹Ð¸µ…¥¸ ¥€…±±Ì)‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¥€…¹Á…ÍÍ•ÌÑ¡”É•ÍÕ±ÐÑ¼ÕÙ¥½É¸¹ÉÕ¹€¸((´lt€¨©MÑ•À€ÔèIÕ¸Ñ¡”™½ÕÍ•É½ÕÑ¥¹œÑ•ÍÑÌ…¹½¹™¥É´I8¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áä€µÙ€()áÁ•Ñ•è…±°½¹™¥ÕÉ…Ñ¥½¸…¹É½ÕÑ¥¹œÑ•ÍÑÌÁ…ÍÌ¸((´lt€¨©MÑ•À€ØèIÕ¸•á¥ÍÑ¥¹œ!QQ@½…ÕÑ É•É•ÍÍ¥½¸Ñ•ÍÑÌ¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}ÍÑ…Ñ•±•ÍÍ}¡ÑÑÀ¹ÁäÑ•ÍÑÌ½Ñ•ÍÑ}½…ÕÑ¡}Í•ÕÉ¥Ñä¹Áä€µÙ€()áÁ•Ñ•è…±°Ñ•ÍÑÌÁ…ÍÌÝ¥Ñ Õ¹¡…¹•=ÕÑ …¹¡•…‘•È‰•¡…Ù¥½È¸((´lt€¨©MÑ•À€Üè½µµ¥ÐÑ¡”…Ñ•Ý…äÑÉ…¹ÍÁ½ÉÐ¨¨()‰…Í )¥Ð…‘€´´Á±…¹•}µÀ½Í•ÉÙ•È¹ÁäÁ±…¹•}µÀ½}}µ…¥¹}|¹ÁäÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áä)¥Ð½µµ¥Ð€µ´€‰™•…Ðè…‘…Á…‰¥±¥ÑäUI0…Ñ•Ý…ä™½È¡…ÑAPˆ)€((ŒŒŒQ…Í¬€ÌèAÉ½Ù”Í•ÉÙ•ÈµÍ¥‘”A±…¹”É•‘•¹Ñ¥…°É•Í½±ÕÑ¥½¸…¹Í•É•ÐµÍ…™”±½¥¹œ((¨©¥±•Ìè¨¨(´5½‘¥™äèÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áå€(´5½‘¥™äèÁ±…¹•}µÀ½}}µ…¥¹}|¹Áå€½¹±ä¥˜„™…¥±¥¹œ±•…­…”Ñ•ÍÐÉ•ÅÕ¥É•Ì¥Ð¸((¨©%¹Ñ•É™…•Ìè¨¨(´½¹ÍÕµ•Ìè•á¥ÍÑ¥¹œ•Ñ}Á±…¹•}±¥•¹Ñ}½¹Ñ•áÐ ¤€´øA±…¹•±¥•¹Ñ½¹Ñ•áÑ€°‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤€´øMÑ…É±•ÑÑ•€°…¹)M=8±½¥¹œ½¹™¥ÕÉ…Ñ¥½¸¸(´AÉ½‘Õ•ÌèÉ•É•ÍÍ¥½¸•Ù¥‘•¹”Ñ¡…Ð¹¼É•ÅÕ•ÍÐÉ•‘•¹Ñ¥…°¥ÌÉ•ÅÕ¥É•…¹¹¼½¹™¥ÕÉ•Í•É•Ð¥Ì±½•½ÈÉ•ÑÕÉ¹•¸((´lt€¨©MÑ•À€Äè‘„™…¥±¥¹œµ½Èµ¡…É…Ñ•É¥é¥¹œ±¥•¹ÐÉ•‘•¹Ñ¥…°Ñ•ÍÐ¨¨()A…Ñ Á±…¹•}µÀ¹±¥•¹Ð¹A±…¹•±¥•¹Ñ€…ÐÑ¡”•áÑ•É¹…°M,‰½Õ¹‘…Éä…¹…ÍÍ•ÉÐ½¸)Ñ¡”É•…°É•ÑÕÉ¹•½¹Ñ•áÐ°¹½Ð½¸µ½¬…±°½Õ¹ÑÌè()ÁåÑ¡½¸)™É½´Á±…¹•}µÀ¹±¥•¹Ð¥µÁ½ÉÐ•Ñ}Á±…¹•}±¥•¹Ñ}½¹Ñ•áÐ(()‘•˜Ñ•ÍÑ}…Ñ•Ý…å}½¹Ñ•áÑ}ÕÍ•Í}Í•ÉÙ•É}Í¥‘•}Á±…¹•}É•‘•¹Ñ¥…±Ì¡µ½¹­•åÁ…Ñ ¤è(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}A%}-dˆ°€‰Á±…¹•}…Á¥}Í•É•Ðˆ¤(€€€µ½¹­•åÁ…Ñ ¹Í•Ñ•¹Ø ‰A19}]=I-MA}M1Uˆ°€‰Á•ÉÍ½¹…°ˆ¤(€€€…ÁÑÕÉ•€ôíô((€€€±…ÍÌ…ÁÑÕÉ¥¹A±…¹•±¥•¹Ðè(€€€€€€€‘•˜}}¥¹¥Ñ}|¡Í•±˜°€¨©­Ý…ÉÌ¤è(€€€€€€€€€€€…ÁÑÕÉ•¹ÕÁ‘…Ñ”¡­Ý…ÉÌ¤((€€€µ½¹­•åÁ…Ñ ¹Í•Ñ…ÑÑÈ ‰Á±…¹•}µÀ¹±¥•¹Ð¹A±…¹•±¥•¹Ðˆ°…ÁÑÕÉ¥¹A±…¹•±¥•¹Ð¤(€€€½¹Ñ•áÐ€ô•Ñ}Á±…¹•}±¥•¹Ñ}½¹Ñ•áÐ ¤((€€€…ÍÍ•ÉÐ½¹Ñ•áÐ¹Ý½É­ÍÁ…•}Í±Õœ€ôô€‰Á•ÉÍ½¹…°ˆ(€€€…ÍÍ•ÉÐ…ÁÑÕÉ•€ôôì‰‰…Í•}ÕÉ°ˆè€‰¡ÑÑÁÌè¼½…Á¤¹Á±…¹”¹Í¼ˆ°€‰…Á¥}­•äˆè€‰Á±…¹•}…Á¥}Í•É•Ð‰ô)€((´lt€¨©MÑ•À€ÈèIÕ¸Ñ¡”±¥•¹ÐÑ•ÍÐ…¹É•½ÉÝ¡•Ñ¡•È¥Ð¥ÌI½È„¡…É…Ñ•É¥é…Ñ¥½¸Á…ÍÌ¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹ÁäèéÑ•ÍÑ}…Ñ•Ý…å}½¹Ñ•áÑ}ÕÍ•Í}Í•ÉÙ•É}Í¥‘•}Á±…¹•}É•‘•¹Ñ¥…±Ì€µÙ€()áÁ•Ñ•èAML¥Ì…•ÁÑ…‰±”‰•…ÕÍ”Ñ¡¥ÌÙ•É¥™¥•Ì…¸•á¥ÍÑ¥¹œ‰•¡…Ù¥½È¥¹Ñ•¹Ñ¥½¹…±±äÉ•ÕÍ•‰äÑ¡”‘•Í¥¸¸%˜É•ÅÕ•ÍÐ½¹Ñ•áÐ‰•¡…Ù¥½È¥¹Ñ•É™•É•Ì°µ…­”Ñ¡”Ñ•ÍÐ•á•ÕÑ”¥¹Í¥‘”Ñ¡”…Ñ•Ý…ä5@…±°…¹­••ÀÑ¡”Í…µ”½‰Í•ÉÙ…‰±”…ÍÍ•ÉÑ¥½¹Ì¸((´lt€¨©MÑ•À€Ìè‘„±½œµ…ÁÑÕÉ”±•…­…”Ñ•ÍÐ¨¨()ÁåÑ¡½¸)‘•˜Ñ•ÍÑ}…Ñ•Ý…å}ÍÑ…ÉÑÕÁ}±½¥¹}‘½•Í}¹½Ñ}•µ¥Ñ}Í•É•ÑÌ¡µ½¹­•åÁ…Ñ °…Á±½œ¤è(€€€}…Ñ•Ý…å}•¹Ù¥É½¹µ•¹Ð¡µ½¹­•åÁ…Ñ ¤(€€€‰Õ¥±‘}¡ÑÑÁ}…ÁÀ ¤(€€€É•¹‘•É•€ô…Á±½œ¹Ñ•áÐ(€€€…ÍÍ•ÉÐ€‰Á±…¹•}…Á¥}Í•É•Ðˆ¹½Ð¥¸É•¹‘•É•(€€€…ÍÍ•ÉÐ€‰œˆ€¨€ÌÈ¹½Ð¥¸É•¹‘•É•)€()Q¡¥Ì…Ñ¡•Ì™ÕÑÕÉ”±½¥¹œ½˜•¥Ñ¡•È™Õ±°…Ñ•Ý…äÉ½ÕÑ”½ÈA±…¹”AP¸%˜Ñ¡”)ÕÉÉ•¹Ð•áÑÉ…Ñ¥½¸•µ¥ÑÌ¹¼ÍÑ…ÉÑÕÀÉ•½É°…‘½¹”½¹ÍÑ…¹Ðµ•ÍÍ…”ÍÕ …Ì)€‰¡…ÑAP¹¼µ…ÕÑ …Ñ•Ý…ä•¹…‰±•‰€ì¹•Ù•È¥¹Ñ•ÉÁ½±…Ñ”½¹™¥ÕÉ…Ñ¥½¸¸((´lt€¨©MÑ•À€ÐèIÕ¸…±°…Ñ•Ý…äÑ•ÍÑÌ…¹½¹™¥É´I8¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹Áä€µÙ€()áÁ•Ñ•è…±°Ñ•ÍÑÌÁ…ÍÌ…¹…ÁÑÕÉ•½ÕÑÁÕÐ½¹Ñ…¥¹Ì¹•¥Ñ¡•ÈÍ•É•Ð¸((´lt€¨©MÑ•À€Ôè½µµ¥ÐÑ¡”É•‘•¹Ñ¥…°…¹±•…­…”É•É•ÍÍ¥½¸½Ù•É…”¨¨()‰…Í )¥Ð…‘€´´Ñ•ÍÑÌ½Ñ•ÍÑ}…Ñ•Ý…ä¹ÁäÁ±…¹•}µÀ½}}µ…¥¹}|¹Áä)¥Ð½µµ¥Ð€µ´€‰Ñ•ÍÐèÁÉ½Ñ•Ð…Ñ•Ý…äÉ•‘•¹Ñ¥…±Ì™É½´‘¥Í±½ÍÕÉ”ˆ)€((ŒŒŒQ…Í¬€Ðè½Õµ•¹Ð¡…ÑAP]•ˆ…¹QÉ…•™¥¬‘•Á±½åµ•¹Ð((¨©¥±•Ìè¨¨(´5½‘¥™äèI5¹µ‘€((¨©%¹Ñ•É™…•Ìè¨¨(´½¹ÍÕµ•Ìè•á…Ð•¹Ù¥É½¹µ•¹ÐÙ…É¥…‰±•Ì…¹É½ÕÑ”‘•±¥Ù•É•‰äQ…Í­Ì€ÇŠLÈ¸(´AÉ½‘Õ•Ìè½Á•É…Ñ½È¥¹ÍÑÉÕÑ¥½¹Ì™½ÈÍ•É•Ð•¹•É…Ñ¥½¸°½¹Ñ…¥¹•È½¹™¥ÕÉ…Ñ¥½¸°¡…ÑAPÍ•ÑÕÀ°QÉ…•™¥¬™½ÉÝ…É‘¥¹œ°É•‘…Ñ¥½¸°…¹É½Ñ…Ñ¥½¸¸((´lt€¨©MÑ•À€Äè‘Ñ¡”½Á•É…Ñ½È‘½Õµ•¹Ñ…Ñ¥½¸¨¨()‘„Í•Ñ¥½¸…™Ñ•ÈÑ¡”¡½ÍÑ•APÑÉ…¹ÍÁ½ÉÐ½¹Ñ…¥¹¥¹œÑ¡•Í”½¹É•Ñ”¥Ñ•µÌè()µ…É­‘½Ý¸(ŒŒŒ¡…ÑAP]•ˆÝ¥Ñ 9¼ÕÑ ƒŠPÁÉ¥Ù…Ñ”Í¥¹±”µÝ½É­ÍÁ…”…Ñ•Ý…ä()•¹•É…Ñ”„Í•Á…É…Ñ”…Á…‰¥±¥Ñä€¡‘¼¹½ÐÉ•ÕÍ”Ñ¡”A±…¹”AP¤è((€€€½Á•¹ÍÍ°É…¹€µ¡•à€ÌÈ()MÕÁÁ±ä5A}Q]e}Q=-9€°A19}A%}-e€°…¹A19}]=I-MA}M1U€™É½´)½¹Ñ…¥¹•È½½É¡•ÍÑÉ…Ñ½ÈÍ•É•ÑÌ¸½¹™¥ÕÉ”Ñ¡”½¹¹•Ñ½È…Ì€¨©9¼ÕÑ ¨¨Ý¥Ñ è((€€€¡ÑÑÁÌè¼½µÀ¹•á…µÁ±”¹½´½¡ÑÑÀ½¡…ÑÁÐ¼ñ5A}Q]e}Q=-8ø½µÀ()Q¡”A±…¹”APÉ•µ…¥¹ÌÍ•ÉÙ•ÈµÍ¥‘”¸Q¡”UI0¥ÑÍ•±˜¥Ì„É•‘•¹Ñ¥…°èÉ•ÅÕ¥É”)!QQAL°‘¼¹½ÐÍ¡…É”¥Ð°É•‘…Ð€½¡ÑÑÀ½¡…ÑÁÐ¼©€¥¸ÁÉ½áä…•ÍÌ±½Ì°ÕÍ”„)±•…ÍÐµÁÉ¥Ù¥±•”A±…¹”Ñ½­•¸°…¹É½Ñ…Ñ”5A}Q]e}Q=-9€¥˜Ñ¡”UI0±•…­Ì¸)AÉ•™•È=ÕÑ ™½ÈÁ•ÈµÕÍ•È¥‘•¹Ñ¥Ñä…¹É•Ù½…Ñ¥½¸¸)€()%¹±Õ‘”„µ¥¹¥µ…°QÉ…•™¥¬±…‰•°½™¥±”µÁÉ½Ù¥‘•È•á…µÁ±”Ñ¡…Ð™½ÉÝ…É‘ÌÑ¡”¡½ÍÐÑ¼)Á½ÉÐ€àÈÄÄ…¹‘½•Ì¹½Ð¥¹©•ÐÕÑ¡½É¥é…Ñ¥½¹€½È`µ]½É­ÍÁ…”µÍ±Õ€¸áÁ±…¥¸)Ñ¡…Ð…•ÍÌ±½¥¹œµÕÍÐ‰”‘¥Í…‰±•™½ÈÑ¡¥ÌÉ½ÕÑ•È½ÈÉ•‘…Ñ•‰äÑ¡”)‘•Á±½åµ•¹ÐÌ±½¥¹œÁ¥Á•±¥¹”‰•…ÕÍ”QÉ…•™¥¬½¹™¥ÕÉ…Ñ¥½¸‘¥™™•ÉÌ‰äÙ•ÉÍ¥½¸¸()áÑ•¹Ñ¡”…ÕÑ¡•¹Ñ¥…Ñ¥½¸•¹Ù¥É½¹µ•¹ÐÑ…‰±”Ý¥Ñ …±°Ñ¡É•”Ù…±Õ•Ì…¹ÍÑ…Ñ”)Ñ¡…ÐÍ•ÑÑ¥¹œ5A}Q]e}Q=-9€…Ñ¥Ù…Ñ•ÌÍÑ…ÉÑÕÀÙ…±¥‘…Ñ¥½¸¸((´lt€¨©MÑ•À€ÈèI•Ù¥•Ü‘½Õµ•¹Ñ…Ñ¥½¸™½È…¥‘•¹Ñ…°É•…°Í•É•ÑÌ¨¨()IÕ¸èÉœ€µ¸€Á±…¹•}…Á¥}mµi„µèÀ´å|µuìÄÀ±õñ5A}Q]e}Q=-8ô¸¬œI5¹µ‘€()áÁ•Ñ•è¹¼É•…°µ±½½­¥¹œ…ÍÍ¥¹•Í•É•ÑÌì½¹±äÁ±…•¡½±‘•ÉÌ…¹Ù…É¥…‰±”¹…µ•Ì¸((´lt€¨©MÑ•À€ÌèIÕ¸‘½Õµ•¹Ñ…Ñ¥½¸…¹™½Éµ…ÑÑ¥¹œ¡•­Ì¨¨()IÕ¸èÁåÑ•ÍÐÑ•ÍÑÌ½Ñ•ÍÑ}‘½Ì¹Áä€µØ€˜˜ÉÕ™˜™½Éµ…Ð€´µ¡•¬Á±…¹•}µÀÑ•ÍÑÌ€˜˜ÉÕ™˜¡•¬Á±…¹•}µÀÑ•ÍÑÍ€()áÁ•Ñ•è…±°¡•­ÌÁ…ÍÌ¸((´lt€¨©MÑ•À€Ðè½µµ¥Ð‘•Á±½åµ•¹Ð‘½Õµ•¹Ñ…Ñ¥½¸¨¨()‰…Í )¥Ð…‘€´´I5¹µ)¥Ð½µµ¥Ð€µ´€‰‘½Ìè½¹™¥ÕÉ”¡…ÑAP¹¼µ…ÕÑ …Ñ•Ý…äˆ)€((ŒŒŒQ…Í¬€ÔèÕ±°Ù•É¥™¥…Ñ¥½¸…¹É•±•…Í”µÉ•…‘ä‘¥™˜((¨©¥±•Ìè¨¨(´Y•É¥™ä½¹±äìµ½‘¥™ä•…É±¥•È™¥±•Ì½¹±äÑ¼½ÉÉ•Ð™…¥±ÕÉ•Ì¸((¨©%¹Ñ•É™…•Ìè¨¨(´½¹ÍÕµ•Ìè…±°ÁÉ¥½ÈÑ…Í­Ì¸(´AÉ½‘Õ•Ìè„±•…¸°Ñ•ÍÑ•‰É…¹ É•…‘ä™½ÈÕÍ•Èµ…ÁÁÉ½Ù•ÁÕÍ ¸((´lt€¨©MÑ•À€ÄèIÕ¸Ñ¡”•¹Ñ¥É”½™™±¥¹”Ñ•ÍÐÍÕ¥Ñ”¨¨()IÕ¸èÁåÑ•ÍÑ€()áÁ•Ñ•è…±°Ñ•ÍÑÌÁ…ÍÌìÉ•‘•¹Ñ¥…±•±¥Ù”¥¹Ñ•É…Ñ¥½¸Ñ•ÍÑÌµ…äÍ­¥À…½É‘¥¹œÑ¼Ñ¡•¥È•á¥ÍÑ¥¹œµ…É­•ÉÌ¸((´lt€¨©MÑ•À€ÈèIÕ¸™¥¹…°±¥¹Ð…¹™½Éµ…ÑÑ¥¹œ¡•­Ì¨¨()IÕ¸èÉÕ™˜™½Éµ…Ð€´µ¡•¬Á±…¹•}µÀÑ•ÍÑÌ€˜˜ÉÕ™˜¡•¬Á±…¹•}µÀÑ•ÍÑÍ€()áÁ•Ñ•è‰½Ñ ½µµ…¹‘Ì•á¥Ð€À¸((´lt€¨©MÑ•À€Ìè	Õ¥±Ñ¡”‘¥ÍÑÉ¥‰ÕÑ…‰±”Á…­…”¨¨()IÕ¸èÕØ‰Õ¥±‘€()áÁ•Ñ•èÍ½ÕÉ”…¹Ý¡••°…ÉÑ¥™…ÑÌ‰Õ¥±ÍÕ•ÍÍ™Õ±±ä¸((´lt€¨©MÑ•À€Ðè%¹ÍÁ•Ð‰É…¹ ¡å¥•¹”…¹Í•É•Ð±•…­…”¨¨()IÕ¸è()‰…Í )¥ÐÍÑ…ÑÕÌ€´µÍ¡½ÉÐ)¥Ð‘¥™˜€´µ¡•¬½É¥¥¸½µ…¥¸¸¸¹!)¥Ð‘¥™˜€´µÍÑ…Ð½É¥¥¸½µ…¥¸¸¸¹!)¥Ð±½œ€´µ½¹•±¥¹”½É¥¥¸½µ…¥¸¸¹!)€()áÁ•Ñ•è¹¼Õ¹½µµ¥ÑÑ•™¥±•Ì°¹¼Ý¡¥Ñ•ÍÁ…”•ÉÉ½ÉÌ°…¹½¹±äÑ¡”‘•Í¥¸°)Á±…¸°…Ñ•Ý…ä¥µÁ±•µ•¹Ñ…Ñ¥½¸°Ñ•ÍÑÌ°…¹‘½Õµ•¹Ñ…Ñ¥½¸…ÁÁ•…È¥¸Ñ¡”‰É…¹ ¸)%¹ÍÁ•ÐÑ¡”½µÁ±•Ñ”‘¥™˜…¹½¹™¥É´Ñ¡…Ð¹¼½¹É•Ñ”AP½È•¹•É…Ñ•)…Á…‰¥±¥Ñä¥ÌÁÉ•Í•¹Ð¸((´lt€¨©MÑ•À€ÔèI•Á½ÉÐÑ¡”•á…ÐÙ•É¥™¥…Ñ¥½¸•Ù¥‘•¹”¨¨()I•Á½ÉÐÑ•ÍÐ½Õ¹ÑÌ°Í­¥ÁÁ•±¥Ù”Ñ•ÍÑÌ°±¥¹Ð½™½Éµ…Ð½‰Õ¥±•á¥ÐÍÑ…ÑÕÌ°½µµ¥Ð)±¥ÍÐ°…¹…¹ä•¹Ù¥É½¹µ•¹Ð±¥µ¥Ñ…Ñ¥½¸¸¼¹½ÐÁÕÍ Õ¹Ñ¥°Ñ¡”ÕÍ•È•áÁ±¥¥Ñ±ä)…ÕÑ¡½É¥é•ÌÁÕÍ¡¥¹œÑ¡”É•Ù¥•Ý•‰É…¹ ¸
+/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
+# ChatGPT No-Auth Gateway Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Add an opt-in capability-URL MCP gateway that lets a ChatGPT Web No Auth connector use Plane credentials held only in server-side secrets.
+
+**Architecture:** A small configuration module validates the three gateway secrets and returns an immutable configuration object or `None`. The HTTP app builder conditionally mounts a no-auth FastMCP instance beneath an exact high-entropy path; the existing client fallback supplies the server-owned Plane PAT and workspace without placing either in an inbound request.
+
+**Tech Stack:** Python 3.10+, FastMCP, Starlette, pytest, Ruff, uv/build.
+
+**Spec:** `docs/superpowers/specs/2026-08-21-chatgpt-no-auth-gateway-design.md`
+
+## Global Constraints
+
+- Existing OAuth, header-PAT, SSE, and stdio behavior must remain unchanged.
+- The gateway is disabled unless `MCP_GATEWAY_TOKEN` is set.
+- An enabled gateway requires a token of at least 32 characters, `PLANE_API_KEY`, and `PLANE_WORKSPACE_SLUG`.
+- The Plane PAT and workspace slug must not appear in connector URLs, MCP responses, or application logs.
+- The gateway token must not appear in application logs or error messages.
+- The gateway must be deployed only over TLS, with capability paths omitted or redacted from reverse-proxy access logs.
+- No new runtime dependency is permitted.
+
+---
+
+### Task 1: Validate opt-in gateway configuration
+
+**Files:**
+- Create: `plane_mcp/gateway.py`
+- Create: `tests/test_gateway.py`
+
+**Interfaces:**
+- Consumes: environment mapping values named `MCP_GATEWAY_TOKEN`, `PLANE_API_KEY`, and `PLANE_WORKSPACE_SLUG`.
+- Produces: `GatewayConfig(NamedTuple)` with `token: str`, `plane_api_key: str`, and `workspace_slug: str`; `load_gateway_config(environ: Mapping[str, str] | None = None) -> GatewayConfig | None`.
+
+- [ ] **Step 1: Write failing configuration tests**
+
+```python
+import pytest
+
+from plane_mcp.gateway import GatewayConfig, load_gateway_config
+
+
+def test_gateway_is_disabled_when_token_is_absent():
+    assert load_gateway_config({}) is None
+
+
+@pytest.mark.parametrize(
+    ("environ", "missing_name"),
+    [
+        ({"MCP_GATEWAY_TOKEN": "g" * 32, "PLANE_WORKSPACE_SLUG": "personal"}, "PLANE_API_KEY"),
+        ({"MCP_GATEWAY_TOKEN": "g" * 32, "PLANE_API_KEY": "plane_api_secret"}, "PLANE_WORKSPACE_SLUG"),
+    ],
+)
+def test_enabled_gateway_rejects_missing_plane_configuration(environ, missing_name):
+    with pytest.raises(ValueError, match=missing_name):
+        load_gateway_config(environ)
+
+
+def test_enabled_gateway_rejects_short_capability_without_echoing_it():
+    token = "too-short"
+    with pytest.raises(ValueError) as caught:
+        load_gateway_config(
+            {
+                "MCP_GATEWAY_TOKEN": token,
+                "PLANE_API_KEY": "plane_api_secret",
+                "PLANE_WORKSPACE_SLUG": "personal",
+            }
+        )
+    assert "MCP_GATEWAY_TOKEN" in str(caught.value)
+    assert token not in str(caught.value)
+
+
+def test_enabled_gateway_returns_validated_configuration():
+    environ = {
+        "MCP_GATEWAY_TOKEN": "g" * 32,
+        "PLANE_API_KEY": "plane_api_secret",
+        "PLANE_WORKSPACE_SLUG": "personal",
+    }
+    assert load_gateway_config(environ) == GatewayConfig("g" * 32, "plane_api_secret", "personal")
+```
+
+- [ ] **Step 2: Run the tests and confirm RED**
+
+Run: `pytest tests/test_gateway.py -v`
+
+Expected: collection fails because `plane_mcp.gateway` does not exist.
+
+- [ ] **Step 3: Implement the minimal validated configuration loader**
+
+```python
+import os
+from collections.abc import Mapping
+from typing import NamedTuple
+
+
+class GatewayConfig(NamedTuple):
+    token: str
+    plane_api_key: str
+    workspace_slug: str
+
+
+def load_gateway_config(environ: Mapping[str, str] | None = None) -> GatewayConfig | None:
+    values = os.environ if environ is None else environ
+    token = values.get("MCP_GATEWAY_TOKEN", "")
+    if not token:
+        return None
+    if len(token) < 32:
+        raise ValueError("MCP_GATEWAY_TOKEN must contain at least 32 characters")
+    api_key = values.get("PLANE_API_KEY", "")
+    if not api_key:
+        raise ValueError("PLANE_API_KEY is required when MCP_GATEWAY_TOKEN is set")
+    workspace_slug = values.get("PLANE_WORKSPACE_SLUG", "")
+    if not workspace_slug:
+        raise ValueError("PLANE_WORKSPACE_SLUG is required when MCP_GATEWAY_TOKEN is set")
+    return GatewayConfig(token, api_key, workspace_slug)
+```
+
+- [ ] **Step 4: Run the focused tests and confirm GREEN**
+
+Run: `pytest tests/test_gateway.py -v`
+
+Expected: 5 tests pass.
+
+- [ ] **Step 5: Commit the configuration boundary**
+
+```bash
+git add -- plane_mcp/gateway.py tests/test_gateway.py
+git commit -m "feat: validate no-auth gateway configuration"
+```
+
+### Task 2: Build and conditionally mount the capability gateway
+
+**Files:**
+- Modify: `plane_mcp/server.py`
+- Modify: `plane_mcp/__main__.py`
+- Modify: `tests/test_gateway.py`
+
+**Interfaces:**
+- Consumes: `load_gateway_config() -> GatewayConfig | None` from Task 1 and existing `_configured(mcp: FastMCP) -> FastMCP`.
+- Produces: `get_gateway_mcp() -> FastMCP`; `build_http_app() -> Starlette`; exact mount `/http/chatgpt/{token}/mcp`, respecting `MCP_PATH_PREFIX`.
+
+- [ ] **Step 1: Add failing routing tests using the real ASGI application**
+
+Append tests that set environment variables with `monkeypatch`, call `build_http_app()`, and use `TestClient`:
+
+```python
+from starlette.testclient import TestClient
+
+from plane_mcp.__main__ import build_http_app
+
+
+def _gateway_environment(monkeypatch):
+    monkeypatch.setenv("MCP_GATEWAY_TOKEN", "g" * 32)
+    monkeypatch.setenv("PLANE_API_KEY", "plane_api_secret")
+    monkeypatch.setenv("PLANE_WORKSPACE_SLUG", "personal")
+    monkeypatch.delenv("MCP_PATH_PREFIX", raising=False)
+
+
+def test_gateway_route_is_absent_when_disabled(monkeypatch):
+    monkeypatch.delenv("MCP_GATEWAY_TOKEN", raising=False)
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/http/chatgpt/" + "g" * 32 + "/mcp",
+            json={"jsonrpc": "2.0", "method": "initialize", "id": 1},
+        )
+    assert response.status_code == 404
+
+
+def test_wrong_gateway_capability_returns_not_found(monkeypatch):
+    _gateway_environment(monkeypatch)
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/http/chatgpt/" + "x" * 32 + "/mcp",
+            json={"jsonrpc": "2.0", "method": "initialize", "id": 1},
+        )
+    assert response.status_code == 404
+    assert "g" * 32 not in response.text
+    assert "plane_api_secret" not in response.text
+
+
+def test_correct_gateway_capability_initializes_without_auth_headers(monkeypatch):
+    _gateway_environment(monkeypatch)
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/http/chatgpt/" + "g" * 32 + "/mcp",
+            headers={"Accept": "application/json, text/event-stream"},
+            json={
+                "jsonrpc": "2.0",
+                "method": "initialize",
+                "params": {
+                    "protocolVersion": "2025-03-26",
+                    "capabilities": {},
+                    "clientInfo": {"name": "test", "version": "1"},
+                },
+                "id": 1,
+            },
+        )
+    assert response.status_code == 200
+    assert "plane_api_secret" not in response.text
+    assert "g" * 32 not in response.text
+
+
+def test_gateway_route_respects_path_prefix(monkeypatch):
+    _gateway_environment(monkeypatch)
+    monkeypatch.setenv("MCP_PATH_PREFIX", "/plane")
+    with TestClient(build_http_app()) as client:
+        response = client.post(
+            "/plane/http/chatgpt/" + "g" * 32 + "/mcp",
+            headers={"Accept": "application/json, text/event-stream"},
+            json={
+                "jsonrpc": "2.0",
+                "method": "initialize",
+                "params": {
+                    "protocolVersion": "2025-03-26",
+                    "capabilities": {},
+                    "clientInfo": {"name": "test", "version": "1"},
+                },
+                "id": 1,
+            },
+        )
+    assert response.status_code == 200
+```
+
+- [ ] **Step 2: Run the routing tests and confirm RED**
+
+Run: `pytest tests/test_gateway.py -v`
+
+Expected: import fails because `build_http_app` is not defined.
+
+- [ ] **Step 3: Add the no-auth FastMCP factory**
+
+In `plane_mcp/server.py`, add:
+
+```python
+def get_gateway_mcp() -> FastMCP:
+    return _configured(
+        FastMCP(
+            "Plane MCP Server (ChatGPT gateway)",
+            instructions=SERVER_INSTRUCTIONS,
+        )
+    )
+```
+
+- [ ] **Step 4: Extract HTTP construction and conditionally mount the gateway**
+
+In `plane_mcp/__main__.py`, import `load_gateway_config` and
+`get_gateway_mcp`. Extract all HTTP app construction from `main()` into
+`build_http_app() -> Starlette`. Build the three existing apps exactly as now.
+When configuration is enabled, additionally create
+`gateway_app = get_gateway_mcp().http_app(stateless_http=True)` and append:
+
+```python
+Mount(prefix + f"/http/chatgpt/{gateway_config.token}", app=gateway_app)
+```
+
+Change `combined_lifespan` to accept the fixed existing apps plus an optional
+gateway app and enter its lifespan only when present. `main()` calls
+`build_http_app()` and passes the result to `uvicorn.run`.
+
+- [ ] **Step 5: Run the focused routing tests and confirm GREEN**
+
+Run: `pytest tests/test_gateway.py -v`
+
+Expected: all configuration and routing tests pass.
+
+- [ ] **Step 6: Run existing HTTP/auth regression tests**
+
+Run: `pytest tests/test_stateless_http.py tests/test_oauth_security.py -v`
+
+Expected: all tests pass with unchanged OAuth and header behavior.
+
+- [ ] **Step 7: Commit the gateway transport**
+
+```bash
+git add -- plane_mcp/server.py plane_mcp/__main__.py tests/test_gateway.py
+git commit -m "feat: add capability URL gateway for ChatGPT"
+```
+
+### Task 3: Prove server-side Plane credential resolution and secret-safe logging
+
+**Files:**
+- Modify: `tests/test_gateway.py`
+- Modify: `plane_mcp/__main__.py` only if a failing leakage test requires it.
+
+**Interfaces:**
+- Consumes: existing `get_plane_client_context() -> PlaneClientContext`, `build_http_app() -> Starlette`, and JSON logging configuration.
+- Produces: regression evidence that no request credential is required and no configured secret is logged or returned.
+
+- [ ] **Step 1: Add a failing-or-characterizing client credential test**
+
+Patch `plane_mcp.client.PlaneClient` at the external SDK boundary and assert on
+the real returned context, not on mock call counts:
+
+```python
+from plane_mcp.client import get_plane_client_context
+
+
+def test_gateway_context_uses_server_side_plane_credentials(monkeypatch):
+    monkeypatch.setenv("PLANE_API_KEY", "plane_api_secret")
+    monkeypatch.setenv("PLANE_WORKSPACE_SLUG", "personal")
+    captured = {}
+
+    class CapturingPlaneClient:
+        def __init__(self, **kwargs):
+            captured.update(kwargs)
+
+    monkeypatch.setattr("plane_mcp.client.PlaneClient", CapturingPlaneClient)
+    context = get_plane_client_context()
+
+    assert context.workspace_slug == "personal"
+    assert captured == {"base_url": "https://api.plane.so", "api_key": "plane_api_secret"}
+```
+
+- [ ] **Step 2: Run the client test and record whether it is RED or a characterization pass**
+
+Run: `pytest tests/test_gateway.py::test_gateway_context_uses_server_side_plane_credentials -v`
+
+Expected: PASS is acceptable because this verifies an existing behavior intentionally reused by the design. If request context behavior interferes, make the test execute inside the gateway MCP call and keep the same observable assertions.
+
+- [ ] **Step 3: Add a log-capture leakage test**
+
+```python
+def test_gateway_startup_logging_does_not_emit_secrets(monkeypatch, caplog):
+    _gateway_environment(monkeypatch)
+    build_http_app()
+    rendered = caplog.text
+    assert "plane_api_secret" not in rendered
+    assert "g" * 32 not in rendered
+```
+
+This catches future logging of either full gateway route or Plane PAT. If the
+current extraction emits no startup record, add one constant message such as
+`"ChatGPT no-auth gateway enabled"`; never interpolate configuration.
+
+- [ ] **Step 4: Run all gateway tests and confirm GREEN**
+
+Run: `pytest tests/test_gateway.py -v`
+
+Expected: all tests pass and captured output contains neither secret.
+
+- [ ] **Step 5: Commit the credential and leakage regression coverage**
+
+```bash
+git add -- tests/test_gateway.py plane_mcp/__main__.py
+git commit -m "test: protect gateway credentials from disclosure"
+```
+
+### Task 4: Document ChatGPT Web and Traefik deployment
+
+**Files:**
+- Modify: `README.md`
+
+**Interfaces:**
+- Consumes: exact environment variables and route delivered by Tasks 1â€“2.
+- Produces: operator instructions for secret generation, container configuration, ChatGPT setup, Traefik forwarding, redaction, and rotation.
+
+- [ ] **Step 1: Add the operator documentation**
+
+Add a section after the hosted PAT transport containing these concrete items:
+
+```markdown
+### ChatGPT Web with No Auth â€” private single-workspace gateway
+
+Generate a separate capability (do not reuse the Plane PAT):
+
+    openssl rand -hex 32
+
+Supply `MCP_GATEWAY_TOKEN`, `PLANE_API_KEY`, and `PLANE_WORKSPACE_SLUG` from
+container/orchestrator secrets. Configure the connector as **No Auth** with:
+
+    https://mcp.example.com/http/chatgpt/<MCP_GATEWAY_TOKEN>/mcp
+
+The Plane PAT remains server-side. The URL itself is a credential: require
+HTTPS, do not share it, redact `/http/chatgpt/*` in proxy access logs, use a
+least-privilege Plane token, and rotate `MCP_GATEWAY_TOKEN` if the URL leaks.
+Prefer OAuth for per-user identity and revocation.
+```
+
+Include a minimal Traefik label/file-provider example that forwards the host to
+port 8211 and does not inject `Authorization` or `X-Workspace-slug`. Explain
+that access logging must be disabled for this router or redacted by the
+deployment's logging pipeline because Traefik configuration differs by version.
+
+Extend the authentication environment table with all three values and state
+that setting `MCP_GATEWAY_TOKEN` activates startup validation.
+
+- [ ] **Step 2: Review documentation for accidental real secrets**
+
+Run: `rg -n 'plane_api_[A-Za-z0-9_-]{10,}|MCP_GATEWAY_TOKEN=.+' README.md`
+
+Expected: no real-looking assigned secrets; only placeholders and variable names.
+
+- [ ] **Step 3: Run documentation and formatting checks**
+
+Run: `pytest tests/test_docs.py -v && ruff format --check plane_mcp tests && ruff check plane_mcp tests`
+
+Expected: all checks pass.
+
+- [ ] **Step 4: Commit deployment documentation**
+
+```bash
+git add -- README.md
+git commit -m "docs: configure ChatGPT no-auth gateway"
+```
+
+### Task 5: Full verification and release-ready diff
+
+**Files:**
+- Verify only; modify earlier files only to correct failures.
+
+**Interfaces:**
+- Consumes: all prior tasks.
+- Produces: a clean, tested branch ready for user-approved push.
+
+- [ ] **Step 1: Run the entire offline test suite**
+
+Run: `pytest`
+
+Expected: all tests pass; credentialed live integration tests may skip according to their existing markers.
+
+- [ ] **Step 2: Run final lint and formatting checks**
+
+Run: `ruff format --check plane_mcp tests && ruff check plane_mcp tests`
+
+Expected: both commands exit 0.
+
+- [ ] **Step 3: Build the distributable package**
+
+Run: `uv build`
+
+Expected: source and wheel artifacts build successfully.
+
+- [ ] **Step 4: Inspect branch hygiene and secret leakage**
+
+Run:
+
+```bash
+git status --short
+git diff --check origin/main...HEAD
+git diff --stat origin/main...HEAD
+git log --oneline origin/main..HEAD
+```
+
+Expected: no uncommitted files, no whitespace errors, and only the design,
+plan, gateway implementation, tests, and documentation appear in the branch.
+Inspect the complete diff and confirm that no concrete PAT or generated
+capability is present.
+
+- [ ] **Step 5: Report the exact verification evidence**
+
+Report test counts, skipped live tests, lint/format/build exit status, commit
+list, and any environment limitation. Do not push until the user explicitly
+authorizes pushing the reviewed branch.

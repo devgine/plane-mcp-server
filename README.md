@@ -1,1 +1,318 @@
-ıK®Ïò¢Êâm¨k‹üå¢§öxœ{—ÚŠW¢—«jØ¨z-¥êæŠÛ^tŒA±…¹”5@M•ÉÙ•È()m5½‘•°½¹Ñ•áĞAÉ½Ñ½½±t¡¡ÑÑÁÌè¼½µ½‘•±½¹Ñ•áÑÁÉ½Ñ½½°¹¥¼¤Í•ÉÙ•È™½È)mA±…¹•t¡¡ÑÑÁÌè¼½Á±…¹”¹Í¼¤¸¥Ù•Ì…¸$…•¹ĞÑ½½±ÌÑ¼É•……¹µ…¹…”ÁÉ½©•ÑÌ°)İ½É¬¥Ñ•µÌ°å±•Ì°µ½‘Õ±•Ì°É•±•…Í•Ì°ÕÍÑ½µ•ÉÌ…¹µ½É”¸()	Õ¥±Ğ½¸m…ÍÑ5At¡¡ÑÑÁÌè¼½¥Ñ¡Õˆ¹½´½©±½İ¥¸½™…ÍÑµÀ¤…¹Ñ¡”½™™¥¥…°)mÁ±…¹”µÍ‘­t¡¡ÑÑÁÌè¼½ÁåÁ¤¹½Éœ½ÁÉ½©•Ğ½Á±…¹”µÍ‘¬¼¤¸((´€¨¨ÌÀÑ½½±Ì¨¨°½¹”Á•ÈA±…¹”É•Í½ÕÉ”°½Ù•É¥¹œ€ÈÀĞ½Á•É…Ñ¥½¹Ì(´€¨©1½…°½ÈÉ•µ½Ñ”¨¨ƒŠPÍÑ‘¥¼°ÍÑÉ•…µ…‰±”!QQ@°MM(´€¨©=ÕÑ ½ÈA$­•ä¨¨…ÕÑ¡•¹Ñ¥…Ñ¥½¸((ŒŒEÕ¥¬ÍÑ…ÉĞ()•Ğ…¸A$­•ä™É½´A±…¹”è€¨©]½É­ÍÁ…”M•ÑÑ¥¹ÌƒŠHA$Ñ½­•¹Ì¨¨¸()‘Ñ¡¥ÌÑ¼å½ÕÈ5@±¥•¹ĞÌ½¹™¥ÕÉ…Ñ¥½¸è()©Í½¸)ì(€€‰µÁM•ÉÙ•ÉÌˆèì(€€€€‰Á±…¹”ˆèì(€€€€€€‰½µµ…¹ˆè€‰ÕÙàˆ°(€€€€€€‰…ÉÌˆèl‰Á±…¹”µµÀµÍ•ÉÙ•Èˆ°€‰ÍÑ‘¥¼‰t°(€€€€€€‰•¹Øˆèì(€€€€€€€€‰A19}A%}-dˆè€ˆñå½ÕÈµ…Á¤µ­•äøˆ°(€€€€€€€€‰A19}]=I-MA}M1Uˆè€ˆñå½ÕÈµİ½É­ÍÁ…”µÍ±Õœøˆ(€€€€€ô(€€€ô(€ô)ô)€()ÕÙá€¹••‘Ì¹¼¥¹ÍÑ…±°ÍÑ•À¸I•ÅÕ¥É•ÌAåÑ¡½¸€Ì¸ÄÀ¬¸()½È„Í•±˜µ¡½ÍÑ•A±…¹”°…‘€‰A19}	M}UI0ˆè€‰¡ÑÑÁÌè¼½Á±…¹”¹•á…µÁ±”¹½´‰€¸((ŒŒQÉ…¹ÍÁ½ÉÑÌ((ŒŒŒÍÑ‘¥¼ƒŠP±½…°()IÕ¹Ì…Ì„ÍÕ‰ÁÉ½•ÍÌ½˜å½ÕÈ5@±¥•¹Ğ¸½¹™¥ÕÉ…Ñ¥½¸…ÌÍ¡½İ¸…‰½Ù”ì¹••‘Ì)A19}A%}-e€…¹A19}]=I-MA}M1U€¸()‰…Í )A19}A%}-dô¸¸¸A19}]=I-MA}M1Uô¸¸¸ÕÙàÁ±…¹”µµÀµÍ•ÉÙ•ÈÍÑ‘¥¼)€((ŒŒŒ!QQ@İ¥Ñ =ÕÑ ƒŠP¡½ÍÑ•()¡ÑÑÁÌè¼½µÀ¹Á±…¹”¹Í¼½¡ÑÑÀ½µÁ€()Q¡”=ÕÑ ™±½Ü¥Ì¡…¹‘±•½¸½¹¹•Ğì¹¼É•‘•¹Ñ¥…±Ì¥¸å½ÕÈ½¹™¥œ¸½È±¥•¹ÑÌ)İ¥Ñ¡½ÕĞ¹…Ñ¥Ù”É•µ½Ñ”5@ÍÕÁÁ½ÉĞ°‰É¥‘”İ¥Ñ µÀµÉ•µ½Ñ•€è()©Í½¸)ì(€€‰µÁM•ÉÙ•ÉÌˆèì(€€€€‰Á±…¹”ˆèì(€€€€€€‰½µµ…¹ˆè€‰¹Áàˆ°(€€€€€€‰…ÉÌˆèl‰µÀµÉ•µ½Ñ•±…Ñ•ÍĞˆ°€‰¡ÑÑÁÌè¼½µÀ¹Á±…¹”¹Í¼½¡ÑÑÀ½µÀ‰t(€€€ô(€ô)ô)€()I•ÅÕ¥É•Ì9½‘”¹©Ì€ÈÈ¬¸((ŒŒŒ!QQ@İ¥Ñ „Á•ÉÍ½¹…°…•ÍÌÑ½­•¸ƒŠP¡½ÍÑ•()¡ÑÑÁÌè¼½µÀ¹Á±…¹”¹Í¼½¡ÑÑÀ½…Á¤µ­•ä½µÁ€()ğ!•…‘•ÈğY…±Õ”ğ)ğ´´µğ´´µğ)ğÕÑ¡½É¥é…Ñ¥½¹€ğ	•…É•È€ñAPù€ğ)ğ`µ]½É­ÍÁ…”µÍ±Õ€ğ€ñİ½É­ÍÁ…”µÍ±Õœù€ğ()©Í½¸)ì(€€‰µÁM•ÉÙ•ÉÌˆèì(€€€€‰Á±…¹”ˆèì(€€€€€€‰½µµ…¹ˆè€‰¹Áàˆ°(€€€€€€‰…ÉÌˆèl‰µÀµÉ•µ½Ñ•±…Ñ•ÍĞˆ°€‰¡ÑÑÁÌè¼½µÀ¹Á±…¹”¹Í¼½¡ÑÑÀ½…Á¤µ­•ä½µÀ‰t°(€€€€€€‰¡•…‘•ÉÌˆèì(€€€€€€€€‰ÕÑ¡½É¥é…Ñ¥½¸ˆè€‰	•…É•È€ñAPøˆ°(€€€€€€€€‰`µ]½É­ÍÁ…”µÍ±Õœˆè€ˆñİ½É­ÍÁ…”µÍ±Õœøˆ(€€€€€ô(€€€ô(€ô)ô)€((ŒŒŒ¡…ÑAP]•ˆİ¥Ñ 9¼ÕÑ ƒŠPÁÉ¥Ù…Ñ”Í¥¹±”µİ½É­ÍÁ…”…Ñ•İ…ä()•¹•É…Ñ”„Í•Á…É…Ñ”…Á…‰¥±¥Ñäì‘¼¹½ĞÉ•ÕÍ”Ñ¡”A±…¹”APè()‰…Í )½Á•¹ÍÍ°É…¹€µ¡•à€ÌÈ)€()MÕÁÁ±ä5A}Q]e}Q=-9€°A19}A%}-e€°…¹A19}]=I-MA}M1U€™É½´)½¹Ñ…¥¹•È½È½É¡•ÍÑÉ…Ñ½ÈÍ•É•ÑÌ¸½¹™¥ÕÉ”Ñ¡”¡…ÑAP½¹¹•Ñ½È…Ì€¨©9¼)ÕÑ ¨¨İ¥Ñ è()€)¡ÑÑÁÌè¼½µÀ¹•á…µÁ±”¹½´½¡ÑÑÀ½¡…ÑÁĞ¼ñ5A}Q]e}Q=-8ø½µÀ)€()Q¡•Í”Ù…É¥…‰±•Ì…É”…‘‘¥Ñ¥Ù”Ñ¼…¸•á¥ÍÑ¥¹œ!QQ@‘•Á±½åµ•¹Ğ¸Q¡”¡ÑÑÁ€)ÁÉ½•ÍÌÍÑ¥±°½¹ÍÑÉÕÑÌÑ¡”=ÕÑ ÑÉ…¹ÍÁ½ÉĞ°Í¼¥ĞÍÑ¥±°¹••‘ÌÑ¡”‘•Á±½åµ•¹ĞÌ)¹½Éµ…°!QQ@½=ÕÑ ½¹™¥ÕÉ…Ñ¥½¸°¥¹±Õ‘¥¹œA19}=UQ!}AI=Y%I|©€ìÑ¡”…Ñ•İ…ä)Ù…±Õ•Ì‘¼¹½ĞÉ•Á±…”¥Ğ¸()%˜5A}AQ!}AI%a€¥ÌÍ•Ğ°¥¹±Õ‘”¥Ğ‰•™½É”€½¡ÑÑÁ€¥¸Ñ¡¥ÌUI0¸Q¡”A±…¹”)APÉ•µ…¥¹ÌÍ•ÉÙ•ÈµÍ¥‘”¸Q¡”UI0¥ÑÍ•±˜¥Ì„É•‘•¹Ñ¥…°èÉ•ÅÕ¥É”!QQAL°‘¼¹½Ğ)Í¡…É”¥Ğ°É•‘…Ğ€½¡ÑÑÀ½¡…ÑÁĞ¼©€¥¸ÁÉ½áä…•ÍÌ±½Ì°ÕÍ”„±•…ÍĞµÁÉ¥Ù¥±•”)A±…¹”Ñ½­•¸°…¹É½Ñ…Ñ”5A}Q]e}Q=-9€¥˜Ñ¡”UI0±•…­Ì¸AÉ•™•È=ÕÑ ™½È)Á•ÈµÕÍ•È¥‘•¹Ñ¥Ñä…¹É•Ù½…Ñ¥½¸¸()Q¡”A±…¹”AP…¹…Ñ•İ…ä…Á…‰¥±¥Ñä¹•Ù•È‰•±½¹œ¥¸5@É•ÍÁ½¹Í•Ì½È)…ÁÁ±¥…Ñ¥½¸±½Ì¸A19}]=I-MA}M1U€¥Ì™¥á•Í•ÉÙ•ÈµÍ¥‘”™½ÈÉ½ÕÑ¥¹œ…¹)…¹¹½Ğ‰”½Ù•ÉÉ¥‘‘•¸‰ä½¹¹•Ñ½È¡•…‘•ÉÌ°‰ÕĞ¥Ğ¥Ì¹½ĞÑÉ•…Ñ•…Ì…¸)…ÕÑ¡•¹Ñ¥…Ñ¥½¸Í•É•ĞèÙ…±¥A±…¹”É•Í½ÕÉ•ÌÉ•ÑÕÉ¹•‰äÑ½½±Ìµ…ä¹…ÑÕÉ…±±ä)¥¹±Õ‘”Ñ¡”İ½É­ÍÁ…”Í±Õœ¸%˜Ñ¡”İ½É­ÍÁ…”¹…µ”¥ÑÍ•±˜µÕÍĞÉ•µ…¥¸)½¹™¥‘•¹Ñ¥…°°ÕÍ”=ÕÑ …¹½½È…¸½ÕÑÁÕĞÁ½±¥ä¸()Q¡”½¹Ñ…¥¹•È±¥ÍÑ•¹Ì½¸Á½ÉĞ€àÈÄÄ¸½È•á…µÁ±”°Ñ¡•Í”½­•È½QÉ…•™¥¬±…‰•±Ì)½¹±ä™½Éİ…É!QQALÑÉ…™™¥ŒÑ¼¥ĞìÑ¡•ä‘•±¥‰•É…Ñ•±ä‘¼¹½Ğ¥¹©•Ğ)ÕÑ¡½É¥é…Ñ¥½¹€½È`µ]½É­ÍÁ…”µÍ±Õ€è()å…µ°)±…‰•±Ìè(€€´ÑÉ…•™¥¬¹•¹…‰±”õÑÉÕ”(€€´ÑÉ…•™¥¬¹¡ÑÑÀ¹É½ÕÑ•ÉÌ¹Á±…¹”µµÀ¹ÉÕ±”õ!½ÍĞ¡µÀ¹•á…µÁ±”¹½µ€¤(€€´ÑÉ…•™¥¬¹¡ÑÑÀ¹É½ÕÑ•ÉÌ¹Á±…¹”µµÀ¹•¹ÑÉåÁ½¥¹ÑÌõİ•‰Í•ÕÉ”(€€´ÑÉ…•™¥¬¹¡ÑÑÀ¹É½ÕÑ•ÉÌ¹Á±…¹”µµÀ¹Ñ±ÌõÑÉÕ”(€€´ÑÉ…•™¥¬¹¡ÑÑÀ¹Í•ÉÙ¥•Ì¹Á±…¹”µµÀ¹±½…‘‰…±…¹•È¹Í•ÉÙ•È¹Á½ÉĞôàÈÄÄ)€()Q¡”Í•ÉÙ•È‘¥Í…‰±•Ì¥ÑÌ½İ¸!QQ@…•ÍÌ±½œ°‰ÕĞÑ¡¥Ì‘½•Ì¹½Ğ‘¥Í…‰±”„)É•Ù•ÉÍ”ÁÉ½áäÌ…•ÍÌ±½œ¸½¹™¥ÕÉ”QÉ…•™¥¬…•ÍÌ±½¥¹œÑ¼•á±Õ‘”Ñ¡¥Ì)É½ÕÑ•È°½ÈÉ•‘…ĞÑ¡”…Á…‰¥±¥ÑäÁ…Ñ ¥¸Ñ¡”‘•Á±½åµ•¹Ğ±½¥¹œÁ¥Á•±¥¹”ì)Á•ÈµÉ½ÕÑ•È…•ÍÌµ±½œ½¹™¥ÕÉ…Ñ¥½¸‘¥™™•ÉÌ‰äQÉ…•™¥¬Ù•ÉÍ¥½¸¸((ŒŒŒMMƒŠP‘•ÁÉ•…Ñ•()¡ÑÑÁÌè¼½µÀ¹Á±…¹”¹Í¼½ÍÍ•€¥Ìµ…¥¹Ñ…¥¹•™½È‰…­İ…É½µÁ…Ñ¥‰¥±¥Ñä½¹±ä¸UÍ”…¸)!QQ@ÑÉ…¹ÍÁ½ÉĞ¥¹ÍÑ•…¸((ŒŒQ½½±Ì()Q¡”Í•ÉÙ•È…‘Ù•ÉÑ¥Í•Ì€ÌÀÑ½½±Ì°½¹”Á•ÈÉ•Í½ÕÉ”¸… Ñ…­•Ì…¸…Ñ¥½¹€)Á…É…µ•Ñ•ÈÑ¡…ĞÍ•±•ÑÌÑ¡”½Á•É…Ñ¥½¸è()ÁåÑ¡½¸)İ½É­¥Ñ•´¡…Ñ¥½¸ô‰É•…Ñ”ˆ°ÁÉ½©•Ñ}¥ô¸¸¸°¹…µ”ô‰¥à±½¥¸ˆ¤)İ½É­¥Ñ•´¡…Ñ¥½¸ô‰±¥ÍĞˆ°ÁÉ½©•Ñ}¥ô¸¸¸°ÁÅ°ôÍÑ…Ñ•}}É½ÕÀ€ô€‰ÍÑ…ÉÑ•ˆœ¤)å±”¡…Ñ¥½¸ô‰…É¡¥Ù”ˆ°ÁÉ½©•Ñ}¥ô¸¸¸°å±•}¥ô¸¸¸¤)€()Ù•ÉäÑ½½°Ì‘•ÍÉ¥ÁÑ¥½¸±¥ÍÑÌ¥ÑÌ…Ñ¥½¹Ìİ¥Ñ Ñ¡•¥ÈÉ•ÅÕ¥É•…¹½ÁÑ¥½¹…°)Á…É…µ•Ñ•ÉÌ°Í¼Ñ¡”…Ñ…±½Õ”¥ÌÍ•±˜µ‘½Õµ•¹Ñ¥¹œ…Ğ…±°Ñ¥µ”¸((¨«ŠHmÕ±°Ñ½½°…¹…Ñ¥½¸É•™•É•¹•t¡Á±…¹•}µÀ½Ñ½½±Ì½I5¹µ¤¨¨((ŒŒŒEÕ•Éå¥¹œİ½É¬¥Ñ•µÌ()1¥ÍĞ°½Õ¹Ğ…¹Í•…É …•ÁĞ€¨©AE0¨¨°A±…¹”ÌÅÕ•Éä±…¹Õ…”è()ÁåÑ¡½¸)İ½É­¥Ñ•´¡…Ñ¥½¸ô‰±¥ÍĞˆ°ÁÉ½©•Ñ}¥ô¸¸¸°ÁÅ°ôÍÑ…Ñ•}}É½ÕÀ€ô€‰ÍÑ…ÉÑ•ˆ9ÁÉ¥½É¥Ñä€ô€‰ÕÉ•¹Ğˆœ¤)İ½É­¥Ñ•´¡…Ñ¥½¸ô‰½Õ¹Ğˆ°ÁÅ°ô…ÍÍ¥¹••Í}}¥€ô€ˆñµ•µ‰•È¥øˆœ°É½ÕÁ}‰äô‰ÍÑ…Ñ•}¥ˆ¤)€()…±°•Ñ}ÁÅ±}É•™•É•¹•€™½ÈÑ¡”™Õ±°Íå¹Ñ…à°½Á•É…Ñ½ÉÌ…¹İ½É­••á…µÁ±•Ì¸((ŒŒŒUÁÉ…‘¥¹œ™É½´Ñ¡”Á•Èµ½Á•É…Ñ¥½¸Ñ½½±Ì()…É±¥•ÈÉ•±•…Í•Ì•áÁ½Í•½¹”Ñ½½°Á•ÈA$½Á•É…Ñ¥½¸¸€¨©á¥ÍÑ¥¹œ¥¹Ñ•É…Ñ¥½¹Ì­••À)İ½É­¥¹œ¨¨è€ÄØä½˜Ñ¡½Í”€ÄÜÜ¹…µ•ÌÍÑ¥±°É•Í½±Ù”Ñ¼Ñ¡”½¹Í½±¥‘…Ñ•Ñ½½°°Í¼„)Í…Ù•ÁÉ½µÁĞ½ÈÍÉ¥ÁĞ…±±¥¹œÉ•…Ñ•}İ½É­}¥Ñ•µ€½È±¥ÍÑ}å±•Í€¹••‘Ì¹¼)¡…¹”¸Q¡•ä…É”¹¼±½¹•È…‘Ù•ÉÑ¥Í•°…¹Ñ¡•ä­••ÀÑ¡”Á…É…µ•Ñ•È¹…µ•ÌÑ¡•ä)Í¡¥ÁÁ•İ¥Ñ €¡İ½É­}¥Ñ•µ}¥‘€°¹½Ğİ½É­¥Ñ•µ}¥‘€¤¸()M•Ù•¸¹…µ•Ì¡½Í”‰•Ñİ••¸Ñİ¼½Á•É…Ñ¥½¹Ìİ¥Ñ „Á…É…µ•Ñ•È(¡µ…¹…•}ÁÉ½©•Ñ}…É¡¥Ù”¡…É¡¥Ù”õ…±Í”¥€¤°İ¡¥ ½¹”Ñ½½°µ…¹µ…Ñ¥½¸Á…¥È…¹¹½Ğ)É•ÁÉ½‘Õ”ì…±±¥¹œ½¹”Ñ•±±Ìå½Ô¥ÑÌÉ•Á±…•µ•¹Ğ¸•Ñ}ÁÅ±}É•™•É•¹•€¥Ì)Õ¹¡…¹•¸((ŒŒ½¹™¥ÕÉ…Ñ¥½¸((ŒŒŒÕÑ¡•¹Ñ¥…Ñ¥½¸()ğY…É¥…‰±”ğI•ÅÕ¥É•™½ÈğAÕÉÁ½Í”ğ)ğ´´µğ´´µğ´´µğ)ğA19}A%}-e€ğÍÑ‘¥¼ì¡…ÑAP¹¼µ…ÕÑ …Ñ•İ…äğA$­•äìÍ•ÉÙ•ÈµÍ¥‘”A±…¹”É•‘•¹Ñ¥…°™½ÈÑ¡”…Ñ•İ…äğ)ğA19}]=I-MA}M1U€ğÍÑ‘¥¼ì¡…ÑAP¹¼µ…ÕÑ …Ñ•İ…äğQ…É•Ğİ½É­ÍÁ…”ìÍ•ÉÙ•ÈµÍ¥‘”…Ñ•İ…äİ½É­ÍÁ…”ğ)ğ5A}Q]e}Q=-9€ğ¡…ÑAP¹¼µ…ÕÑ …Ñ•İ…äğĞ±•…ÍĞ€ÌÈ¡…É…Ñ•ÉÌ™É½´mµi„µèÀ´å|µu€ìÍ•ÑÑ¥¹œ¥Ğ…Ñ¥Ù…Ñ•ÌÍÑ…ÉÑÕÀÙ…±¥‘…Ñ¥½¸…¹É•ÅÕ¥É•Ì‰½Ñ A±…¹”Ù…±Õ•Ìğ)ğA19}	M}UI1€ğ½ÁÑ¥½¹…°ğA±…¹”A$UI0€¡‘•™…Õ±Ğ¡ÑÑÁÌè¼½…Á¤¹Á±…¹”¹Í½€¤ğ()Q¡”=ÕÑ …¹APÉ•µ½Ñ”ÑÉ…¹ÍÁ½ÉÑÌ…ÉÉäÉ•‘•¹Ñ¥…±Ì¥¸Ñ¡”½¹¹•Ñ¥½¸ƒŠPÑ¡”)=ÕÑ ™±½Ü½ÈÑ¡”AP¡•…‘•ÉÌƒŠP…¹¹••¹½¹”½˜Ñ¡•Í”…Ì…±±•ÈÉ•‘•¹Ñ¥…±Ì¸)]¡•¸Ñ¡”…Ñ•İ…ä¥Ì…‘‘•Ñ¼Ñ¡”Í…µ”¡ÑÑÁ€ÁÉ½•ÍÌ°¥ÑÌÑ¡É•”Ù…É¥…‰±•Ì…É”)…‘‘¥Ñ¥½¹…°½¹™¥ÕÉ…Ñ¥½¸ì½¹ÍÑÉÕÑ¥½¸½˜Ñ¡”•á¥ÍÑ¥¹œ=ÕÑ …ÁÀÍÑ¥±°¹••‘Ì)Ñ¡”!QQ@‘•Á±½åµ•¹ĞÌA19}=UQ!}AI=Y%I|©€Í•ÑÑ¥¹Ì¸()M•±˜µ¡½ÍÑ¥¹œÑ¡”Í•ÉÙ•È¥ÑÍ•±˜è()ğY…É¥…‰±”ğAÕÉÁ½Í”ğ)ğ´´µğ´´µğ)ğA19}%9QI91}	M}UI1€ğ%¹Ñ•É¹…°UI0™½ÈÍ•ÉÙ•ÈµÑ¼µÍ•ÉÙ•È…±±Ì°ÁÉ•™•ÉÉ•½Ù•ÈA19}	M}UI1€ğ)ğI%M}!=MQ€€¼I%M}A=IQ€ğ=ÕÑ Ñ½­•¸ÍÑ½É…”ì™…±±Ì‰…¬Ñ¼¥¸µµ•µ½Éäğ)ğA19}=UQ!}AI=Y%I|©€ğ=ÕÑ ±¥•¹ĞÉ•‘•¹Ñ¥…±Ì…¹‰…Í”UI0ğ)ğ5A}AQ!}AI%a€ğA…Ñ ÁÉ•™¥à™½ÈÑ¡”!QQ@É½ÕÑ•Ì°İ¡•¸µ½Õ¹Ñ•‰•¡¥¹„ÁÉ½áäƒŠP€½Á±…¹•€Í•ÉÙ•Ì€½Á±…¹”½¡ÑÑÀ½µÁ€ğ((ŒŒŒ=ÕÑ É•‘¥É•ĞUI%Ì()Q¡”=ÕÑ ÑÉ…¹ÍÁ½ÉÑÌÙ…±¥‘…Ñ”•… ±¥•¹ĞÌÉ•‘¥É•ĞUI$……¥¹ÍĞ…¸…±±½İ±¥ÍĞ¸)½µµ½¸±¥•¹ÑÌ€¡ÕÉÍ½È°YL½‘”°±…Õ‘”¹…¤°¡…ÑAP½¹¹•Ñ½ÉÌ°±½…±¡½ÍĞ¤…É”)…±±½İ•‰ä‘•™…Õ±Ğ¸()Q¼½¹‰½…É„¹•Ü±¥•¹Ğİ¥Ñ¡½ÕĞ„É•±•…Í”°…ÁÁ•¹Á…ÑÑ•É¹Ìè()‰…Í )•áÁ½ÉĞA19}=UQ!}11=]}I%IQ}UI%Lô‰¡ÑÑÁÌè¼½¹•İ±¥•¹Ğ¹½´½ˆ±¡ÑÑÁÌè¼½½Ñ¡•È¹…ÁÀ½½…ÕÑ ¼¨ˆ)€()€©€µ…Ñ¡•Ì…¹äÁ½ÉĞ°Á…Ñ Í•µ•¹Ğ½ÈÍÕ‰‘½µ…¥¸¸-••ÀÑ¡”¡½ÍĞÁ¥¹¹•…¹)İ¥±‘…É½¹±äÑ¡”Á½ÉĞ½ÈÁ…Ñ ¸((ŒŒŒ1½¥¹œ()MÑÉÕÑÕÉ•)M=8¸… Ñ½½°…±°±½Ì¥ÑÌ¹…µ”°‘ÕÉ…Ñ¥½¸°ÍÑ…ÑÕÌ…¹ƒŠPİ¡•¸)…Ù…¥±…‰±”ƒŠP…¸½Á…ÅÕ”ÕÍ•È¥…¹Ñ¡”İ½É­ÍÁ…”Í±Õœ¸()‰…Í )•áÁ½ÉĞ1=}UMI}%9<õ™…±Í”€€€€Œ…±Í¼±½œÑ¡”‘¥ÍÁ±…ä¹…µ”€¡A%$¤ì)•áÁ½ÉĞ1=}Ae1=Lõ™…±Í”€€€€Œ­••ÀÉ•ÅÕ•ÍĞÁ…å±½…‘Ì½ÕĞ½˜±½Ìì‘•™…Õ±ĞÑÉÕ”)€()=¹±äÑ¡”=ÕÑ …¹APÑÉ…¹ÍÁ½ÉÑÌ…ÉÉä„‘¥ÍÁ±…ä¹…µ”ìÍÑ‘¥¼¥ÌÕ¹…™™•Ñ•¸((ŒŒ•Ù•±½Áµ•¹Ğ()‰…Í )¥Ğ±½¹”¡ÑÑÁÌè¼½¥Ñ¡Õˆ¹½´½µ…­•Á±…¹”½Á±…¹”µµÀµÍ•ÉÙ•È)Á±…¹”µµÀµÍ•ÉÙ•È)ÕØÁ¥À¥¹ÍÑ…±°€µ”€ˆ¹m‘•Ùtˆ)€()IÕ¸Ñ¡”Í•ÉÙ•È……¥¹ÍĞ„İ½É­ÍÁ…”è()‰…Í )A19}A%}-dô¸¸¸A19}]=I-MA}M1Uô¸¸¸ÁåÑ¡½¸€µ´Á±…¹•}µÀÍÑ‘¥¼)ÁåÑ¡½¸€µ´Á±…¹•}µÀ¡ÑÑÀ€€€€€€€€€€€€ŒÁ½ÉĞ€àÈÄÄ)€()Q•ÍÑÌ°™½Éµ…Ğ°±¥¹Ğè()‰…Í )ÁåÑ•ÍĞ€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€Œ¹¼¹•Ñİ½É¬½ÈÉ•‘•¹Ñ¥…±Ì¹••‘•)ÉÕ™˜™½Éµ…ĞÁ±…¹•}µÀ¼Ñ•ÍÑÌ¼€€€€€€€Œ±¥¹”±•¹Ñ €ÄÈÀ)ÉÕ™˜¡•¬Á±…¹•}µÀ¼Ñ•ÍÑÌ¼€€€€€€€€ŒÉÕ±•Ì°°$°U@°)€()Q¡”ÍÕ¥Ñ”ÉÕ¹Ì™Õ±±ä½™™±¥¹”ƒŠP•Ù•Éä…Ñ¥½¸½˜•Ù•ÉäÉ•Í½ÕÉ”¥Ì)•á•ÕÑ•……¥¹ÍĞ„ÍÑ…¹µ¥¸Ñ¡…Ğ‰¥¹‘Ì•… …±°……¥¹ÍĞÑ¡”•¹Õ¥¹”Á±…¹”µÍ‘­€)Í¥¹…ÑÕÉ”¸M•”mÁ±…¹•}µÀ½Ñ½½±Ì½I5¹µ‘t¡Á±…¹•}µÀ½Ñ½½±Ì½I5¹µÑ•ÍÑÌ¤¸()1¥Ù”¥¹Ñ•É…Ñ¥½¸Ñ•ÍÑÌ…É”Í­¥ÁÁ•Õ¹±•ÍÌå½ÔÁ½¥¹ĞÑ¡•´…Ğ„ÉÕ¹¹¥¹œÍ•ÉÙ•Èè()‰…Í )•áÁ½ÉĞA19}QMQ}A%}-dô¸¸¸A19}QMQ}]=I-MA}M1Uô¸¸¸)•áÁ½ÉĞA19}QMQ}5A}UI0õ¡ÑÑÀè¼½±½…±¡½ÍĞèàÈÄÄ€€€€Œ½ÁÑ¥½¹…°ìÑ¡¥Ì¥ÌÑ¡”‘•™…Õ±Ğ)ÁåÑ•ÍĞÑ•ÍÑÌ½Ñ•ÍÑ}¥¹Ñ•É…Ñ¥½¸¹Áä€µØ)€()Q¡•äİÉ¥Ñ”É•…°‘…Ñ„Ñ¼Ñ¡…Ğİ½É­ÍÁ…”¸((ŒŒŒI•Á½Í¥Ñ½Éä±…å½ÕĞ()ğA…Ñ ğ½¹Ñ•¹ÑÌğ)ğ´´µğ´´µğ)ğÁ±…¹•}µÀ½}}µ…¥¹}|¹Áå€ğ•¹ÑÉäÁ½¥¹ĞìÁ¥­ÌÑ¡”ÑÉ…¹ÍÁ½ÉĞ™É½´…ÉÙlÅu€ğ)ğÁ±…¹•}µÀ½Í•ÉÙ•È¹Áå€ğ½¹”™…Ñ½ÉäÁ•ÈÑÉ…¹ÍÁ½ÉĞğ)ğÁ±…¹•}µÀ½±¥•¹Ğ¹Áå€ğÉ•Í½±Ù•ÌÉ•‘•¹Ñ¥…±Ì¥¹Ñ¼„Á±…¹”µÍ‘­€±¥•¹Ğğ)ğÁ±…¹•}µÀ½…ÕÑ ½€ğ=ÕÑ ÁÉ½Ù¥‘•È…¹¡•…‘•È…ÕÑ ğ)ğÁ±…¹•}µÀ½Ñ½½±Ì½€ğÑ¡”Ñ½½°ÍÕÉ™…”è½¹”µ½‘Õ±”Á•ÈA±…¹”É•Í½ÕÉ”ğ)ğÁ±…¹•}µÀ½Ñ½½±­¥Ğ½€ğÍ¡…É•‰Õ¥±‘¥¹œ‰±½­Ì™½ÈÑ¡”Ñ½½°ÍÕÉ™…”ğ)ğÁ±…¹•}µÀ½ÁÅ±}É•™•É•¹”¹Áå€ğAE0Íå¹Ñ…àÉ•™•É•¹”Í•ÉÙ•Ñ¼µ½‘•±Ìğ((ŒŒ½¹ÑÉ¥‰ÕÑ¥¹œ()AÕ±°É•ÅÕ•ÍÑÌİ•±½µ”¸A±•…Í”ÉÕ¸ÁåÑ•ÍÑ€…¹ÉÕ™˜¡•­€‰•™½É”ÍÕ‰µ¥ÑÑ¥¹œì¹•Ü)Ñ½½±ÌÍ¡½Õ±½µ”İ¥Ñ Ñ¡”¥¹Ù…É¥…¹ÑÌ‘•ÍÉ¥‰•¥¸)mÁ±…¹•}µÀ½Ñ½½±Ì½I5¹µ‘t¡Á±…¹•}µÀ½Ñ½½±Ì½I5¹µ¤¸()M•”m=9QI%	UQ%9¹µ‘t¡=9QI%	UQ%9¹µ¤…¹m=}=}=9UP¹µ‘t¡=}=}=9UP¹µ¤¸((ŒŒ5¥É…Ñ¥¹œ™É½´Ñ¡”9½‘”¹©ÌÍ•ÉÙ•È()µ…­•Á±…¹”½Á±…¹”µµÀµÍ•ÉÙ•É€€¡9½‘”¹©Ì¤¥Ì‘•ÁÉ•…Ñ•…¹Õ¹µ…¥¹Ñ…¥¹•¸Q¡¥Ì)AåÑ¡½¸¥µÁ±•µ•¹Ñ…Ñ¥½¸É•Á±…•Ì¥Ğ¸()ğ9½‘”¹©ÌğAåÑ¡½¸ğ)ğ´´µğ´´µğ)ğA19}A%}-e€ğA19}A%}-e€ğ)ğA19}A%}!=MQ}UI1€ğA19}	M}UI1€ğ)ğA19}]=I-MA}M1U€ğA19}]=I-MA}M1U€ğ()I•Á±…”Ñ¡”½µµ…¹‘€…¹…ÉÍ€İ¥Ñ Ñ¡”ÍÑ‘¥¼½¹™¥ÕÉ…Ñ¥½¸¥¸)mEÕ¥¬ÍÑ…ÉÑt ÅÕ¥¬µÍÑ…ÉĞ¤¸((ŒŒ1¥•¹Í”()5%PƒŠPÍ•”m1%9Mt¡1%9M¤¸
+/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
+# Plane MCP Server
+
+A [Model Context Protocol](https://modelcontextprotocol.io) server for
+[Plane](https://plane.so). Gives an AI agent tools to read and manage projects,
+work items, cycles, modules, releases, customers and more.
+
+Built on [FastMCP](https://github.com/jlowin/fastmcp) and the official
+[`plane-sdk`](https://pypi.org/project/plane-sdk/).
+
+- **30 tools**, one per Plane resource, covering 204 operations
+- **Local or remote** â€” stdio, streamable HTTP, SSE
+- **OAuth or API key** authentication
+
+## Quick start
+
+Get an API key from Plane: **Workspace Settings â†’ API tokens**.
+
+Add this to your MCP client's configuration:
+
+```json
+{
+  "mcpServers": {
+    "plane": {
+      "command": "uvx",
+      "args": ["plane-mcp-server", "stdio"],
+      "env": {
+        "PLANE_API_KEY": "<your-api-key>",
+        "PLANE_WORKSPACE_SLUG": "<your-workspace-slug>"
+      }
+    }
+  }
+}
+```
+
+`uvx` needs no install step. Requires Python 3.10+.
+
+For a self-hosted Plane, add `"PLANE_BASE_URL": "https://plane.example.com"`.
+
+## Transports
+
+### stdio â€” local
+
+Runs as a subprocess of your MCP client. Configuration as shown above; needs
+`PLANE_API_KEY` and `PLANE_WORKSPACE_SLUG`.
+
+```bash
+PLANE_API_KEY=... PLANE_WORKSPACE_SLUG=... uvx plane-mcp-server stdio
+```
+
+### HTTP with OAuth â€” hosted
+
+`https://mcp.plane.so/http/mcp`
+
+The OAuth flow is handled on connect; no credentials in your config. For clients
+without native remote MCP support, bridge with `mcp-remote`:
+
+```json
+{
+  "mcpServers": {
+    "plane": {
+      "command": "npx",
+      "args": ["mcp-remote@latest", "https://mcp.plane.so/http/mcp"]
+    }
+  }
+}
+```
+
+Requires Node.js 22+.
+
+### HTTP with a personal access token â€” hosted
+
+`https://mcp.plane.so/http/api-key/mcp`
+
+| Header | Value |
+|---|---|
+| `Authorization` | `Bearer <PAT>` |
+| `X-Workspace-slug` | `<workspace-slug>` |
+
+```json
+{
+  "mcpServers": {
+    "plane": {
+      "command": "npx",
+      "args": ["mcp-remote@latest", "https://mcp.plane.so/http/api-key/mcp"],
+      "headers": {
+        "Authorization": "Bearer <PAT>",
+        "X-Workspace-slug": "<workspace-slug>"
+      }
+    }
+  }
+}
+```
+
+### ChatGPT Web with No Auth â€” private single-workspace gateway
+
+Generate a separate capability; do not reuse the Plane PAT:
+
+```bash
+openssl rand -hex 32
+```
+
+Supply `MCP_GATEWAY_TOKEN`, `PLANE_API_KEY`, and `PLANE_WORKSPACE_SLUG` from
+container or orchestrator secrets. Configure the ChatGPT connector as **No
+Auth** with:
+
+```
+https://mcp.example.com/http/chatgpt/<MCP_GATEWAY_TOKEN>/mcp
+```
+
+These variables are additive to an existing HTTP deployment. The `http`
+process still constructs the OAuth transport, so it still needs the deployment's
+normal HTTP/OAuth configuration, including `PLANE_OAUTH_PROVIDER_*`; the gateway
+values do not replace it.
+
+If `MCP_PATH_PREFIX` is set, include it before `/http` in this URL. The Plane
+PAT remains server-side. The URL itself is a credential: require HTTPS, do not
+share it, redact `/http/chatgpt/*` in proxy access logs, use a least-privilege
+Plane token, and rotate `MCP_GATEWAY_TOKEN` if the URL leaks. Prefer OAuth for
+per-user identity and revocation.
+
+The Plane PAT and gateway capability never belong in MCP responses or
+application logs. `PLANE_WORKSPACE_SLUG` is fixed server-side for routing and
+cannot be overridden by connector headers, but it is not treated as an
+authentication secret: valid Plane resources returned by tools may naturally
+include the workspace slug. If the workspace name itself must remain
+confidential, use OAuth and/or an output policy.
+
+The container listens on port 8211. For example, these Docker/Traefik labels
+only forward HTTPS traffic to it; they deliberately do not inject
+`Authorization` or `X-Workspace-slug`:
+
+```yaml
+labels:
+  - traefik.enable=true
+  - traefik.http.routers.plane-mcp.rule=Host(`mcp.example.com`)
+  - traefik.http.routers.plane-mcp.entrypoints=websecure
+  - traefik.http.routers.plane-mcp.tls=true
+  - traefik.http.services.plane-mcp.loadbalancer.server.port=8211
+```
+
+The server disables its own HTTP access log, but this does not disable a
+reverse proxy's access log. Configure Traefik access logging to exclude this
+router, or redact the capability path in the deployment logging pipeline;
+per-router access-log configuration differs by Traefik version.
+
+### SSE â€” deprecated
+
+`https://mcp.plane.so/sse` is maintained for backward compatibility only. Use an
+HTTP transport instead.
+
+## Tools
+
+The server advertises 30 tools, one per resource. Each takes an `action`
+parameter that selects the operation:
+
+```python
+workitem(action="create", project_id=..., name="Fix login")
+workitem(action="list", project_id=..., pql='state__group = "started"')
+cycle(action="archive", project_id=..., cycle_id=...)
+```
+
+Every tool's description lists its actions with their required and optional
+parameters, so the catalogue is self-documenting at call time.
+
+**â†’ [Full tool and action reference](plane_mcp/tools/README.md)**
+
+### Querying work items
+
+List, count and search accept **PQL**, Plane's query language:
+
+```python
+workitem(action="list", project_id=..., pql='state__group = "started" AND priority = "urgent"')
+workitem(action="count", pql='assignees__id = "<member id>"', group_by="state_id")
+```
+
+Call `get_pql_reference` for the full syntax, operators and worked examples.
+
+### Upgrading from the per-operation tools
+
+Earlier releases exposed one tool per API operation. **Existing integrations keep
+working**: 169 of those 177 names still resolve to the consolidated tool, so a
+saved prompt or script calling `create_work_item` or `list_cycles` needs no
+change. They are no longer advertised, and they keep the parameter names they
+shipped with (`work_item_id`, not `workitem_id`).
+
+Seven names chose between two operations with a parameter
+(`manage_project_archive(archive=False)`), which one tool-and-action pair cannot
+reproduce; calling one tells you its replacement. `get_pql_reference` is
+unchanged.
+
+## Configuration
+
+### Authentication
+
+| Variable | Required for | Purpose |
+|---|---|---|
+| `PLANE_API_KEY` | stdio; ChatGPT no-auth gateway | API key; server-side Plane credential for the gateway |
+| `PLANE_WORKSPACE_SLUG` | stdio; ChatGPT no-auth gateway | Target workspace; server-side gateway workspace |
+| `MCP_GATEWAY_TOKEN` | ChatGPT no-auth gateway | At least 32 characters from `[A-Za-z0-9_-]`; setting it activates startup validation and requires both Plane values |
+| `PLANE_BASE_URL` | optional | Plane API URL (default `https://api.plane.so`) |
+
+The OAuth and PAT remote transports carry credentials in the connection â€” the
+OAuth flow or the PAT headers â€” and need none of these as caller credentials.
+When the gateway is added to the same `http` process, its three variables are
+additional configuration; construction of the existing OAuth app still needs
+the HTTP deployment's `PLANE_OAUTH_PROVIDER_*` settings.
+
+Self-hosting the server itself:
+
+| Variable | Purpose |
+|---|---|
+| `PLANE_INTERNAL_BASE_URL` | Internal URL for server-to-server calls, preferred over `PLANE_BASE_URL` |
+| `REDIS_HOST` / `REDIS_PORT` | OAuth token storage; falls back to in-memory |
+| `PLANE_OAUTH_PROVIDER_*` | OAuth client credentials and base URL |
+| `MCP_PATH_PREFIX` | Path prefix for the HTTP routes, when mounted behind a proxy â€” `/plane` serves `/plane/http/mcp` |
+
+### OAuth redirect URIs
+
+The OAuth transports validate each client's redirect URI against an allowlist.
+Common clients (Cursor, VS Code, Claude.ai, ChatGPT connectors, localhost) are
+allowed by default.
+
+To onboard a new client without a release, append patterns:
+
+```bash
+export PLANE_OAUTH_ALLOWED_REDIRECT_URIS="https://newclient.com/cb,https://other.app/oauth/*"
+```
+
+`*` matches any port, path segment or subdomain. Keep the host pinned and
+wildcard only the port or path.
+
+### Logging
+
+Structured JSON. Each tool call logs its name, duration, status and â€” when
+available â€” an opaque user id and the workspace slug.
+
+```bash
+export LOG_USER_INFO=false    # also log the display name (PII);
+export LOG_PAYLOADS=false    # keep request payloads out of logs; default true
+```
+
+Only the OAuth and PAT transports carry a display name; stdio is unaffected.
+
+## Development
+
+```bash
+git clone https://github.com/makeplane/plane-mcp-server
+cd plane-mcp-server
+uv pip install -e ".[dev]"
+```
+
+Run the server against a workspace:
+
+```bash
+PLANE_API_KEY=... PLANE_WORKSPACE_SLUG=... python -m plane_mcp stdio
+python -m plane_mcp http            # port 8211
+```
+
+Tests, format, lint:
+
+```bash
+pytest                              # no network or credentials needed
+ruff format plane_mcp/ tests/       # line length 120
+ruff check plane_mcp/ tests/        # rules E, F, I, UP, B
+```
+
+The suite runs fully offline â€” every action of every resource is
+executed against a stand-in that binds each call against the genuine `plane-sdk`
+signature. See [`plane_mcp/tools/README.md`](plane_mcp/tools/README.md#tests).
+
+Live integration tests are skipped unless you point them at a running server:
+
+```bash
+export PLANE_TEST_API_KEY=... PLANE_TEST_WORKSPACE_SLUG=...
+export PLANE_TEST_MCP_URL=http://localhost:8211    # optional; this is the default
+pytest tests/test_integration.py -v
+```
+
+They write real data to that workspace.
+
+### Repository layout
+
+| Path | Contents |
+|---|---|
+| `plane_mcp/__main__.py` | entry point; picks the transport from `argv[1]` |
+| `plane_mcp/server.py` | one factory per transport |
+| `plane_mcp/client.py` | resolves credentials into a `plane-sdk` client |
+| `plane_mcp/auth/` | OAuth provider and header auth |
+| `plane_mcp/tools/` | the tool surface: one module per Plane resource |
+| `plane_mcp/toolkit/` | shared building blocks for the tool surface |
+| `plane_mcp/pql_reference.py` | PQL syntax reference served to models |
+
+## Contributing
+
+Pull requests welcome. Please run `pytest` and `ruff check` before submitting; new
+tools should come with the invariants described in
+[`plane_mcp/tools/README.md`](plane_mcp/tools/README.md).
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## Migrating from the Node.js server
+
+`@makeplane/plane-mcp-server` (Node.js) is deprecated and unmaintained. This
+Python implementation replaces it.
+
+| Node.js | Python |
+|---|---|
+| `PLANE_API_KEY` | `PLANE_API_KEY` |
+| `PLANE_API_HOST_URL` | `PLANE_BASE_URL` |
+| `PLANE_WORKSPACE_SLUG` | `PLANE_WORKSPACE_SLUG` |
+
+Replace the `command` and `args` with the stdio configuration in
+[Quick start](#quick-start).
+
+## License
+
+MIT â€” see [LICENSE](LICENSE).

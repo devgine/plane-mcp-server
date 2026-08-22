@@ -1,1 +1,29 @@
-ýK®Ïò¢Êâm¨k‹üå¢§öxœ{—ÚŠW¢—«jØ¨žz-¥êæŠÛ^u¥µÁ½ÉÐ½Ì)¥µÁ½ÉÐÉ”)™É½´½±±•Ñ¥½¹Ì¹…‰Œ¥µÁ½ÉÐ5…ÁÁ¥¹œ)™É½´ÑåÁ¥¹œ¥µÁ½ÉÐ9…µ•‘QÕÁ±”()}A	%1%Qe}AQQI8€ôÉ”¹½µÁ¥±”¡È‰mµi„µèÀ´å|µuìÌÈ±ôˆ¤(()±…ÍÌ…Ñ•Ý…å½¹™¥œ¡9…µ•‘QÕÁ±”¤è(€€€Ñ½­•¸èÍÑÈ(€€€Á±…¹•}…Á¥}­•äèÍÑÈ(€€€Ý½É­ÍÁ…•}Í±ÕœèÍÑÈ(()‘•˜±½…‘}…Ñ•Ý…å}½¹™¥œ¡•¹Ù¥É½¸è5…ÁÁ¥¹mÍÑÈ°ÍÑÉtð9½¹”€ô9½¹”¤€´ø…Ñ•Ý…å½¹™¥œð9½¹”è(€€€Ù…±Õ•Ì€ô½Ì¹•¹Ù¥É½¸¥˜•¹Ù¥É½¸¥Ì9½¹”•±Í”•¹Ù¥É½¸(€€€Ñ½­•¸€ôÙ…±Õ•Ì¹•Ð ‰5A}Q]e}Q=-8ˆ°€ˆˆ¤(€€€¥˜¹½ÐÑ½­•¸è(€€€€€€€É•ÑÕÉ¸9½¹”(€€€¥˜}A	%1%Qe}AQQI8¹™Õ±±µ…Ñ ¡Ñ½­•¸¤¥Ì9½¹”è(€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰5A}Q]e}Q=-8µÕÍÐ½¹Ñ…¥¸…Ð±•…ÍÐ€ÌÈUI0µÍ…™”¡…É…Ñ•ÉÌˆ¤(€€€…Á¥}­•ä€ôÙ…±Õ•Ì¹•Ð ‰A19}A%}-dˆ°€ˆˆ¤(€€€¥˜¹½Ð…Á¥}­•äè(€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰A19}A%}-d¥ÌÉ•ÅÕ¥É•Ý¡•¸5A}Q]e}Q=-8¥ÌÍ•Ðˆ¤(€€€Ý½É­ÍÁ…•}Í±Õœ€ôÙ…±Õ•Ì¹•Ð ‰A19}]=I-MA}M1Uˆ°€ˆˆ¤(€€€¥˜¹½ÐÝ½É­ÍÁ…•}Í±Õœè(€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ‰A19}]=I-MA}M1U¥ÌÉ•ÅÕ¥É•Ý¡•¸5A}Q]e}Q=-8¥ÌÍ•Ðˆ¤(€€€É•ÑÕÉ¸…Ñ•Ý…å½¹™¥œ¡Ñ½­•¸°…Á¥}­•ä°Ý½É­ÍÁ…•}Í±Õœ¤(
+/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
+import os
+import re
+from collections.abc import Mapping
+from typing import NamedTuple
+
+_CAPABILITY_PATTERN = re.compile(r"[A-Za-z0-9_-]{32,}")
+
+
+class GatewayConfig(NamedTuple):
+    token: str
+    plane_api_key: str
+    workspace_slug: str
+
+
+def load_gateway_config(environ: Mapping[str, str] | None = None) -> GatewayConfig | None:
+    values = os.environ if environ is None else environ
+    token = values.get("MCP_GATEWAY_TOKEN", "")
+    if not token:
+        return None
+    if _CAPABILITY_PATTERN.fullmatch(token) is None:
+        raise ValueError("MCP_GATEWAY_TOKEN must contain at least 32 URL-safe characters")
+    api_key = values.get("PLANE_API_KEY", "")
+    if not api_key:
+        raise ValueError("PLANE_API_KEY is required when MCP_GATEWAY_TOKEN is set")
+    workspace_slug = values.get("PLANE_WORKSPACE_SLUG", "")
+    if not workspace_slug:
+        raise ValueError("PLANE_WORKSPACE_SLUG is required when MCP_GATEWAY_TOKEN is set")
+    return GatewayConfig(token, api_key, workspace_slug)
