@@ -1,4 +1,3 @@
-/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
 """FastMCP server factories for the three supported transports."""
 
 from __future__ import annotations

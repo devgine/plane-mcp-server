@@ -1,4 +1,3 @@
-/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
 # Plane MCP Server
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server for

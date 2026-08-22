@@ -1,4 +1,3 @@
-/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
 """Main entry point for the Plane MCP Server."""
 
 import json

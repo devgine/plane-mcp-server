@@ -1,4 +1,3 @@
-/Users/yosribahri/.zlogin:9: nice(5) failed: operation not permitted
 import io
 import json
 import logging
