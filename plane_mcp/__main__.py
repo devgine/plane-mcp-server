@@ -9,12 +9,13 @@ from datetime import datetime, timezone
 from enum import Enum
 
 import uvicorn
-from fastmcp.server.dependencies import get_access_token
+from fastmcp.server.dependencies import get_access_token, get_http_request
 from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.routing import Mount
 
-from plane_mcp.server import get_header_mcp, get_oauth_mcp, get_stdio_mcp
+from plane_mcp.gateway import load_gateway_config
+from plane_mcp.server import get_gateway_mcp, get_header_mcp, get_oauth_mcp, get_stdio_mcp
 
 LOG_USER_INFO: bool = os.getenv("LOG_USER_INFO", "").lower() == "true"
 
@@ -22,18 +23,20 @@ LOG_USER_INFO: bool = os.getenv("LOG_USER_INFO", "").lower() == "true"
 class UserContextFilter(logging.Filter):
     """Attach authenticated user/workspace context to every log record.
 
-    Pulls the current request's access token via FastMCP's dependency, which
-    returns None (never raises) outside a request context — so startup logs fall
-    back to environment config and otherwise carry no user info.
+    Pulls the current request's access token via FastMCP's dependency. Logs
+    outside an HTTP request (such as stdio) fall back to environment config;
+    unauthenticated HTTP requests carry no user or workspace information.
 
-    Always logs the opaque user id (sub claim) and the workspace slug; neither is
-    PII. The display name IS PII and is only included when LOG_USER_INFO=true.
+    Logs the opaque user id (sub claim) and workspace slug when authentication
+    supplies them. The display name IS PII and is only included when
+    LOG_USER_INFO=true.
     """
 
     def filter(self, record: logging.LogRecord) -> bool:
         user_id = None
         display_name = None
         workspace_slug = None
+        is_http_request = False
         try:
             token = get_access_token()
             if token:
@@ -44,10 +47,20 @@ class UserContextFilter(logging.Filter):
         except Exception as exc:
             # Never let logging enrichment break a request, but leave a signal.
             record.user_context_enrichment_error = type(exc).__name__
+        try:
+            get_http_request()
+            is_http_request = True
+        except RuntimeError:
+            pass
+        except Exception as exc:
+            record.user_context_enrichment_error = type(exc).__name__
         record.user_id = user_id
         record.display_name = display_name
-        # stdio mode has no token; fall back to the configured workspace.
-        record.workspace_slug = workspace_slug or os.getenv("PLANE_WORKSPACE_SLUG") or None
+        record.workspace_slug = None
+        if not getattr(record, "suppress_workspace", False):
+            record.workspace_slug = workspace_slug or (
+                None if is_http_request else os.getenv("PLANE_WORKSPACE_SLUG") or None
+            )
         return True
 
 
@@ -117,13 +130,69 @@ class ServerMode(Enum):
 
 
 @asynccontextmanager
-async def combined_lifespan(oauth_app, header_app, sse_app):
-    """Combine lifespans from both OAuth and Header MCP apps."""
-    # Start both lifespans
+async def combined_lifespan(oauth_app, header_app, sse_app, gateway_app=None):
+    """Combine lifespans from the configured MCP apps."""
     async with oauth_app.lifespan(oauth_app):
         async with header_app.lifespan(header_app):
             async with sse_app.lifespan(sse_app):
-                yield
+                if gateway_app is not None:
+                    async with gateway_app.lifespan(gateway_app):
+                        yield
+                else:
+                    yield
+
+
+def build_http_app() -> Starlette:
+    """Build the combined HTTP application for all enabled transports."""
+    prefix = os.getenv("MCP_PATH_PREFIX") or ""
+
+    oauth_mcp = get_oauth_mcp(prefix + "/http")
+    oauth_app = oauth_mcp.http_app(stateless_http=True)
+    header_app = get_header_mcp().http_app(stateless_http=True)
+
+    sse_mcp = get_oauth_mcp(prefix)
+    sse_app = sse_mcp.http_app(transport="sse")
+
+    # mcp_path is appended to the auth provider's base_url to form the
+    # advertised resource URL. base_url already carries the prefix, so these
+    # stay at /mcp and /sse to avoid double-prefixing.
+    oauth_well_known = oauth_mcp.auth.get_well_known_routes(mcp_path="/mcp")
+    sse_well_known = sse_mcp.auth.get_well_known_routes(mcp_path="/sse")
+
+    gateway_config = load_gateway_config()
+    gateway_app = get_gateway_mcp().http_app(stateless_http=True) if gateway_config else None
+    if gateway_config:
+        gateway_app.router.redirect_slashes = False
+        logger.info("ChatGPT no-auth gateway enabled", extra={"suppress_workspace": True})
+    routes = [
+        # Well-known routes for OAuth and Header HTTP
+        *oauth_well_known,
+        *sse_well_known,
+        # Mount both MCP servers
+        Mount(prefix + "/http/api-key", app=header_app),
+    ]
+    if gateway_app is not None:
+        routes.append(Mount(prefix + f"/http/chatgpt/{gateway_config.token}", app=gateway_app))
+    routes.extend(
+        [
+            Mount(prefix + "/http", app=oauth_app),
+            Mount(prefix or "/", app=sse_app),
+        ]
+    )
+
+    app = Starlette(
+        routes=routes,
+        lifespan=lambda app: combined_lifespan(oauth_app, header_app, sse_app, gateway_app),
+    )
+
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=False,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+    return app
 
 
 def main() -> None:
@@ -143,41 +212,7 @@ def main() -> None:
         return
 
     if server_mode == ServerMode.HTTP:
-        prefix = os.getenv("MCP_PATH_PREFIX") or ""
-
-        oauth_mcp = get_oauth_mcp(prefix + "/http")
-        oauth_app = oauth_mcp.http_app(stateless_http=True)
-        header_app = get_header_mcp().http_app(stateless_http=True)
-
-        sse_mcp = get_oauth_mcp(prefix)
-        sse_app = sse_mcp.http_app(transport="sse")
-
-        # mcp_path is appended to the auth provider's base_url to form the
-        # advertised resource URL. base_url already carries the prefix, so these
-        # stay at /mcp and /sse to avoid double-prefixing.
-        oauth_well_known = oauth_mcp.auth.get_well_known_routes(mcp_path="/mcp")
-        sse_well_known = sse_mcp.auth.get_well_known_routes(mcp_path="/sse")
-
-        app = Starlette(
-            routes=[
-                # Well-known routes for OAuth and Header HTTP
-                *oauth_well_known,
-                *sse_well_known,
-                # Mount both MCP servers
-                Mount(prefix + "/http/api-key", app=header_app),
-                Mount(prefix + "/http", app=oauth_app),
-                Mount(prefix or "/", app=sse_app),
-            ],
-            lifespan=lambda app: combined_lifespan(oauth_app, header_app, sse_app),
-        )
-
-        app.add_middleware(
-            CORSMiddleware,
-            allow_origins=["*"],
-            allow_credentials=False,
-            allow_methods=["*"],
-            allow_headers=["*"],
-        )
+        app = build_http_app()
 
         # Configure uvicorn loggers to use JSON formatting too
         for uv_logger_name in ("uvicorn", "uvicorn.error"):

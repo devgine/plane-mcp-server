@@ -93,6 +93,16 @@ def get_header_mcp():
     return _configured(header_mcp)
 
 
+def get_gateway_mcp() -> FastMCP:
+    """Build the unauthenticated MCP server used behind the capability URL."""
+    return _configured(
+        FastMCP(
+            "Plane MCP Server (ChatGPT gateway)",
+            instructions=SERVER_INSTRUCTIONS,
+        )
+    )
+
+
 def get_stdio_mcp():
     stdio_mcp = FastMCP(
         "Plane MCP Server (stdio)",

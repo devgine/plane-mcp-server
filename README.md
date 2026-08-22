@@ -91,6 +91,58 @@ Requires Node.js 22+.
 }
 ```
 
+### ChatGPT Web with No Auth — private single-workspace gateway
+
+Generate a separate capability; do not reuse the Plane PAT:
+
+```bash
+openssl rand -hex 32
+```
+
+Supply `MCP_GATEWAY_TOKEN`, `PLANE_API_KEY`, and `PLANE_WORKSPACE_SLUG` from
+container or orchestrator secrets. Configure the ChatGPT connector as **No
+Auth** with:
+
+```
+https://mcp.example.com/http/chatgpt/<MCP_GATEWAY_TOKEN>/mcp
+```
+
+These variables are additive to an existing HTTP deployment. The `http`
+process still constructs the OAuth transport, so it still needs the deployment's
+normal HTTP/OAuth configuration, including `PLANE_OAUTH_PROVIDER_*`; the gateway
+values do not replace it.
+
+If `MCP_PATH_PREFIX` is set, include it before `/http` in this URL. The Plane
+PAT remains server-side. The URL itself is a credential: require HTTPS, do not
+share it, redact `/http/chatgpt/*` in proxy access logs, use a least-privilege
+Plane token, and rotate `MCP_GATEWAY_TOKEN` if the URL leaks. Prefer OAuth for
+per-user identity and revocation.
+
+The Plane PAT and gateway capability never belong in MCP responses or
+application logs. `PLANE_WORKSPACE_SLUG` is fixed server-side for routing and
+cannot be overridden by connector headers, but it is not treated as an
+authentication secret: valid Plane resources returned by tools may naturally
+include the workspace slug. If the workspace name itself must remain
+confidential, use OAuth and/or an output policy.
+
+The container listens on port 8211. For example, these Docker/Traefik labels
+only forward HTTPS traffic to it; they deliberately do not inject
+`Authorization` or `X-Workspace-slug`:
+
+```yaml
+labels:
+  - traefik.enable=true
+  - traefik.http.routers.plane-mcp.rule=Host(`mcp.example.com`)
+  - traefik.http.routers.plane-mcp.entrypoints=websecure
+  - traefik.http.routers.plane-mcp.tls=true
+  - traefik.http.services.plane-mcp.loadbalancer.server.port=8211
+```
+
+The server disables its own HTTP access log, but this does not disable a
+reverse proxy's access log. Configure Traefik access logging to exclude this
+router, or redact the capability path in the deployment logging pipeline;
+per-router access-log configuration differs by Traefik version.
+
 ### SSE — deprecated
 
 `https://mcp.plane.so/sse` is maintained for backward compatibility only. Use an
@@ -142,12 +194,16 @@ unchanged.
 
 | Variable | Required for | Purpose |
 |---|---|---|
-| `PLANE_API_KEY` | stdio | API key |
-| `PLANE_WORKSPACE_SLUG` | stdio | Target workspace |
+| `PLANE_API_KEY` | stdio; ChatGPT no-auth gateway | API key; server-side Plane credential for the gateway |
+| `PLANE_WORKSPACE_SLUG` | stdio; ChatGPT no-auth gateway | Target workspace; server-side gateway workspace |
+| `MCP_GATEWAY_TOKEN` | ChatGPT no-auth gateway | At least 32 characters from `[A-Za-z0-9_-]`; setting it activates startup validation and requires both Plane values |
 | `PLANE_BASE_URL` | optional | Plane API URL (default `https://api.plane.so`) |
 
-The remote transports carry credentials in the connection — the OAuth flow or the
-PAT headers — and need none of these.
+The OAuth and PAT remote transports carry credentials in the connection — the
+OAuth flow or the PAT headers — and need none of these as caller credentials.
+When the gateway is added to the same `http` process, its three variables are
+additional configuration; construction of the existing OAuth app still needs
+the HTTP deployment's `PLANE_OAUTH_PROVIDER_*` settings.
 
 Self-hosting the server itself:
 
