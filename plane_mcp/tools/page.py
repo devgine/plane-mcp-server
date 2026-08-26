@@ -6,8 +6,8 @@ pair for each, so the branch is explicit rather than a default.
 
 Plane CE compatibility: some self-hosted releases expose project pages only on
 the browser/session API under `/api/workspaces/.../projects/.../pages/`, while
-the public `/api/v1` SDK routes return 404. Project page actions therefore fall
-back to the CE session API when the SDK route is unavailable.
+the public `/api/v1` SDK routes return 401, 403, or 404. Project page actions
+therefore fall back to the CE session API when the SDK route is unavailable.
 """
 
 from __future__ import annotations
@@ -27,6 +27,12 @@ from plane_mcp.toolkit import Action, as_params, build_annotations, build_descri
 
 NAME = "page"
 TITLE = "Pages"
+
+# Plane CE public page routes vary between releases. Some return 401/403 rather
+# than 404 even though the equivalent authenticated browser/session `/api/`
+# route is available. These statuses all mean "try the CE session route" for
+# project-page operations in this compatibility layer.
+_CE_PAGE_FALLBACK_STATUSES = {401, 403, 404}
 
 ACTIONS = (
     Action(
@@ -172,7 +178,7 @@ def register(mcp: FastMCP) -> None:
                     )
                     return envelope(response)
                 except HttpError as exc:
-                    if exc.status_code != 404:
+                    if exc.status_code not in _CE_PAGE_FALLBACK_STATUSES:
                         raise
                 response = ce_session_request(
                     client,
@@ -193,7 +199,7 @@ def register(mcp: FastMCP) -> None:
                         workspace_slug=workspace_slug, project_id=project_id, page_id=page_id
                     )
                 except HttpError as exc:
-                    if exc.status_code != 404:
+                    if exc.status_code not in _CE_PAGE_FALLBACK_STATUSES:
                         raise
                 response = ce_session_request(
                     client,
@@ -211,7 +217,7 @@ def register(mcp: FastMCP) -> None:
                 try:
                     mover(workspace_slug=workspace_slug, project_id=project_id, page_id=page_id)
                 except HttpError as exc:
-                    if exc.status_code != 404:
+                    if exc.status_code not in _CE_PAGE_FALLBACK_STATUSES:
                         raise
                     method = "POST" if archive else "DELETE"
                     ce_session_request(
@@ -235,7 +241,7 @@ def register(mcp: FastMCP) -> None:
                     deleter(workspace_slug=workspace_slug, page_id=page_id, **scope)
                     return None
                 except HttpError as exc:
-                    if not project_id or exc.status_code != 404:
+                    if not project_id or exc.status_code not in _CE_PAGE_FALLBACK_STATUSES:
                         raise
                 ce_session_request(
                     client,
@@ -255,7 +261,7 @@ def register(mcp: FastMCP) -> None:
                     data=update_data,
                 )
             except HttpError as exc:
-                if not project_id or exc.status_code != 404:
+                if not project_id or exc.status_code not in _CE_PAGE_FALLBACK_STATUSES:
                     raise
 
             # A body-only update previously bypassed the Plane Live force-close
@@ -312,7 +318,7 @@ def register(mcp: FastMCP) -> None:
                 try:
                     return client.pages.create_project_page(workspace_slug=workspace_slug, project_id=project_id, data=data)
                 except HttpError as exc:
-                    if exc.status_code != 404:
+                    if exc.status_code not in _CE_PAGE_FALLBACK_STATUSES:
                         raise
                 response = ce_session_request(
                     client,
