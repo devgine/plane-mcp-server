@@ -21,7 +21,8 @@ from plane.models.pages import CreatePage, Page, UpdatePage
 from plane.models.query_params import PaginatedQueryParams
 from plane.models.work_item_pages import CreateWorkItemPage, WorkItemPage
 
-from plane_mcp.client import ce_session_request, get_plane_client_context
+from plane_mcp.client import _force_close_plane_live_document, ce_session_request, get_plane_client_context
+from plane_mcp.page_yjs import sync_project_page_body_yjs
 from plane_mcp.toolkit import Action, as_params, build_annotations, build_description, envelope, missing, needs, opt
 
 NAME = "page"
@@ -115,7 +116,6 @@ def _normalise_ce_page_list(response: Any) -> dict[str, Any]:
     if isinstance(response, dict):
         if "results" in response:
             return response
-        # Some CE builds return a dict with the page records under `pages`.
         if isinstance(response.get("pages"), list):
             results = response["pages"]
             return {"results": results, "count": len(results), "total_count": len(results)}
@@ -152,7 +152,6 @@ def register(mcp: FastMCP) -> None:
         workitem_page_id: str = "",
         name: str = "",
         description_html: str = "",
-        # Left unset rather than defaulted: 0 is a real access level.
         access: int | None = None,
         color: str = "",
         is_locked: bool | None = None,
@@ -258,6 +257,14 @@ def register(mcp: FastMCP) -> None:
             except HttpError as exc:
                 if not project_id or exc.status_code != 404:
                     raise
+
+            # A body-only update previously bypassed the Plane Live force-close
+            # hook because the metadata payload had no `name`. Close the active
+            # Yjs document explicitly before changing description_html so an old
+            # in-memory document cannot overwrite the new body afterwards.
+            if description_html and not name:
+                _force_close_plane_live_document(page_id)
+
             payload = update_data.model_dump(exclude_none=True)
             response = ce_session_request(
                 client,
@@ -265,6 +272,16 @@ def register(mcp: FastMCP) -> None:
                 _ce_project_page_endpoint(workspace_slug, project_id, page_id),
                 data=payload,
             )
+
+            if description_html:
+                sync_project_page_body_yjs(
+                    client,
+                    workspace_slug,
+                    project_id,
+                    page_id,
+                    description_html,
+                )
+
             if response is None:
                 response = ce_session_request(
                     client,
